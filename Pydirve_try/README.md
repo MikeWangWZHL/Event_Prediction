@@ -1,0 +1,1 @@
+add your "client_secrets.json" to the same folder as uploader.py
