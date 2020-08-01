@@ -1,0 +1,330 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <xsd:annotation>
+    <xsd:documentation xml:lang="en">
+     XSD schema for KAIROS schemas.
+    </xsd:documentation>
+  </xsd:annotation>
+
+  <!-- The top-level spanning element in a KAIROS ontology file is DOMAIN. -->
+  <xsd:element name="domain" type="kairosDomainType"/>
+
+  <!-- The following element is commonly incorporated in XSD files, and is
+       included here for compatibility. For visibility, we will use standard
+       XML comment fields instead (such as this one). -->
+  <xsd:element name="comment" type="xsd:string"/>
+
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!--                                                                 -->
+<!--  Enumerated and pattern-matching type definitions.		     -->
+<!--                                                                 -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+  <!-- Matches predicate-argument patterns, with variables in the "?x" syntax. -->
+  <!-- E.g., person-at(?per,?loc)                                              -->
+  <xsd:simpleType name="kairosPatternType">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="[\w\-]+(\([\?\^][\w\-]+\*?(,[\?\^][\w\-]+\*?)*\))?"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+
+  <!-- Matches pattern-matching variables in the "?x" syntax. -->
+  <!-- E.g., ?per,?loc, ?x, ...                               -->
+  <xsd:simpleType name="kairosPatternVarType">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="\?\w+"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+
+  <!-- Matches role names with a sort restriction. -->
+  <!-- E.g., money:MON or purchaser:(PER,ORG)      -->
+  <xsd:simpleType name="kairosRoleSortType">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="[\w\-]+(:([\w\-]+|\([\w\-]+(,[\w\-]+)*\)))?"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+
+  <!-- Matches entity type names with a sort restriction. -->
+  <!-- Simpler version of the RoleSort type because we don't allow for disjunction. -->
+  <!-- E.g., CASH:MON or BUSINESS:ORG      -->
+  <xsd:simpleType name="kairosEntitySortType">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="[\w\-]+(:[\w\-]+)*"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+
+  <!-- Matches TIMEX2 duration expressions. -->
+  <!-- E.g., "P1D" or "PT1H" or "P1DT1H".   -->
+  <xsd:simpleType name="kairosTimex2DurationType">
+    <xsd:restriction base="xsd:string">
+      <!-- This had to be made much more complicated to exclude the pathological cases of "P" and "PT". -->
+      <!-- <xsd:pattern value="P((\d+Y)?(\d+M)?(\d+D)?)?(T(\d+H)?(\d+M)?(\d+S)?)?"/> -->
+      <xsd:pattern value="((P\d+Y(\d+M)?(\d+D)?(T(\d+H)?(\d+M)?(\d+S)?)?)|(P\d+M(\d+D)?(T(\d+H)?(\d+M)?(\d+S)?)?)|(P\d+D(T(\d+H)?(\d+M)?(\d+S)?)?)|(PT\d+H(\d+M)?(\d+S)?)|(PT\d+M(\d+S)?)|(PT\d+S))"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+
+  <!-- Matches AIDA ontology names. -->
+  <!-- E.g., "OWG_evt_010" or "LDC_ent_095" etc.   -->
+  <xsd:simpleType name="kairosAidaNameType">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="(LDC|OWG)_(ent|evt|rel)_\d+"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+
+  <!-- Valid options for the DURATIONMOD attribute of STEP elements -->
+  <xsd:simpleType name="kairosTimex2ModType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="LESS_THAN"/>
+      <xsd:enumeration value="MORE_THAN"/>
+      <xsd:enumeration value="EQUAL_OR_LESS"/>
+      <xsd:enumeration value="EQUAL_OR_MORE"/>
+      <xsd:enumeration value="APPROX"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+
+  <!-- Valid options for the ORDER attribute on the STEPS element. -->
+  <xsd:simpleType name="kairosStepOrderType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="in-sequence"/>
+      <xsd:enumeration value="unordered"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+
+  <!-- Valid patterns for the REPEATS attribute of the STEP element.
+       Also used for the REPEATS of pre- and post-conditions,
+       and for the cardinality attribute of ROLE elements. -->
+  <xsd:simpleType name="kairosRangeType">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="(\d+\+?|\d+:\d+)"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+
+  <!-- Valid options for the STATUS apttribute of STEP elements -->
+  <xsd:simpleType name="kairosLikelinessType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="very-unlikely"/>
+      <xsd:enumeration value="unlikely"/>
+      <xsd:enumeration value="possible"/>
+      <xsd:enumeration value="likely"/>
+      <xsd:enumeration value="very-likely"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+
+  <!-- Valid options for the STATUS attribute of ROLE elements -->
+  <xsd:simpleType name="kairosRoleStatusType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="agent"/>
+      <xsd:enumeration value="created"/>
+      <xsd:enumeration value="definitional"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+
+  <!-- Valid patterns for the LDCargNum and OWGargNum attribute of the ROLE element. -->
+  <xsd:simpleType name="kairosArgnumType">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="(arg\d+)"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!--                                                                 -->
+<!--  Type definitions involving ROLES.				     -->
+<!--                                                                 -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+  <xsd:complexType name="kairosRoleEltType">
+    <xsd:simpleContent>
+      <xsd:extension base="kairosRoleSortType">
+	<xsd:attribute name="pattern" type="kairosPatternVarType"/>
+	<xsd:attribute name="status" type="kairosRoleStatusType"/>
+	<xsd:attribute name="definitional" type="xsd:boolean" default="false"/>
+	<xsd:attribute name="cardinality" default="1" type="kairosRangeType"/>
+	<xsd:attribute name="LDCargNum" type="kairosArgnumType"/>
+	<xsd:attribute name="OWGargNum" type="kairosArgnumType"/>
+	<xsd:attribute name="FNfe" type="xsd:string"/>
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
+
+
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!--                                                                 -->
+<!--  Type definitions involving pre- and post-conditions.	     -->
+<!--                                                                 -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+  <xsd:complexType name="kairosConditionEltType">
+    <xsd:simpleContent>
+      <xsd:extension base="kairosPatternType">
+	<xsd:attribute name="likeliness" type="kairosLikelinessType"/>
+	<xsd:attribute name="repeats" type="kairosRangeType"/>
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
+
+
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!--                                                                 -->
+<!--  Type definitions involving STEPS.				     -->
+<!--                                                                 -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+  <xsd:complexType name="kairosStepEltType">
+    <xsd:simpleContent>
+      <xsd:extension base="kairosPatternType">
+	<xsd:attribute name="duration" type="kairosTimex2DurationType"/>
+	<xsd:attribute name="durationMod" type="kairosTimex2ModType"/>
+	<xsd:attribute name="durationMin" type="kairosTimex2DurationType"/>
+	<xsd:attribute name="durationMax" type="kairosTimex2DurationType"/>
+	<xsd:attribute name="durationMedian" type="kairosTimex2DurationType"/>
+	<xsd:attribute name="repeats" type="kairosRangeType"/>
+	<xsd:attribute name="likeliness" type="kairosLikelinessType"/>
+	<xsd:attribute name="index" type="xsd:string"/>
+	<xsd:attribute name="optional" type="xsd:boolean" default="false"/>
+	<xsd:attribute name="definitional" type="xsd:boolean" default="false"/>
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="kairosStepGapEltType">
+    <xsd:attribute name="duration" type="kairosTimex2DurationType"/>
+    <xsd:attribute name="durationMod" type="kairosTimex2ModType"/>
+    <xsd:attribute name="durationMin" type="kairosTimex2DurationType"/>
+    <xsd:attribute name="durationMax" type="kairosTimex2DurationType"/>
+    <xsd:attribute name="durationMedian" type="kairosTimex2DurationType"/>
+    <xsd:attribute name="step1"    type="xsd:string"/>
+    <xsd:attribute name="step2"    type="xsd:string"/>
+  </xsd:complexType>
+
+  <xsd:complexType name="kairosStepOrderEltType">
+    <xsd:attribute name="order"    type="kairosStepOrderType"/>
+    <xsd:attribute name="step1"    type="xsd:string"/>
+    <xsd:attribute name="step2"    type="xsd:string"/>
+  </xsd:complexType>
+
+  <xsd:complexType name="kairosStepsEltType">
+    <xsd:sequence>
+      <xsd:element name="step" minOccurs="0" maxOccurs="unbounded" type="kairosStepEltType"/>
+      <xsd:element name="step-gap" minOccurs="0" maxOccurs="unbounded" type="kairosStepGapEltType"/>
+      <xsd:element name="step-order" minOccurs="0" maxOccurs="unbounded" type="kairosStepOrderEltType"/>
+    </xsd:sequence>
+    <xsd:attribute name="order" type="kairosStepOrderType" default="in-sequence"/>
+  </xsd:complexType>
+
+
+
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!--                                                                 -->
+<!--  The Big Cheese. Defintion of the Kairos Domain Type.	     -->
+<!--                                                                 -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+  <xsd:complexType name="kairosNameEltType">
+    <xsd:simpleContent>
+      <xsd:extension base="kairosPatternType">
+	<xsd:attribute name="OWGnum" type="kairosAidaNameType"/>
+	<xsd:attribute name="OWGname" type="xsd:string"/>
+	<xsd:attribute name="LDCnum" type="kairosAidaNameType"/>
+	<xsd:attribute name="LDCname" type="xsd:string"/>
+	<xsd:attribute name="FNframe" type="xsd:string"/>
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
+
+
+  <xsd:complexType name="kairosEntNameEltType">
+    <xsd:simpleContent>
+      <xsd:extension base="kairosEntitySortType">
+	<xsd:attribute name="OWGnum" type="kairosAidaNameType"/>
+	<xsd:attribute name="OWGname" type="xsd:string"/>
+	<xsd:attribute name="LDCnum" type="kairosAidaNameType"/>
+	<xsd:attribute name="LDCname" type="xsd:string"/>
+	<xsd:attribute name="FNframe" type="xsd:string"/>
+	<xsd:attribute name="FNcoreFE" type="xsd:string"/>
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
+
+
+  <xsd:complexType name="kairosDomainType">
+    <xsd:sequence>
+
+      <!-- Entity element -->
+      <xsd:element name="entity" minOccurs="0" maxOccurs="unbounded">
+	<xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="name" type="kairosEntNameEltType"/>
+	    <xsd:element name="subtype-of" minOccurs="0" type="kairosEntNameEltType"/>
+	    <xsd:element name="instance" minOccurs="0" maxOccurs="unbounded" type="xsd:string"/>
+	  </xsd:sequence>
+	</xsd:complexType>
+      </xsd:element>
+
+
+      <!-- Relation element. -->
+      <xsd:element name="relation" minOccurs="0" maxOccurs="unbounded">
+	<xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="name" type="kairosNameEltType"/>
+	    <xsd:element name="subtype-of" minOccurs="0" type="kairosPatternType"/>
+	    <xsd:element name="role" minOccurs="0" maxOccurs="unbounded" type="kairosRoleEltType"/>
+	  </xsd:sequence>
+	</xsd:complexType>
+      </xsd:element>
+
+
+      <!-- Event element: like a basic elemental version schemas, minus the steps. -->
+      <xsd:element name="event" minOccurs="0" maxOccurs="unbounded">
+	<xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="name" type="kairosNameEltType"/>
+	    <xsd:element name="subtype-of" minOccurs="0" type="kairosPatternType"/>
+	    <!-- We will allow events to have pre- and post-conditions. -->
+	    <xsd:element name="requires" minOccurs="0" maxOccurs="unbounded" type="kairosConditionEltType"/>
+	    <xsd:element name="achieves" minOccurs="0" maxOccurs="unbounded" type="kairosConditionEltType"/>
+	    <xsd:element name="removes"  minOccurs="0" maxOccurs="unbounded" type="kairosConditionEltType"/>
+	    <xsd:element name="role"     minOccurs="0" maxOccurs="unbounded" type="kairosRoleEltType"/>
+	  </xsd:sequence>
+	</xsd:complexType>
+      </xsd:element>
+
+
+      <!-- Schema element -->
+      <xsd:element name="schema" minOccurs="0" maxOccurs="unbounded">
+	<xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="name" type="kairosNameEltType"/>
+	    <xsd:element name="subtype-of" minOccurs="0" type="kairosPatternType"/>
+	    <xsd:element name="requires" minOccurs="0" maxOccurs="unbounded" type="kairosConditionEltType"/>
+	    <xsd:element name="achieves" minOccurs="0" maxOccurs="unbounded" type="kairosConditionEltType"/>
+	    <xsd:element name="removes"  minOccurs="0" maxOccurs="unbounded" type="kairosConditionEltType"/>
+	    <xsd:element name="role"     minOccurs="0" maxOccurs="unbounded" type="kairosRoleEltType"/>
+	    <xsd:element name="steps"    minOccurs="0" maxOccurs="unbounded" type="kairosStepsEltType"/>
+	  </xsd:sequence>
+	</xsd:complexType>
+      </xsd:element>
+
+    </xsd:sequence>
+    <xsd:attribute name="name" type="xsd:string"/>
+    <!-- The format attribute seems to be OBE. Shall we remove it? -->
+    <xsd:attribute name="format" type="xsd:string"/>
+  </xsd:complexType>
+
+</xsd:schema>

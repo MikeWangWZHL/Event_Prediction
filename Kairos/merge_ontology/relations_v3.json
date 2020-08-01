@@ -1,0 +1,2602 @@
+[
+    {
+        "label": "Evaluate.Deliberateness.Accidental",
+        "template": "<arg1> holds that <arg2> is accidental",
+        "arg_order": [
+            "Holder",
+            "Event"
+        ],
+        "slots": {
+            "Holder": [
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "author_check"
+            ],
+            "Event": [
+                "event"
+            ]
+        },
+        "definition": "The evaluation by a person, organization, or GPE (or the author) that an event is accidental",
+        "origin": "AIDA"
+    },
+    {
+        "label": "Evaluate.Deliberateness.Deliberate",
+        "template": "<arg1> holds that <arg2> is deliberate",
+        "arg_order": [
+            "Holder",
+            "Event"
+        ],
+        "slots": {
+            "Holder": [
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "author_check"
+            ],
+            "Event": [
+                "event"
+            ]
+        },
+        "definition": "The evaluation by a person, organization, or GPE (or the author) that an event is deliberate",
+        "origin": "AIDA"
+    },
+    {
+        "label": "Evaluate.Legitimacy.Illegitimate",
+        "template": "<arg1> holds that <arg2> is illegitimate",
+        "arg_order": [
+            "Holder",
+            "Event"
+        ],
+        "slots": {
+            "Holder": [
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "author_check"
+            ],
+            "Event": [
+                "event"
+            ]
+        },
+        "definition": "The evaluation by a person, organization, or GPE (or the author) that a political event is illegitimate",
+        "origin": "AIDA"
+    },
+    {
+        "label": "Evaluate.Legitimacy.Legitimate",
+        "template": "<arg1> holds that <arg2> is legitimate",
+        "arg_order": [
+            "Holder",
+            "Event"
+        ],
+        "slots": {
+            "Holder": [
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "author_check"
+            ],
+            "Event": [
+                "event"
+            ]
+        },
+        "definition": "The evaluation by a person, organization, or GPE (or the author) that a political event is legitimate",
+        "origin": "AIDA"
+    },
+    {
+        "label": "Evaluate.Sentiment.Negative",
+        "template": "<arg1> holds negative sentiment towards <arg2>",
+        "arg_order": [],
+        "slots": {
+            "Holder": [
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "author_check"
+            ],
+            "SentimentTarget": [
+                "event",
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "loc",
+                "fac",
+                "bal",
+                "res",
+                "law",
+                "mon",
+                "mhi",
+                "aml",
+                "abs",
+                "bod",
+                "nat",
+                "pla",
+                "pth",
+                "com",
+                "veh",
+                "wea",
+                "sen",
+                "inf"
+            ]
+        },
+        "definition": "Negative sentiment held by a person, organization, or GPE toward any knowledge element",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "Holder",
+            "SentimentTarget"
+        ],
+        "Aida_slots": {
+            "Holder": [
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "author_check"
+            ],
+            "SentimentTarget": [
+                "event",
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "loc",
+                "fac",
+                "bal",
+                "res",
+                "law",
+                "mon",
+                "mhi"
+            ]
+        },
+        "arg_order_kairos": [
+            "Holder",
+            "SentimentTarget"
+        ],
+        "Kairos_slots": {
+            "Holder": [
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "author_check"
+            ],
+            "SentimentTarget": [
+                "event",
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "loc",
+                "fac",
+                "bal",
+                "res",
+                "law",
+                "mon",
+                "mhi",
+                "aml",
+                "abs",
+                "bod",
+                "nat",
+                "pla",
+                "pth",
+                "com",
+                "veh",
+                "wea",
+                "sen",
+                "inf"
+            ]
+        }
+    },
+    {
+        "label": "Evaluate.Sentiment.Positive",
+        "template": "<arg1> holds positive sentiment towards <arg2>",
+        "arg_order": [],
+        "slots": {
+            "Holder": [
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "author_check"
+            ],
+            "SentimentTarget": [
+                "event",
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "loc",
+                "fac",
+                "bal",
+                "res",
+                "law",
+                "mon",
+                "mhi",
+                "aml",
+                "abs",
+                "bod",
+                "nat",
+                "pla",
+                "pth",
+                "com",
+                "veh",
+                "wea",
+                "sen",
+                "inf"
+            ]
+        },
+        "definition": "Positive sentiment held by a person, organization, or GPE toward any knowledge element",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "Holder",
+            "SentimentTarget"
+        ],
+        "Aida_slots": {
+            "Holder": [
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "author_check"
+            ],
+            "SentimentTarget": [
+                "event",
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "loc",
+                "fac",
+                "bal",
+                "res",
+                "law",
+                "mon",
+                "mhi"
+            ]
+        },
+        "arg_order_kairos": [
+            "Holder",
+            "SentimentTarget"
+        ],
+        "Kairos_slots": {
+            "Holder": [
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "author_check"
+            ],
+            "SentimentTarget": [
+                "event",
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "loc",
+                "fac",
+                "bal",
+                "res",
+                "law",
+                "mon",
+                "mhi",
+                "aml",
+                "abs",
+                "bod",
+                "nat",
+                "pla",
+                "pth",
+                "com",
+                "veh",
+                "wea",
+                "sen",
+                "inf"
+            ]
+        }
+    },
+    {
+        "label": "Evaluate.Status.HoaxFraud",
+        "template": "<arg1> holds that <arg2> is a hoax or a fraud",
+        "arg_order": [],
+        "slots": {
+            "Holder": [
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "author_check"
+            ],
+            "HoaxFraud": [
+                "event",
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "loc",
+                "fac",
+                "com",
+                "bal",
+                "res",
+                "law",
+                "mon",
+                "ttl",
+                "val",
+                "veh",
+                "wea",
+                "mhi",
+                "aml",
+                "abs",
+                "bod",
+                "nat",
+                "pla",
+                "pth"
+            ]
+        },
+        "definition": "Explicit mentions asserting that an event or a thing is a hoax or fraud",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "Holder",
+            "HoaxFraud"
+        ],
+        "Aida_slots": {
+            "Holder": [
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "author_check"
+            ],
+            "HoaxFraud": [
+                "event",
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "loc",
+                "fac",
+                "com",
+                "bal",
+                "res",
+                "law",
+                "mon",
+                "ttl",
+                "val",
+                "veh",
+                "wea",
+                "mhi"
+            ]
+        },
+        "arg_order_kairos": [
+            "Holder",
+            "HoaxFraud"
+        ],
+        "Kairos_slots": {
+            "Holder": [
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "author_check"
+            ],
+            "HoaxFraud": [
+                "event",
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "loc",
+                "fac",
+                "com",
+                "bal",
+                "res",
+                "law",
+                "mon",
+                "ttl",
+                "val",
+                "veh",
+                "wea",
+                "mhi",
+                "aml",
+                "abs",
+                "bod",
+                "nat",
+                "pla",
+                "pth"
+            ]
+        }
+    },
+    {
+        "label": "GeneralAffiliation.ArtifactPoliticalOrganizationReligiousAffiliation.<n/a>",
+        "template": "<arg1> is affiliated with <arg2>",
+        "arg_order": [],
+        "slots": {
+            "Artifact": [
+                "bal",
+                "com",
+                "fac",
+                "mon",
+                "veh",
+                "wea",
+                "nat",
+                "pth",
+                "abs"
+            ],
+            "EntityOrFiller": [
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "loc",
+                "inf"
+            ]
+        },
+        "definition": "The affiliation between an artifact (including vehicles, weapons, commodities, etc.) and another entity.  Artifact-Political-Organization-Religious-Affiliation (APORA).",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "Artifact",
+            "EntityOrFiller"
+        ],
+        "Aida_slots": {
+            "Artifact": [
+                "bal",
+                "com",
+                "fac",
+                "mon",
+                "veh",
+                "wea"
+            ],
+            "EntityOrFiller": [
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "loc"
+            ]
+        },
+        "arg_order_kairos": [
+            "Artifact",
+            "EntityOrFiller"
+        ],
+        "Kairos_slots": {
+            "Artifact": [
+                "bal",
+                "com",
+                "fac",
+                "mon",
+                "veh",
+                "wea",
+                "nat",
+                "pth",
+                "abs"
+            ],
+            "EntityOrFiller": [
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "loc",
+                "inf"
+            ]
+        }
+    },
+    {
+        "label": "GeneralAffiliation.ArtifactPoliticalOrganizationReligiousAffiliation.ControlTerritory",
+        "template": "<arg1> is controlled by <arg2>",
+        "arg_order": [],
+        "slots": {
+            "Territory": [
+                "gpe",
+                "loc",
+                "fac"
+            ],
+            "Controller": [
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "loc"
+            ]
+        },
+        "definition": "A side, person, organization, location, or GPE controlling territory.  ",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "Territory",
+            "Controller"
+        ],
+        "Aida_slots": {
+            "Territory": [
+                "gpe",
+                "loc",
+                "fac"
+            ],
+            "Controller": [
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "loc"
+            ]
+        },
+        "arg_order_kairos": [
+            "Territory",
+            "Controller"
+        ],
+        "Kairos_slots": {
+            "Territory": [
+                "gpe",
+                "loc",
+                "fac"
+            ],
+            "Controller": [
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "loc"
+            ]
+        }
+    },
+    {
+        "label": "GeneralAffiliation.ArtifactPoliticalOrganizationReligiousAffiliation.NationalityCitizen",
+        "template": "<arg1> is affiliated with <arg2> GPE",
+        "arg_order": [],
+        "slots": {
+            "Artifact": [
+                "bal",
+                "com",
+                "fac",
+                "mon",
+                "veh",
+                "wea",
+                "nat",
+                "pth",
+                "abs"
+            ],
+            "Nationality": [
+                "gpe"
+            ]
+        },
+        "definition": "The affiliation between an artifact (including vehicles, weapons, commodities, etc.) and a GPE.  Artifact-Political-Organization-Religious-Affiliation (APORA).",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "Artifact",
+            "Nationality"
+        ],
+        "Aida_slots": {
+            "Artifact": [
+                "bal",
+                "com",
+                "fac",
+                "mon",
+                "veh",
+                "wea"
+            ],
+            "Nationality": [
+                "gpe"
+            ]
+        },
+        "arg_order_kairos": [
+            "Artifact",
+            "Nationality"
+        ],
+        "Kairos_slots": {
+            "Artifact": [
+                "bal",
+                "com",
+                "fac",
+                "mon",
+                "veh",
+                "wea",
+                "nat",
+                "pth",
+                "abs"
+            ],
+            "Nationality": [
+                "gpe"
+            ]
+        }
+    },
+    {
+        "label": "GeneralAffiliation.ArtifactPoliticalOrganizationReligiousAffiliation.OwnershipPossession",
+        "template": "<arg1> is owned by <arg2>",
+        "arg_order": [],
+        "slots": {
+            "Artifact": [
+                "bal",
+                "com",
+                "fac",
+                "mon",
+                "veh",
+                "wea",
+                "nat",
+                "pth",
+                "abs"
+            ],
+            "Owner": [
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "loc"
+            ]
+        },
+        "definition": "The ownership or possession of an artifact (including vehicles, weapons, commodities, etc.) by a person, group, or side.  Artifact-Political-Organization-Religious-Affiliation (APORA).",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "Artifact",
+            "Owner"
+        ],
+        "Aida_slots": {
+            "Artifact": [
+                "bal",
+                "com",
+                "fac",
+                "mon",
+                "veh",
+                "wea"
+            ],
+            "Owner": [
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "loc"
+            ]
+        },
+        "arg_order_kairos": [
+            "Artifact",
+            "Owner"
+        ],
+        "Kairos_slots": {
+            "Artifact": [
+                "bal",
+                "com",
+                "fac",
+                "mon",
+                "veh",
+                "wea",
+                "nat",
+                "pth",
+                "abs"
+            ],
+            "Owner": [
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "loc"
+            ]
+        }
+    },
+    {
+        "label": "GeneralAffiliation.MemberOriginReligionEthnicity.<n/a>",
+        "template": "<arg1> is affiliated with <arg2>",
+        "arg_order": [],
+        "slots": {
+            "Person": [
+                "per"
+            ],
+            "EntityOrFiller": [
+                "per",
+                "gpe",
+                "loc",
+                "sid",
+                "inf"
+            ]
+        },
+        "definition": "The affiliation between a person entity and another entity.  Member-Origin-Religion-Ethnicity (MORE)",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "Person",
+            "EntityOrFiller"
+        ],
+        "Aida_slots": {
+            "Person": [
+                "per"
+            ],
+            "EntityOrFiller": [
+                "per",
+                "gpe",
+                "loc",
+                "sid"
+            ]
+        },
+        "arg_order_kairos": [
+            "Person",
+            "EntityOrFiller"
+        ],
+        "Kairos_slots": {
+            "Person": [
+                "per"
+            ],
+            "EntityOrFiller": [
+                "per",
+                "gpe",
+                "loc",
+                "sid",
+                "inf"
+            ]
+        }
+    },
+    {
+        "label": "GeneralAffiliation.MemberOriginReligionEthnicity.Ethnicity",
+        "template": "<arg1> has <arg2> ethnicity",
+        "arg_order": [],
+        "slots": {
+            "Person": [
+                "per"
+            ],
+            "Ethnicity": [
+                "per",
+                "gpe",
+                "loc",
+                "sid"
+            ]
+        },
+        "definition": "The affiliation between a person entity and an ethnicity.  Member-Origin-Religion-Ethnicity (MORE)",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "Person",
+            "Ethnicity"
+        ],
+        "Aida_slots": {
+            "Person": [
+                "per"
+            ],
+            "Ethnicity": [
+                "per",
+                "gpe",
+                "loc",
+                "sid"
+            ]
+        },
+        "arg_order_kairos": [
+            "Person",
+            "Ethnicity"
+        ],
+        "Kairos_slots": {
+            "Person": [
+                "per"
+            ],
+            "Ethnicity": [
+                "per",
+                "gpe",
+                "loc",
+                "sid"
+            ]
+        }
+    },
+    {
+        "label": "GeneralAffiliation.MemberOriginReligionEthnicity.NationalityCitizen",
+        "template": "<arg1> is affiliated with <arg2> GPE",
+        "arg_order": [],
+        "slots": {
+            "Citizen": [
+                "per"
+            ],
+            "Nationality": [
+                "gpe"
+            ]
+        },
+        "definition": "The affiliation between a person entity and a GPE.  Member-Origin-Religion-Ethnicity (MORE)",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "Citizen",
+            "Nationality"
+        ],
+        "Aida_slots": {
+            "Citizen": [
+                "per"
+            ],
+            "Nationality": [
+                "gpe"
+            ]
+        },
+        "arg_order_kairos": [
+            "Citizen",
+            "Nationality"
+        ],
+        "Kairos_slots": {
+            "Citizen": [
+                "per"
+            ],
+            "Nationality": [
+                "gpe"
+            ]
+        }
+    },
+    {
+        "label": "GeneralAffiliation.OrganizationPoliticalReligiousAffiliation.<n/a>",
+        "template": "<arg1> is affiliated with <arg2>",
+        "arg_order": [],
+        "slots": {
+            "Organization": [
+                "org"
+            ],
+            "EntityOrFiller": [
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "inf"
+            ]
+        },
+        "definition": "The affiliation between an organization entity and another entity.  Organization-Political-Religious-Affiliation (OPRA)",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "Organization",
+            "EntityOrFiller"
+        ],
+        "Aida_slots": {
+            "Organization": [
+                "org"
+            ],
+            "EntityOrFiller": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ]
+        },
+        "arg_order_kairos": [
+            "Organization",
+            "EntityOrFiller"
+        ],
+        "Kairos_slots": {
+            "Organization": [
+                "org"
+            ],
+            "EntityOrFiller": [
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "inf"
+            ]
+        }
+    },
+    {
+        "label": "GeneralAffiliation.OrganizationPoliticalReligiousAffiliation.NationalityCitizen",
+        "template": "<arg1> is affiliated with <arg2> GPE",
+        "arg_order": [],
+        "slots": {
+            "Organization": [
+                "org"
+            ],
+            "Nationality": [
+                "gpe"
+            ]
+        },
+        "definition": "The affiliation between an organization entity and a GPE.  Organization-Political-Religious-Affiliation (OPRA)",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "Organization",
+            "Nationality"
+        ],
+        "Aida_slots": {
+            "Organization": [
+                "org"
+            ],
+            "Nationality": [
+                "gpe"
+            ]
+        },
+        "arg_order_kairos": [
+            "Organization",
+            "Nationality"
+        ],
+        "Kairos_slots": {
+            "Organization": [
+                "org"
+            ],
+            "Nationality": [
+                "gpe"
+            ]
+        }
+    },
+    {
+        "label": "GeneralAffiliation.OrganizationWebsite.OrganizationWebsite",
+        "template": "<arg1> has <arg2> website",
+        "arg_order": [],
+        "slots": {
+            "Organization": [
+                "org"
+            ],
+            "Website": [
+                "val"
+            ]
+        },
+        "definition": "An official top level URL for an organization entity\u2019s website",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "Organization",
+            "Website"
+        ],
+        "Aida_slots": {
+            "Organization": [
+                "org"
+            ],
+            "Website": [
+                "val"
+            ]
+        },
+        "arg_order_kairos": [
+            "Organization",
+            "Website"
+        ],
+        "Kairos_slots": {
+            "Organization": [
+                "org"
+            ],
+            "Website": [
+                "val"
+            ]
+        }
+    },
+    {
+        "label": "GeneralAffiliation.Sponsorship.<n/a>",
+        "template": "<arg1> is sponsored by <arg2>||<arg1> event is sponsored by <arg2>",
+        "arg_order": [],
+        "slots": {
+            "Event": [
+                "event"
+            ],
+            "Sponsor": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ]
+        },
+        "definition": "The sponsorship of events or actors by one-step removed sponsors (or several steps removed, the man-behind-the-curtain, or more likely the country behind the curtain), not otherwise specified||The sponsorship of an event by a one-step removed sponsor (or several steps removed, the man-behind-the-curtain, or more likely the country behind the curtain)",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "ActorOrEvent",
+            "Sponsor"
+        ],
+        "Aida_slots": {
+            "ActorOrEvent": [
+                "event",
+                "org",
+                "gpe",
+                "loc"
+            ],
+            "Sponsor": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ]
+        },
+        "arg_order_kairos": [
+            "Event",
+            "Sponsor"
+        ],
+        "Kairos_slots": {
+            "Event": [
+                "event"
+            ],
+            "Sponsor": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ]
+        }
+    },
+    {
+        "label": "GeneralAffiliation.Sponsorship.AdvisePlanOrganize",
+        "template": "<arg1> is sponsored by <arg2>",
+        "arg_order": [
+            "ActorOrEvent",
+            "Sponsor"
+        ],
+        "slots": {
+            "ActorOrEvent": [
+                "event",
+                "org",
+                "gpe",
+                "loc"
+            ],
+            "Sponsor": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ]
+        },
+        "definition": "The sponsorship of events or actors via advising, planning, or organizing by one-step removed sponsors (or several steps removed, the man-behind-the-curtain, or more likely the country behind the curtain)",
+        "origin": "AIDA"
+    },
+    {
+        "label": "GeneralAffiliation.Sponsorship.Affiliated",
+        "template": "<arg1> is sponsored by <arg2>",
+        "arg_order": [
+            "ActorOrEvent",
+            "Sponsor"
+        ],
+        "slots": {
+            "ActorOrEvent": [
+                "event",
+                "org",
+                "gpe",
+                "loc"
+            ],
+            "Sponsor": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ]
+        },
+        "definition": "The sponsorship of events or actors via affiliation by one-step removed sponsors (or several steps removed, the man-behind-the-curtain, or more likely the country behind the curtain)",
+        "origin": "AIDA"
+    },
+    {
+        "label": "GeneralAffiliation.Sponsorship.HelpSupport",
+        "template": "<arg1> is sponsored by <arg2>",
+        "arg_order": [
+            "ActorOrEvent",
+            "Sponsor"
+        ],
+        "slots": {
+            "ActorOrEvent": [
+                "event",
+                "org",
+                "gpe",
+                "loc"
+            ],
+            "Sponsor": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ]
+        },
+        "definition": "The sponsorship of events or actors via help or support by one-step removed sponsors (or several steps removed, the man-behind-the-curtain, or more likely the country behind the curtain)",
+        "origin": "AIDA"
+    },
+    {
+        "label": "Information.Color.Color",
+        "template": "<arg1> has color <arg2>",
+        "arg_order": [],
+        "slots": {
+            "EntityOrFiller": [
+                "fac",
+                "veh",
+                "wea",
+                "com",
+                "bal",
+                "aml",
+                "bod",
+                "nat",
+                "pla",
+                "pth"
+            ],
+            "Color": [
+                "val"
+            ]
+        },
+        "definition": "The relation between an entity or thing and a color (string)",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "EntityOrFiller",
+            "Color"
+        ],
+        "Aida_slots": {
+            "EntityOrFiller": [
+                "fac",
+                "veh",
+                "wea",
+                "com",
+                "bal"
+            ],
+            "Color": [
+                "val"
+            ]
+        },
+        "arg_order_kairos": [
+            "EntityOrFiller",
+            "Color"
+        ],
+        "Kairos_slots": {
+            "EntityOrFiller": [
+                "fac",
+                "veh",
+                "wea",
+                "com",
+                "bal",
+                "aml",
+                "bod",
+                "nat",
+                "pla",
+                "pth"
+            ],
+            "Color": [
+                "val"
+            ]
+        }
+    },
+    {
+        "label": "Information.Make.Make",
+        "template": "<arg1> has make/brand <arg2>",
+        "arg_order": [],
+        "slots": {
+            "EntityOrFiller": [
+                "fac",
+                "veh",
+                "wea",
+                "com",
+                "bal",
+                "aml",
+                "bod",
+                "nat",
+                "pla",
+                "pth"
+            ],
+            "Brand": [
+                "org",
+                "val"
+            ]
+        },
+        "definition": "The relation between a thing (such as an artifact, vehicle, or weapon) and its make or brand (string)",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "EntityOrFiller",
+            "Brand"
+        ],
+        "Aida_slots": {
+            "EntityOrFiller": [
+                "fac",
+                "veh",
+                "wea",
+                "com",
+                "bal"
+            ],
+            "Brand": [
+                "org",
+                "val"
+            ]
+        },
+        "arg_order_kairos": [
+            "EntityOrFiller",
+            "Brand"
+        ],
+        "Kairos_slots": {
+            "EntityOrFiller": [
+                "fac",
+                "veh",
+                "wea",
+                "com",
+                "bal",
+                "aml",
+                "bod",
+                "nat",
+                "pla",
+                "pth"
+            ],
+            "Brand": [
+                "org",
+                "val"
+            ]
+        }
+    },
+    {
+        "label": "Measurement.Size.<n/a>",
+        "template": "<arg1> is the size of <arg2>",
+        "arg_order": [],
+        "slots": {
+            "Measurement": [
+                "val"
+            ],
+            "EntityOrFiller": [
+                "per",
+                "gpe",
+                "loc",
+                "fac",
+                "veh",
+                "wea",
+                "com",
+                "bal",
+                "mhi",
+                "aml",
+                "bod",
+                "pla",
+                "pth"
+            ]
+        },
+        "definition": "Numerical value of the size of an entity or filler, not otherwise specified",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "Measurement",
+            "EntityOrFiller"
+        ],
+        "Aida_slots": {
+            "Measurement": [
+                "val"
+            ],
+            "EntityOrFiller": [
+                "per",
+                "gpe",
+                "loc",
+                "fac",
+                "veh",
+                "wea",
+                "com",
+                "bal",
+                "mhi"
+            ]
+        },
+        "arg_order_kairos": [
+            "Measurement",
+            "EntityOrFiller"
+        ],
+        "Kairos_slots": {
+            "Measurement": [
+                "val"
+            ],
+            "EntityOrFiller": [
+                "per",
+                "gpe",
+                "loc",
+                "fac",
+                "veh",
+                "wea",
+                "com",
+                "bal",
+                "mhi",
+                "aml",
+                "bod",
+                "pla",
+                "pth"
+            ]
+        }
+    },
+    {
+        "label": "Measurement.Size.Count",
+        "template": "<arg1> is the count/number of <arg2>",
+        "arg_order": [],
+        "slots": {
+            "Measurement": [
+                "val"
+            ],
+            "EntityOrFiller": [
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "loc",
+                "fac",
+                "veh",
+                "wea",
+                "com",
+                "bal",
+                "mon",
+                "law",
+                "res",
+                "mhi",
+                "aml",
+                "abs",
+                "bod",
+                "nat",
+                "pla",
+                "pth"
+            ]
+        },
+        "definition": "Numerical totals of a countable entity or filler",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "Measurement",
+            "EntityOrFiller"
+        ],
+        "Aida_slots": {
+            "Measurement": [
+                "val"
+            ],
+            "EntityOrFiller": [
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "loc",
+                "fac",
+                "veh",
+                "wea",
+                "com",
+                "bal",
+                "mon",
+                "law",
+                "res",
+                "mhi"
+            ]
+        },
+        "arg_order_kairos": [
+            "Measurement",
+            "EntityOrFiller"
+        ],
+        "Kairos_slots": {
+            "Measurement": [
+                "val"
+            ],
+            "EntityOrFiller": [
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "loc",
+                "fac",
+                "veh",
+                "wea",
+                "com",
+                "bal",
+                "mon",
+                "law",
+                "res",
+                "mhi",
+                "aml",
+                "abs",
+                "bod",
+                "nat",
+                "pla",
+                "pth"
+            ]
+        }
+    },
+    {
+        "label": "Measurement.Size.HeightLengthWidth",
+        "template": "<arg1> is the height/length/width of <arg2>",
+        "arg_order": [],
+        "slots": {
+            "Measurement": [
+                "val"
+            ],
+            "EntityOrFiller": [
+                "per",
+                "gpe",
+                "loc",
+                "fac",
+                "veh",
+                "wea",
+                "com",
+                "bal",
+                "mon",
+                "mhi",
+                "aml",
+                "bod",
+                "nat",
+                "pla",
+                "pth"
+            ]
+        },
+        "definition": "Numerical value of a dimension of an entity or filler",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "Measurement",
+            "EntityOrFiller"
+        ],
+        "Aida_slots": {
+            "Measurement": [
+                "val"
+            ],
+            "EntityOrFiller": [
+                "per",
+                "gpe",
+                "loc",
+                "fac",
+                "veh",
+                "wea",
+                "com",
+                "bal",
+                "mon",
+                "mhi"
+            ]
+        },
+        "arg_order_kairos": [
+            "Measurement",
+            "EntityOrFiller"
+        ],
+        "Kairos_slots": {
+            "Measurement": [
+                "val"
+            ],
+            "EntityOrFiller": [
+                "per",
+                "gpe",
+                "loc",
+                "fac",
+                "veh",
+                "wea",
+                "com",
+                "bal",
+                "mon",
+                "mhi",
+                "aml",
+                "bod",
+                "nat",
+                "pla",
+                "pth"
+            ]
+        }
+    },
+    {
+        "label": "Measurement.Size.Percentage",
+        "template": "<arg1> is the percentage of <arg2>",
+        "arg_order": [],
+        "slots": {
+            "Measurement": [
+                "val"
+            ],
+            "EntityOrFiller": [
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "loc",
+                "fac",
+                "veh",
+                "wea",
+                "com",
+                "bal",
+                "mon",
+                "law",
+                "res",
+                "mhi",
+                "aml",
+                "abs",
+                "bod",
+                "nat",
+                "pla",
+                "pth"
+            ]
+        },
+        "definition": "Percentage value of an entity or filler (such as results)",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "Measurement",
+            "EntityOrFiller"
+        ],
+        "Aida_slots": {
+            "Measurement": [
+                "val"
+            ],
+            "EntityOrFiller": [
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "loc",
+                "fac",
+                "veh",
+                "wea",
+                "com",
+                "bal",
+                "mon",
+                "law",
+                "res",
+                "mhi"
+            ]
+        },
+        "arg_order_kairos": [
+            "Measurement",
+            "EntityOrFiller"
+        ],
+        "Kairos_slots": {
+            "Measurement": [
+                "val"
+            ],
+            "EntityOrFiller": [
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "loc",
+                "fac",
+                "veh",
+                "wea",
+                "com",
+                "bal",
+                "mon",
+                "law",
+                "res",
+                "mhi",
+                "aml",
+                "abs",
+                "bod",
+                "nat",
+                "pla",
+                "pth"
+            ]
+        }
+    },
+    {
+        "label": "Measurement.Size.Weight",
+        "template": "<arg1> is the weight of <arg2>",
+        "arg_order": [],
+        "slots": {
+            "Measurement": [
+                "val"
+            ],
+            "EntityOrFiller": [
+                "per",
+                "gpe",
+                "loc",
+                "fac",
+                "veh",
+                "wea",
+                "com",
+                "bal",
+                "mon",
+                "aml",
+                "bod",
+                "nat",
+                "pla",
+                "pth"
+            ]
+        },
+        "definition": "Numerical value of the weight of an entity or filler",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "Measurement",
+            "EntityOrFiller"
+        ],
+        "Aida_slots": {
+            "Measurement": [
+                "val"
+            ],
+            "EntityOrFiller": [
+                "per",
+                "gpe",
+                "loc",
+                "fac",
+                "veh",
+                "wea",
+                "com",
+                "bal",
+                "mon"
+            ]
+        },
+        "arg_order_kairos": [
+            "Measurement",
+            "EntityOrFiller"
+        ],
+        "Kairos_slots": {
+            "Measurement": [
+                "val"
+            ],
+            "EntityOrFiller": [
+                "per",
+                "gpe",
+                "loc",
+                "fac",
+                "veh",
+                "wea",
+                "com",
+                "bal",
+                "mon",
+                "aml",
+                "bod",
+                "nat",
+                "pla",
+                "pth"
+            ]
+        }
+    },
+    {
+        "label": "OrganizationAffiliation.EmploymentMembership.<n/a>",
+        "template": "<arg1> is a member of/employed by <arg2>",
+        "arg_order": [],
+        "slots": {
+            "EmployeeMember": [
+                "per"
+            ],
+            "PlaceOfEmploymentMembership": [
+                "gpe",
+                "org"
+            ]
+        },
+        "definition": "The relationship between a person and the organization or GPE of which the agent is an employee or member, or with which the agent has a contractual business or service agreement, where the context does not distinguish whether the relationship is employment or membership",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "EmployeeMember",
+            "PlaceOfEmploymentMembership"
+        ],
+        "Aida_slots": {
+            "EmployeeMember": [
+                "per"
+            ],
+            "PlaceOfEmploymentMembership": [
+                "gpe",
+                "org"
+            ]
+        },
+        "arg_order_kairos": [
+            "EmployeeMember",
+            "PlaceOfEmploymentMembership"
+        ],
+        "Kairos_slots": {
+            "EmployeeMember": [
+                "per"
+            ],
+            "PlaceOfEmploymentMembership": [
+                "gpe",
+                "org"
+            ]
+        }
+    },
+    {
+        "label": "OrganizationAffiliation.EmploymentMembership.Employment",
+        "template": "<arg1> is employed by <arg2>",
+        "arg_order": [],
+        "slots": {
+            "Employee": [
+                "per"
+            ],
+            "PlaceOfEmployment": [
+                "gpe,org"
+            ]
+        },
+        "definition": "The relationship between a person and the organization or GPE of which the agent is an employee, or with which the agent has a contractual business or service agreement",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "Employee",
+            "PlaceOfEmployment"
+        ],
+        "Aida_slots": {
+            "Employee": [
+                "per"
+            ],
+            "PlaceOfEmployment": [
+                "gpe,org"
+            ]
+        },
+        "arg_order_kairos": [
+            "Employee",
+            "PlaceOfEmployment"
+        ],
+        "Kairos_slots": {
+            "Employee": [
+                "per"
+            ],
+            "PlaceOfEmployment": [
+                "gpe,org"
+            ]
+        }
+    },
+    {
+        "label": "OrganizationAffiliation.EmploymentMembership.Membership",
+        "template": "<arg1> is a member of <arg2>",
+        "arg_order": [],
+        "slots": {
+            "Member": [
+                "per"
+            ],
+            "PlaceOfMembership": [
+                "gpe,org"
+            ]
+        },
+        "definition": "The relationship between a person and the organization or GPE of which the agent is an member, or with which the agent has a membership agreement",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "Member",
+            "PlaceOfMembership"
+        ],
+        "Aida_slots": {
+            "Member": [
+                "per"
+            ],
+            "PlaceOfMembership": [
+                "gpe,org"
+            ]
+        },
+        "arg_order_kairos": [
+            "Member",
+            "PlaceOfMembership"
+        ],
+        "Kairos_slots": {
+            "Member": [
+                "per"
+            ],
+            "PlaceOfMembership": [
+                "gpe,org"
+            ]
+        }
+    },
+    {
+        "label": "OrganizationAffiliation.Founder.Founder",
+        "template": "<arg1> is a founder of <arg2>",
+        "arg_order": [],
+        "slots": {
+            "Founder": [
+                "per"
+            ],
+            "Organization": [
+                "org"
+            ]
+        },
+        "definition": "This relation captures a person entity and the organization founded by that person",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "Founder",
+            "Organization"
+        ],
+        "Aida_slots": {
+            "Founder": [
+                "per"
+            ],
+            "Organization": [
+                "org"
+            ]
+        },
+        "arg_order_kairos": [
+            "Founder",
+            "Organization"
+        ],
+        "Kairos_slots": {
+            "Founder": [
+                "per"
+            ],
+            "Organization": [
+                "org"
+            ]
+        }
+    },
+    {
+        "label": "OrganizationAffiliation.Leadership.<n/a>",
+        "template": "<arg1> is a leader of <arg2>",
+        "arg_order": [],
+        "slots": {
+            "Leader": [
+                "per"
+            ],
+            "Organization": [
+                "gpe",
+                "org"
+            ]
+        },
+        "definition": "The relationship between a person and an organization or GPE led by that person, where the context does not distinguish the nature of the organization",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "Leader",
+            "Organization"
+        ],
+        "Aida_slots": {
+            "Leader": [
+                "per"
+            ],
+            "Organization": [
+                "gpe",
+                "org"
+            ]
+        },
+        "arg_order_kairos": [
+            "Leader",
+            "Organization"
+        ],
+        "Kairos_slots": {
+            "Leader": [
+                "per"
+            ],
+            "Organization": [
+                "gpe",
+                "org"
+            ]
+        }
+    },
+    {
+        "label": "OrganizationAffiliation.Leadership.Government",
+        "template": "<arg1> is a leader of <arg2>",
+        "arg_order": [],
+        "slots": {
+            "Leader": [
+                "per"
+            ],
+            "GovernmentBodyOrGPE": [
+                "gpe",
+                "org"
+            ]
+        },
+        "definition": "The relationship between a person and a governmental organization or GPE led by that person||The relationship between a person and a governmental organization or GPE led by that person (who is not the head of state)",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "Leader",
+            "GovernmentBodyOrGPE"
+        ],
+        "Aida_slots": {
+            "Leader": [
+                "per"
+            ],
+            "GovernmentBodyOrGPE": [
+                "gpe",
+                "org"
+            ]
+        },
+        "arg_order_kairos": [
+            "Leader",
+            "GovernmentBodyOrGPE"
+        ],
+        "Kairos_slots": {
+            "Leader": [
+                "per"
+            ],
+            "GovernmentBodyOrGPE": [
+                "gpe",
+                "org"
+            ]
+        }
+    },
+    {
+        "label": "OrganizationAffiliation.Leadership.HeadOfState",
+        "template": "<arg1> is a leader of <arg2>",
+        "arg_order": [],
+        "slots": {
+            "Leader": [
+                "per"
+            ],
+            "Country": [
+                "gpe"
+            ]
+        },
+        "definition": "The relationship between a person and a country GPE led by that person",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "Leader",
+            "Country"
+        ],
+        "Aida_slots": {
+            "Leader": [
+                "per"
+            ],
+            "Country": [
+                "gpe"
+            ]
+        },
+        "arg_order_kairos": [
+            "Leader",
+            "Country"
+        ],
+        "Kairos_slots": {
+            "Leader": [
+                "per"
+            ],
+            "Country": [
+                "gpe"
+            ]
+        }
+    },
+    {
+        "label": "OrganizationAffiliation.Leadership.MilitaryPolice",
+        "template": "<arg1> is a leader of <arg2>",
+        "arg_order": [],
+        "slots": {
+            "Leader": [
+                "per"
+            ],
+            "MilitaryPoliceORG": [
+                "org"
+            ]
+        },
+        "definition": "The relationship between a person and a military or police organization led by that person",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "Leader",
+            "MilitaryPoliceORG"
+        ],
+        "Aida_slots": {
+            "Leader": [
+                "per"
+            ],
+            "MilitaryPoliceORG": [
+                "org"
+            ]
+        },
+        "arg_order_kairos": [
+            "Leader",
+            "MilitaryPoliceORG"
+        ],
+        "Kairos_slots": {
+            "Leader": [
+                "per"
+            ],
+            "MilitaryPoliceORG": [
+                "org"
+            ]
+        }
+    },
+    {
+        "label": "PartWhole.Subsidiary.<n/a>",
+        "template": "<arg1> is a subsidiary of <arg2>",
+        "arg_order": [],
+        "slots": {
+            "Subsidiary": [
+                "gpe",
+                "org"
+            ],
+            "Parent": [
+                "gpe",
+                "org"
+            ]
+        },
+        "definition": "The ownership, administrative, and other hierarchical relationships between organizations and GPEs, where the context does not make it clear whether the parent in the heirarchy is an organization or a GPE||The ownership, administrative, and other hierarchical relationships between organizations and GPEs, where the context does not make it clear whether the parent in the hierarchy is an organization or a GPE",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "Subsidiary",
+            "Parent"
+        ],
+        "Aida_slots": {
+            "Subsidiary": [
+                "gpe",
+                "org"
+            ],
+            "Parent": [
+                "gpe",
+                "org"
+            ]
+        },
+        "arg_order_kairos": [
+            "Subsidiary",
+            "Parent"
+        ],
+        "Kairos_slots": {
+            "Subsidiary": [
+                "gpe",
+                "org"
+            ],
+            "Parent": [
+                "gpe",
+                "org"
+            ]
+        }
+    },
+    {
+        "label": "PartWhole.Subsidiary.NationalityCitizen",
+        "template": "<arg1> is a subsidiary of <arg2>",
+        "arg_order": [],
+        "slots": {
+            "Subsidiary": [
+                "org"
+            ],
+            "Parent": [
+                "gpe"
+            ]
+        },
+        "definition": "The ownership, administrative, and other hierarchical relationships between organizations and GPEs, and between governmental organizations and their parent GPE",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "Subsidiary",
+            "Parent"
+        ],
+        "Aida_slots": {
+            "Subsidiary": [
+                "org"
+            ],
+            "Parent": [
+                "gpe"
+            ]
+        },
+        "arg_order_kairos": [
+            "Subsidiary",
+            "Parent"
+        ],
+        "Kairos_slots": {
+            "Subsidiary": [
+                "org"
+            ],
+            "Parent": [
+                "gpe"
+            ]
+        }
+    },
+    {
+        "label": "PartWhole.Subsidiary.OrganizationSubsidiary",
+        "template": "<arg1> is a subsidiary of <arg2>",
+        "arg_order": [],
+        "slots": {
+            "Subsidiary": [
+                "org"
+            ],
+            "Parent": [
+                "org"
+            ]
+        },
+        "definition": "The ownership, administrative, and other hierarchical relationships between organizations, including relationships between a department within an organization and the organization itself, and between a company and its parent company",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "Subsidiary",
+            "Parent"
+        ],
+        "Aida_slots": {
+            "Subsidiary": [
+                "org"
+            ],
+            "Parent": [
+                "org"
+            ]
+        },
+        "arg_order_kairos": [
+            "Subsidiary",
+            "Parent"
+        ],
+        "Kairos_slots": {
+            "Subsidiary": [
+                "org"
+            ],
+            "Parent": [
+                "org"
+            ]
+        }
+    },
+    {
+        "label": "PersonalSocial.Role.<n/a>",
+        "template": "<arg1> has a role of <arg2>",
+        "arg_order": [],
+        "slots": {
+            "Person": [
+                "per"
+            ],
+            "Role": [
+                "ttl"
+            ]
+        },
+        "definition": "The relationship between a person and their position, occupation, title, or honorific, where the context does not make it clear whether the role is a position or an honorific",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "Person",
+            "Role"
+        ],
+        "Aida_slots": {
+            "Person": [
+                "per"
+            ],
+            "Role": [
+                "ttl"
+            ]
+        },
+        "arg_order_kairos": [
+            "Person",
+            "Role"
+        ],
+        "Kairos_slots": {
+            "Person": [
+                "per"
+            ],
+            "Role": [
+                "ttl"
+            ]
+        }
+    },
+    {
+        "label": "PersonalSocial.Role.ProfessionalRole",
+        "template": "<arg1> has a job role of <arg2>",
+        "arg_order": [],
+        "slots": {
+            "Person": [
+                "per"
+            ],
+            "JobRole": [
+                "ttl"
+            ]
+        },
+        "definition": "The relationship between a person and their position or occupation",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "Person",
+            "JobRole"
+        ],
+        "Aida_slots": {
+            "Person": [
+                "per"
+            ],
+            "JobRole": [
+                "ttl"
+            ]
+        },
+        "arg_order_kairos": [
+            "Person",
+            "JobRole"
+        ],
+        "Kairos_slots": {
+            "Person": [
+                "per"
+            ],
+            "JobRole": [
+                "ttl"
+            ]
+        }
+    },
+    {
+        "label": "PersonalSocial.Role.TitleFormOfAddress",
+        "template": "<arg1> has a title of <arg2>",
+        "arg_order": [],
+        "slots": {
+            "Person": [
+                "per"
+            ],
+            "Title": [
+                "ttl"
+            ]
+        },
+        "definition": "The relationship between a person and their title or honorific",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "Person",
+            "Title"
+        ],
+        "Aida_slots": {
+            "Person": [
+                "per"
+            ],
+            "Title": [
+                "ttl"
+            ]
+        },
+        "arg_order_kairos": [
+            "Person",
+            "Title"
+        ],
+        "Kairos_slots": {
+            "Person": [
+                "per"
+            ],
+            "Title": [
+                "ttl"
+            ]
+        }
+    },
+    {
+        "label": "PersonalSocial.Relationship.<n/a>",
+        "template": "<arg1> has unspecified relationship with <arg2>",
+        "arg_order": [],
+        "slots": {
+            "Person": [
+                "per"
+            ]
+        },
+        "definition": "Otherwise unspecified relationship between a person and another person",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "Person",
+            "Person"
+        ],
+        "Aida_slots": {
+            "Person": [
+                "per"
+            ]
+        },
+        "arg_order_kairos": [
+            "Person",
+            "Person"
+        ],
+        "Kairos_slots": {
+            "Person": [
+                "per"
+            ]
+        }
+    },
+    {
+        "label": "PersonalSocial.Relationship.Political",
+        "template": "<arg1> has political relationship with <arg2>",
+        "arg_order": [],
+        "slots": {
+            "Person": [
+                "per"
+            ]
+        },
+        "definition": "Otherwise unspecified political relationship between a person and another person",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "Person",
+            "Person"
+        ],
+        "Aida_slots": {
+            "Person": [
+                "per"
+            ]
+        },
+        "arg_order_kairos": [
+            "Person",
+            "Person"
+        ],
+        "Kairos_slots": {
+            "Person": [
+                "per"
+            ]
+        }
+    },
+    {
+        "label": "Physical.LocatedNear.<n/a>",
+        "template": "<arg1> is located in or near <arg2>",
+        "arg_order": [],
+        "slots": {
+            "EntityOrFiller": [
+                "per",
+                "com",
+                "veh",
+                "wea",
+                "fac",
+                "bal",
+                "aml",
+                "bod",
+                "nat",
+                "pla",
+                "pth"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "definition": "The physical location of an entity or filler",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "EntityOrFiller",
+            "Place"
+        ],
+        "Aida_slots": {
+            "EntityOrFiller": [
+                "per",
+                "com",
+                "veh",
+                "wea",
+                "fac",
+                "bal"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "arg_order_kairos": [
+            "EntityOrFiller",
+            "Place"
+        ],
+        "Kairos_slots": {
+            "EntityOrFiller": [
+                "per",
+                "com",
+                "veh",
+                "wea",
+                "fac",
+                "bal",
+                "aml",
+                "bod",
+                "nat",
+                "pla",
+                "pth"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        }
+    },
+    {
+        "label": "Physical.LocatedNear.Surround",
+        "template": "<arg1> is surrounded by <arg2>",
+        "arg_order": [],
+        "slots": {
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ],
+            "EntityOrFiller": [
+                "per",
+                "com",
+                "veh",
+                "wea",
+                "fac",
+                "bal",
+                "aml",
+                "bod",
+                "nat",
+                "pla",
+                "pth"
+            ]
+        },
+        "definition": "An entity or filler physically surrounding a place",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "Place",
+            "EntityOrFiller"
+        ],
+        "Aida_slots": {
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ],
+            "EntityOrFiller": [
+                "per",
+                "com",
+                "veh",
+                "wea",
+                "fac",
+                "bal"
+            ]
+        },
+        "arg_order_kairos": [
+            "Place",
+            "EntityOrFiller"
+        ],
+        "Kairos_slots": {
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ],
+            "EntityOrFiller": [
+                "per",
+                "com",
+                "veh",
+                "wea",
+                "fac",
+                "bal",
+                "aml",
+                "bod",
+                "nat",
+                "pla",
+                "pth"
+            ]
+        }
+    },
+    {
+        "label": "Physical.OrganizationHeadquarters.OrganizationHeadquarters",
+        "template": "<arg1> has headquarters in <arg2>",
+        "arg_order": [],
+        "slots": {
+            "Organization": [
+                "org"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "definition": "The relation between the headquarters of an organization and the GPE, LOC, or FAC entity in which the headquarters are located",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "Organization",
+            "Place"
+        ],
+        "Aida_slots": {
+            "Organization": [
+                "org"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "arg_order_kairos": [
+            "Organization",
+            "Place"
+        ],
+        "Kairos_slots": {
+            "Organization": [
+                "org"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        }
+    },
+    {
+        "label": "Physical.Resident.Resident",
+        "template": "<arg1> is a resident of <arg2>",
+        "arg_order": [],
+        "slots": {
+            "Resident": [
+                "per "
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "definition": "All GPE, LOC, and FAC entities in which a person entity has lived",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "Resident",
+            "Place"
+        ],
+        "Aida_slots": {
+            "Resident": [
+                "per "
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "arg_order_kairos": [
+            "Resident",
+            "Place"
+        ],
+        "Kairos_slots": {
+            "Resident": [
+                "per "
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        }
+    },
+    {
+        "label": "ResponsibilityBlame.AssignBlame.AssignBlame",
+        "template": "<arg1> is blamed for <arg2>",
+        "arg_order": [],
+        "slots": {
+            "EntityResponsible": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Event": [
+                "event"
+            ]
+        },
+        "definition": "An entity blamed for an event",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "EntityResponsible",
+            "Event"
+        ],
+        "Aida_slots": {
+            "EntityResponsible": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Event": [
+                "event"
+            ]
+        },
+        "arg_order_kairos": [
+            "EntityResponsible",
+            "Event"
+        ],
+        "Kairos_slots": {
+            "EntityResponsible": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Event": [
+                "event"
+            ]
+        }
+    },
+    {
+        "label": "ResponsibilityBlame.ClaimResponsibility.ClaimResponsibility",
+        "template": "<arg1> claims responsibility for <arg2>",
+        "arg_order": [],
+        "slots": {
+            "EntityResponsible": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Event": [
+                "event"
+            ]
+        },
+        "definition": "An entity claiming responsibility for an event",
+        "origin": "AIDA/KAIROS",
+        "arg_order_aida": [
+            "EntityResponsible",
+            "Event"
+        ],
+        "Aida_slots": {
+            "EntityResponsible": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Event": [
+                "event"
+            ]
+        },
+        "arg_order_kairos": [
+            "EntityResponsible",
+            "Event"
+        ],
+        "Kairos_slots": {
+            "EntityResponsible": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Event": [
+                "event"
+            ]
+        }
+    },
+    {
+        "label": "Evaluate.Belief.CommittedBelief",
+        "template": "<arg1> believes with certainty that <arg2> is true",
+        "arg_order": [
+            "Holder",
+            "BeliefTarget"
+        ],
+        "slots": {
+            "Holder": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "BeliefTarget": [
+                "event",
+                "inf"
+            ]
+        },
+        "definition": "Explicit mention of an entity believing with certainty that an event or information object is true",
+        "origin": "KAIROS"
+    },
+    {
+        "label": "Evaluate.Belief.NonCommittedBelief",
+        "template": "<arg1> believes <arg2> is possibly but not necessarily true",
+        "arg_order": [
+            "Holder",
+            "BeliefTarget"
+        ],
+        "slots": {
+            "Holder": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "BeliefTarget": [
+                "event",
+                "inf"
+            ]
+        },
+        "definition": "Explicit mention of an entity believing an event or information object is possibly but not necessarily true; they do not have a strong belief in it",
+        "origin": "KAIROS"
+    },
+    {
+        "label": "Evaluate.Intent.Intent",
+        "template": "<arg1> intends, plans for, or attempts <arg2> event",
+        "arg_order": [
+            "Holder",
+            "IntendedEvent"
+        ],
+        "slots": {
+            "Holder": [
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "author_check"
+            ],
+            "IntendedEvent": [
+                "event"
+            ]
+        },
+        "definition": "Explicit mention of an entity intending a future event or planning or attempting to achieve it",
+        "origin": "KAIROS"
+    }
+]

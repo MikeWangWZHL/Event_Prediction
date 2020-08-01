@@ -1,0 +1,9 @@
+"bernard ebbers": {
+    "1": {
+        "EVENT_SUBTYPE": "TransferMoney",
+
+        "Instance_level": "<WorldCom> gave <400-million-dollar> money to <Bernard Ebbers> for the benefit of <Beneficiary> at <Place> place on <NaN>",
+        "Role_type_level": "<Giver> gave <Money> money to <Recipient> for the benefit of <Beneficiary> at <Place> place on <Time>",
+        "Entity_type_level": "<Org> gave <Money> money to <PER> for the benefit of <Beneficiary> at <Place> place on <Time>"
+    }
+}

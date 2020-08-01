@@ -1,0 +1,1792 @@
+[
+    {
+        "AnnotIndexID": "LDC_ent_001",
+        "Type": "BAL",
+        "Output Value for Type": "bal",
+        "Subtype": "n/a",
+        "Output Value for Subtype": "unspecified",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "A ballot for an election, either the paper ballot used for voting, including both physical paper ballots, and also the slate of candidates and ballot questions"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_002",
+        "Type": "BAL",
+        "Output Value for Type": "bal",
+        "Subtype": "BallotSlate",
+        "Output Value for Subtype": "ballotslate",
+        "Sub-subtype": "BallotSlate",
+        "Output Value for Sub-subtype": "ballotslate",
+        "Definition": "The slate of candidates listed on a ballot"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_003",
+        "Type": "BAL",
+        "Output Value for Type": "bal",
+        "Subtype": "PaperBallot",
+        "Output Value for Subtype": "paperballot",
+        "Sub-subtype": "PaperBallot",
+        "Output Value for Sub-subtype": "paperballot",
+        "Definition": "The paper printed ballot"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_004",
+        "Type": "COM",
+        "Output Value for Type": "com",
+        "Subtype": "n/a",
+        "Output Value for Subtype": "unspecified",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "A product or article of trade for which someone pays or barters, or more generally, an artifact or a thing"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_005",
+        "Type": "COM",
+        "Output Value for Type": "com",
+        "Subtype": "Document",
+        "Output Value for Subtype": "document",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "A document"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_006",
+        "Type": "COM",
+        "Output Value for Type": "com",
+        "Subtype": "Document",
+        "Output Value for Subtype": "document",
+        "Sub-subtype": "Map",
+        "Output Value for Sub-subtype": "map",
+        "Definition": "A symbolic depiction emphasizing relationships between elements of some space, such as objects, regions, or themes"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_007",
+        "Type": "COM",
+        "Output Value for Type": "com",
+        "Subtype": "Document",
+        "Output Value for Subtype": "document",
+        "Sub-subtype": "PersonalIdentification",
+        "Output Value for Sub-subtype": "personalidentification",
+        "Definition": "Document that proves a person's identity"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_008",
+        "Type": "COM",
+        "Output Value for Type": "com",
+        "Subtype": "Equipment",
+        "Output Value for Subtype": "equipment",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "A piece of equipment, an instrumentality needed for an undertaking or to perform a service"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_009",
+        "Type": "COM",
+        "Output Value for Type": "com",
+        "Subtype": "Equipment",
+        "Output Value for Subtype": "equipment",
+        "Sub-subtype": "HumanitarianAid",
+        "Output Value for Sub-subtype": "humanitarianaid",
+        "Definition": "Supplies and items for humanitarian aid"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_010",
+        "Type": "COM",
+        "Output Value for Type": "com",
+        "Subtype": "Equipment",
+        "Output Value for Subtype": "equipment",
+        "Sub-subtype": "MedicalEquipment",
+        "Output Value for Sub-subtype": "medicalequipment",
+        "Definition": "Medical equipment and supplies, including medicines"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_011",
+        "Type": "COM",
+        "Output Value for Type": "com",
+        "Subtype": "Equipment",
+        "Output Value for Subtype": "equipment",
+        "Sub-subtype": "MilitaryEquipment",
+        "Output Value for Sub-subtype": "militaryequipment",
+        "Definition": "Equipment and supplies used by the military for military purposes"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_012",
+        "Type": "COM",
+        "Output Value for Type": "com",
+        "Subtype": "Equipment",
+        "Output Value for Subtype": "equipment",
+        "Sub-subtype": "Satellite",
+        "Output Value for Sub-subtype": "satellite",
+        "Definition": "An artificial object which has been intentionally placed into orbit"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_013",
+        "Type": "COM",
+        "Output Value for Type": "com",
+        "Subtype": "Flag",
+        "Output Value for Subtype": "flag",
+        "Sub-subtype": "Flag",
+        "Output Value for Sub-subtype": "flag",
+        "Definition": "A piece of fabric (most often rectangular or quadrilateral) with a distinctive design and colours, used as a symbol, a signaling device, or for decoration"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_014",
+        "Type": "COM",
+        "Output Value for Type": "com",
+        "Subtype": "Wreckage",
+        "Output Value for Subtype": "wreckage",
+        "Sub-subtype": "Wreckage",
+        "Output Value for Sub-subtype": "wreckage",
+        "Definition": "Rubble, debris, ruins, scattered remains of something destroyed"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_028",
+        "Type": "FAC",
+        "Output Value for Type": "fac",
+        "Subtype": "n/a",
+        "Output Value for Subtype": "unspecified",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "A functional, primarily man-made structure. Facilities are artifacts falling under the domains of architecture and civil engineering, including more temporary human constructs, such as police lines and checkpoints."
+    },
+    {
+        "AnnotIndexID": "LDC_ent_029",
+        "Type": "FAC",
+        "Output Value for Type": "fac",
+        "Subtype": "Building",
+        "Output Value for Subtype": "building",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "A structure that has a roof and walls and stands more or less permanently in one place"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_030",
+        "Type": "FAC",
+        "Output Value for Type": "fac",
+        "Subtype": "Building",
+        "Output Value for Subtype": "building",
+        "Sub-subtype": "ApartmentBuilding",
+        "Output Value for Sub-subtype": "apartmentbuilding",
+        "Definition": "An apartment building"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_031",
+        "Type": "FAC",
+        "Output Value for Type": "fac",
+        "Subtype": "Building",
+        "Output Value for Subtype": "building",
+        "Sub-subtype": "GovernmentBuilding",
+        "Output Value for Sub-subtype": "governmentbuilding",
+        "Definition": "A building that houses a department or branch of government"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_032",
+        "Type": "FAC",
+        "Output Value for Type": "fac",
+        "Subtype": "Building",
+        "Output Value for Subtype": "building",
+        "Sub-subtype": "House",
+        "Output Value for Sub-subtype": "house",
+        "Definition": "A house, a building that functions as a home"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_033",
+        "Type": "FAC",
+        "Output Value for Type": "fac",
+        "Subtype": "Building",
+        "Output Value for Subtype": "building",
+        "Sub-subtype": "OfficeBuilding",
+        "Output Value for Sub-subtype": "officebuilding",
+        "Definition": "An office building, a building where people work in offices"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_034",
+        "Type": "FAC",
+        "Output Value for Type": "fac",
+        "Subtype": "Building",
+        "Output Value for Subtype": "building",
+        "Sub-subtype": "School",
+        "Output Value for Sub-subtype": "school",
+        "Definition": "A school"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_035",
+        "Type": "FAC",
+        "Output Value for Type": "fac",
+        "Subtype": "Building",
+        "Output Value for Subtype": "building",
+        "Sub-subtype": "StoreShop",
+        "Output Value for Sub-subtype": "storeshop",
+        "Definition": "A shop or store"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_036",
+        "Type": "FAC",
+        "Output Value for Type": "fac",
+        "Subtype": "Building",
+        "Output Value for Subtype": "building",
+        "Sub-subtype": "VotingFacility",
+        "Output Value for Sub-subtype": "votingfacility",
+        "Definition": "A voting facility or polling place"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_037",
+        "Type": "FAC",
+        "Output Value for Type": "fac",
+        "Subtype": "GeographicalArea",
+        "Output Value for Subtype": "geographicalarea",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "A demarcated (by humans) area of the Earth"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_038",
+        "Type": "FAC",
+        "Output Value for Type": "fac",
+        "Subtype": "GeographicalArea",
+        "Output Value for Subtype": "geographicalarea",
+        "Sub-subtype": "Border",
+        "Output Value for Sub-subtype": "border",
+        "Definition": "A border, a geographic boundary of a political entity or legal jurisdiction, such as a sovereign state, federated states, or other subnational entities"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_039",
+        "Type": "FAC",
+        "Output Value for Type": "fac",
+        "Subtype": "GeographicalArea",
+        "Output Value for Subtype": "geographicalarea",
+        "Sub-subtype": "Checkpoint",
+        "Output Value for Sub-subtype": "checkpoint",
+        "Definition": "A border, security, or random checkpoint where travellers and/or goods are inspected"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_040",
+        "Type": "FAC",
+        "Output Value for Type": "fac",
+        "Subtype": "Installation",
+        "Output Value for Subtype": "installation",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "A facility or installation that may consist of multiple buildings"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_041",
+        "Type": "FAC",
+        "Output Value for Type": "fac",
+        "Subtype": "Installation",
+        "Output Value for Subtype": "installation",
+        "Sub-subtype": "Airport",
+        "Output Value for Sub-subtype": "airport",
+        "Definition": "An airport or airfield"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_042",
+        "Type": "FAC",
+        "Output Value for Type": "fac",
+        "Subtype": "Installation",
+        "Output Value for Subtype": "installation",
+        "Sub-subtype": "MilitaryInstallation",
+        "Output Value for Sub-subtype": "militaryinstallation",
+        "Definition": "Any facility servicing military forces"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_043",
+        "Type": "FAC",
+        "Output Value for Type": "fac",
+        "Subtype": "Installation",
+        "Output Value for Subtype": "installation",
+        "Sub-subtype": "TrainStation",
+        "Output Value for Sub-subtype": "trainstation",
+        "Definition": "A train station, including any railway facility where trains stop regularly"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_044",
+        "Type": "FAC",
+        "Output Value for Type": "fac",
+        "Subtype": "Structure",
+        "Output Value for Subtype": "structure",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "A thing constructed; a complex entity constructed of many parts"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_045",
+        "Type": "FAC",
+        "Output Value for Type": "fac",
+        "Subtype": "Structure",
+        "Output Value for Subtype": "structure",
+        "Sub-subtype": "Barricade",
+        "Output Value for Sub-subtype": "barricade",
+        "Definition": "A barricade or roadblock"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_046",
+        "Type": "FAC",
+        "Output Value for Type": "fac",
+        "Subtype": "Structure",
+        "Output Value for Subtype": "structure",
+        "Sub-subtype": "Bridge",
+        "Output Value for Sub-subtype": "bridge",
+        "Definition": "A  bridge"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_047",
+        "Type": "FAC",
+        "Output Value for Type": "fac",
+        "Subtype": "Structure",
+        "Output Value for Subtype": "structure",
+        "Sub-subtype": "Plaza",
+        "Output Value for Sub-subtype": "plaza",
+        "Definition": "An open urban public space, such as a city square"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_048",
+        "Type": "FAC",
+        "Output Value for Type": "fac",
+        "Subtype": "Structure",
+        "Output Value for Subtype": "structure",
+        "Sub-subtype": "Tower",
+        "Output Value for Sub-subtype": "tower",
+        "Definition": "A tower, a tall structure, taller than it is wide"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_049",
+        "Type": "FAC",
+        "Output Value for Type": "fac",
+        "Subtype": "Way",
+        "Output Value for Subtype": "way",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "Any artifact consisting of a road or path affording passage from one place to another"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_050",
+        "Type": "FAC",
+        "Output Value for Type": "fac",
+        "Subtype": "Way",
+        "Output Value for Subtype": "way",
+        "Sub-subtype": "Highway",
+        "Output Value for Sub-subtype": "highway",
+        "Definition": "A major road"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_051",
+        "Type": "FAC",
+        "Output Value for Type": "fac",
+        "Subtype": "Way",
+        "Output Value for Subtype": "way",
+        "Sub-subtype": "Street",
+        "Output Value for Sub-subtype": "street",
+        "Definition": "A thoroughfare (usually including sidewalks) that is lined with buildings"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_052",
+        "Type": "GPE",
+        "Output Value for Type": "gpe",
+        "Subtype": "n/a",
+        "Output Value for Subtype": "unspecified",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "GPE entities are composite entities, consisting of a physical location, a government, and a population. All three of these elements must be present for an entity to be tagged as a GPE. A GPE entity may be a single geopolitical entity or a group."
+    },
+    {
+        "AnnotIndexID": "LDC_ent_053",
+        "Type": "GPE",
+        "Output Value for Type": "gpe",
+        "Subtype": "Country",
+        "Output Value for Subtype": "country",
+        "Sub-subtype": "Country",
+        "Output Value for Sub-subtype": "country",
+        "Definition": "The territory occupied by a nation"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_054",
+        "Type": "GPE",
+        "Output Value for Type": "gpe",
+        "Subtype": "OrganizationOfCountries",
+        "Output Value for Subtype": "organizationofcountries",
+        "Sub-subtype": "OrganizationOfCountries",
+        "Output Value for Sub-subtype": "organizationofcountries",
+        "Definition": "An organized group of countries with its own governing body, such as the EU"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_055",
+        "Type": "GPE",
+        "Output Value for Type": "gpe",
+        "Subtype": "ProvinceState",
+        "Output Value for Subtype": "provincestate",
+        "Sub-subtype": "ProvinceState",
+        "Output Value for Sub-subtype": "provincestate",
+        "Definition": "A region, province, or state with a government, an administrative division within a country or state"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_056",
+        "Type": "GPE",
+        "Output Value for Type": "gpe",
+        "Subtype": "UrbanArea",
+        "Output Value for Subtype": "urbanarea",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "A human settlement with a government, a geographical area constituting a city or town"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_057",
+        "Type": "GPE",
+        "Output Value for Type": "gpe",
+        "Subtype": "UrbanArea",
+        "Output Value for Subtype": "urbanarea",
+        "Sub-subtype": "City",
+        "Output Value for Sub-subtype": "city",
+        "Definition": "A large and densely populated urban area; may include several independent administrative districts"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_058",
+        "Type": "GPE",
+        "Output Value for Type": "gpe",
+        "Subtype": "UrbanArea",
+        "Output Value for Subtype": "urbanarea",
+        "Sub-subtype": "Village",
+        "Output Value for Sub-subtype": "village",
+        "Definition": "An urban area with a fixed boundary that is smaller than a city"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_192",
+        "Type": "INF",
+        "Output Value for Type": "inf",
+        "Subtype": "TopicFIller",
+        "Output Value for Subtype": "topicfiller",
+        "Sub-subtype": "TopicFIller",
+        "Output Value for Sub-subtype": "topicfiller",
+        "Definition": "Filler for the Topic role in certain Contact events, for use only when the topic is something that is not otherwise an event or entity type in the annotation ontology"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_059",
+        "Type": "LAW",
+        "Output Value for Type": "law",
+        "Subtype": "n/a",
+        "Output Value for Subtype": "unspecified",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "A law, an act that is voted on by either a legislative body or an electorate, such as a law, referendum, act, regulation, statute, ordinance, etc."
+    },
+    {
+        "AnnotIndexID": "LDC_ent_060",
+        "Type": "LAW",
+        "Output Value for Type": "law",
+        "Subtype": "Referendum",
+        "Output Value for Subtype": "referendum",
+        "Sub-subtype": "Referendum",
+        "Output Value for Sub-subtype": "referendum",
+        "Definition": "A referendum, a direct vote in which an entire electorate is invited to vote on a particular proposal"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_061",
+        "Type": "LOC",
+        "Output Value for Type": "loc",
+        "Subtype": "n/a",
+        "Output Value for Subtype": "unspecified",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "Geographical entities such as geographical areas and landmasses, bodies of water"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_062",
+        "Type": "LOC",
+        "Output Value for Type": "loc",
+        "Subtype": "GeographicPoint",
+        "Output Value for Subtype": "geographicpoint",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "A point on the surface of the Earth"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_063",
+        "Type": "LOC",
+        "Output Value for Type": "loc",
+        "Subtype": "GeographicPoint",
+        "Output Value for Subtype": "geographicpoint",
+        "Sub-subtype": "Address",
+        "Output Value for Sub-subtype": "address",
+        "Definition": "The place where a person or organization can be found or communicated with"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_064",
+        "Type": "LOC",
+        "Output Value for Type": "loc",
+        "Subtype": "Land",
+        "Output Value for Subtype": "land",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "The solid part of the earth's surface"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_065",
+        "Type": "LOC",
+        "Output Value for Type": "loc",
+        "Subtype": "Land",
+        "Output Value for Subtype": "land",
+        "Sub-subtype": "Continent",
+        "Output Value for Sub-subtype": "continent",
+        "Definition": "One of the large landmasses of the earth"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_066",
+        "Type": "LOC",
+        "Output Value for Type": "loc",
+        "Subtype": "Position",
+        "Output Value for Subtype": "position",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "The particular portion of space occupied by something"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_067",
+        "Type": "LOC",
+        "Output Value for Type": "loc",
+        "Subtype": "Position",
+        "Output Value for Subtype": "position",
+        "Sub-subtype": "AirSpace",
+        "Output Value for Sub-subtype": "airspace",
+        "Definition": "The air space above a location"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_068",
+        "Type": "LOC",
+        "Output Value for Type": "loc",
+        "Subtype": "Position",
+        "Output Value for Subtype": "position",
+        "Sub-subtype": "CrimeScene",
+        "Output Value for Sub-subtype": "crimescene",
+        "Definition": "A crime scene"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_069",
+        "Type": "LOC",
+        "Output Value for Type": "loc",
+        "Subtype": "Position",
+        "Output Value for Subtype": "position",
+        "Sub-subtype": "Field",
+        "Output Value for Sub-subtype": "field",
+        "Definition": "A piece of land cleared of trees"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_070",
+        "Type": "LOC",
+        "Output Value for Type": "loc",
+        "Subtype": "Position",
+        "Output Value for Subtype": "position",
+        "Sub-subtype": "Neighborhood",
+        "Output Value for Sub-subtype": "neighborhood",
+        "Definition": "A neighborhood, a portion of a city that does not have its own government"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_071",
+        "Type": "LOC",
+        "Output Value for Type": "loc",
+        "Subtype": "Position",
+        "Output Value for Subtype": "position",
+        "Sub-subtype": "Region",
+        "Output Value for Sub-subtype": "region",
+        "Definition": "A geographic region that does not have its own government"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_188",
+        "Type": "MHI",
+        "Output Value for Type": "mhi",
+        "Subtype": "Unspecified",
+        "Output Value for Subtype": "unspecified",
+        "Sub-subtype": "Unspecified",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "Any medical condition or health issue, to include everything from disease to broken bones to fever to general ill health, medical errors, even natural causes"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_189",
+        "Type": "MHI",
+        "Output Value for Type": "mhi",
+        "Subtype": "Disease",
+        "Output Value for Subtype": "disease",
+        "Sub-subtype": "Disease",
+        "Output Value for Sub-subtype": "disease",
+        "Definition": "A medical condition that is a disease"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_190",
+        "Type": "MHI",
+        "Output Value for Type": "mhi",
+        "Subtype": "SymptomPresentation",
+        "Output Value for Subtype": "symptompresentation",
+        "Sub-subtype": "SymptomPresentation",
+        "Output Value for Sub-subtype": "symptompresentation",
+        "Definition": "A symptom, sign, or presentation of a medical condition or health issue"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_072",
+        "Type": "MON",
+        "Output Value for Type": "mon",
+        "Subtype": "n/a",
+        "Output Value for Subtype": "unspecified",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "A monetary payment. The extent of a Money mention includes modifying quantifiers, the amount, and the currency unit, all of which can be optional."
+    },
+    {
+        "AnnotIndexID": "LDC_ent_073",
+        "Type": "MON",
+        "Output Value for Type": "mon",
+        "Subtype": "Assets",
+        "Output Value for Subtype": "assets",
+        "Sub-subtype": "Assets",
+        "Output Value for Sub-subtype": "assets",
+        "Definition": "An asset, value of ownership that can be converted into cash"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_074",
+        "Type": "MON",
+        "Output Value for Type": "mon",
+        "Subtype": "Cash",
+        "Output Value for Subtype": "cash",
+        "Sub-subtype": "Cash",
+        "Output Value for Sub-subtype": "cash",
+        "Definition": "Cash money"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_075",
+        "Type": "ORG",
+        "Output Value for Type": "org",
+        "Subtype": "n/a",
+        "Output Value for Subtype": "unspecified",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "Corporations, agencies, and other groups of people defined by an established organizational structure. An ORG entity may be a single organization or a group. A key feature of an ORG is that it can change members without changing identity."
+    },
+    {
+        "AnnotIndexID": "LDC_ent_076",
+        "Type": "ORG",
+        "Output Value for Type": "org",
+        "Subtype": "Association",
+        "Output Value for Subtype": "association",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "A formal organization of people or groups of people"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_077",
+        "Type": "ORG",
+        "Output Value for Type": "org",
+        "Subtype": "Association",
+        "Output Value for Subtype": "association",
+        "Sub-subtype": "Club",
+        "Output Value for Sub-subtype": "club",
+        "Definition": "A formal association of people with similar interests"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_078",
+        "Type": "ORG",
+        "Output Value for Type": "org",
+        "Subtype": "Association",
+        "Output Value for Subtype": "association",
+        "Sub-subtype": "Team",
+        "Output Value for Sub-subtype": "team",
+        "Definition": "A cooperative unit (especially in sports)"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_079",
+        "Type": "ORG",
+        "Output Value for Type": "org",
+        "Subtype": "CommercialOrganization",
+        "Output Value for Subtype": "commercialorganization",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "A commercial organization, including businesses and corporations"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_080",
+        "Type": "ORG",
+        "Output Value for Type": "org",
+        "Subtype": "CommercialOrganization",
+        "Output Value for Subtype": "commercialorganization",
+        "Sub-subtype": "BroadcastingCompany",
+        "Output Value for Sub-subtype": "broadcastingcompany",
+        "Definition": "A company that manages tv or radio stations"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_081",
+        "Type": "ORG",
+        "Output Value for Type": "org",
+        "Subtype": "CommercialOrganization",
+        "Output Value for Subtype": "commercialorganization",
+        "Sub-subtype": "Corporation",
+        "Output Value for Sub-subtype": "corporation",
+        "Definition": "A business firm whose articles of incorporation have been approved in some state"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_082",
+        "Type": "ORG",
+        "Output Value for Type": "org",
+        "Subtype": "CommercialOrganization",
+        "Output Value for Subtype": "commercialorganization",
+        "Sub-subtype": "Manufacturer",
+        "Output Value for Sub-subtype": "manufacturer",
+        "Definition": "A business engaged in manufacturing some product"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_083",
+        "Type": "ORG",
+        "Output Value for Type": "org",
+        "Subtype": "CommercialOrganization",
+        "Output Value for Subtype": "commercialorganization",
+        "Sub-subtype": "NewsAgency",
+        "Output Value for Sub-subtype": "newsagency",
+        "Definition": "An agency that collects news reports for newspapers and distributes it electronically"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_084",
+        "Type": "ORG",
+        "Output Value for Type": "org",
+        "Subtype": "CriminalOrganization",
+        "Output Value for Subtype": "criminalorganization",
+        "Sub-subtype": "CriminalOrganization",
+        "Output Value for Sub-subtype": "criminalorganization",
+        "Definition": "Organized crime is a category of transnational, national, or local groupings of highly centralized enterprises run by criminals who intend to engage in illegal activity, most commonly for money and profit"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_085",
+        "Type": "ORG",
+        "Output Value for Type": "org",
+        "Subtype": "Government",
+        "Output Value for Subtype": "government",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "A government organization"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_086",
+        "Type": "ORG",
+        "Output Value for Type": "org",
+        "Subtype": "Government",
+        "Output Value for Subtype": "government",
+        "Sub-subtype": "Agency",
+        "Output Value for Sub-subtype": "agency",
+        "Definition": "An agency, an administrative unit of government"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_087",
+        "Type": "ORG",
+        "Output Value for Type": "org",
+        "Subtype": "Government",
+        "Output Value for Subtype": "government",
+        "Sub-subtype": "Council",
+        "Output Value for Sub-subtype": "council",
+        "Definition": "A council, such as a city council"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_088",
+        "Type": "ORG",
+        "Output Value for Type": "org",
+        "Subtype": "Government",
+        "Output Value for Subtype": "government",
+        "Sub-subtype": "FireDepartment",
+        "Output Value for Sub-subtype": "firedepartment",
+        "Definition": "A fire department"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_089",
+        "Type": "ORG",
+        "Output Value for Type": "org",
+        "Subtype": "Government",
+        "Output Value for Subtype": "government",
+        "Sub-subtype": "LawEnforcementAgency",
+        "Output Value for Sub-subtype": "lawenforcementagency",
+        "Definition": "An agency responsible for security and insuring obedience to the laws"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_090",
+        "Type": "ORG",
+        "Output Value for Type": "org",
+        "Subtype": "Government",
+        "Output Value for Subtype": "government",
+        "Sub-subtype": "LegislativeBody",
+        "Output Value for Sub-subtype": "legislativebody",
+        "Definition": "A congress, parliament, or other legislative body"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_091",
+        "Type": "ORG",
+        "Output Value for Type": "org",
+        "Subtype": "Government",
+        "Output Value for Subtype": "government",
+        "Sub-subtype": "ProsecutorOffice",
+        "Output Value for Sub-subtype": "prosecutoroffice",
+        "Definition": "The prosecutor's office"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_092",
+        "Type": "ORG",
+        "Output Value for Type": "org",
+        "Subtype": "Government",
+        "Output Value for Subtype": "government",
+        "Sub-subtype": "Railway",
+        "Output Value for Sub-subtype": "railway",
+        "Definition": "The railway or railroad organization"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_093",
+        "Type": "ORG",
+        "Output Value for Type": "org",
+        "Subtype": "International",
+        "Output Value for Subtype": "international",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "An international organization, an organization with an international mission"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_094",
+        "Type": "ORG",
+        "Output Value for Type": "org",
+        "Subtype": "International",
+        "Output Value for Subtype": "international",
+        "Sub-subtype": "Commission",
+        "Output Value for Sub-subtype": "commission",
+        "Definition": "An international commission"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_095",
+        "Type": "ORG",
+        "Output Value for Type": "org",
+        "Subtype": "International",
+        "Output Value for Subtype": "international",
+        "Sub-subtype": "MonitoringGroup",
+        "Output Value for Sub-subtype": "monitoringgroup",
+        "Definition": "An international monitoring group"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_096",
+        "Type": "ORG",
+        "Output Value for Type": "org",
+        "Subtype": "MilitaryOrganization",
+        "Output Value for Subtype": "militaryorganization",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "A military organization, or an organization within the military"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_097",
+        "Type": "ORG",
+        "Output Value for Type": "org",
+        "Subtype": "MilitaryOrganization",
+        "Output Value for Subtype": "militaryorganization",
+        "Sub-subtype": "GovernmentArmedForces",
+        "Output Value for Sub-subtype": "governmentarmedforces",
+        "Definition": "A permanent organization of the military forces of a nation or state, including special forces"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_098",
+        "Type": "ORG",
+        "Output Value for Type": "org",
+        "Subtype": "MilitaryOrganization",
+        "Output Value for Subtype": "militaryorganization",
+        "Sub-subtype": "Intelligence",
+        "Output Value for Sub-subtype": "intelligence",
+        "Definition": "An intelligence organization within the military"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_099",
+        "Type": "ORG",
+        "Output Value for Type": "org",
+        "Subtype": "MilitaryOrganization",
+        "Output Value for Subtype": "militaryorganization",
+        "Sub-subtype": "NonGovernmentMilitia",
+        "Output Value for Sub-subtype": "nongovernmentmilitia",
+        "Definition": "A militia, a non-governmental military organization"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_100",
+        "Type": "ORG",
+        "Output Value for Type": "org",
+        "Subtype": "PoliticalOrganization",
+        "Output Value for Subtype": "politicalorganization",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "A political organization"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_101",
+        "Type": "ORG",
+        "Output Value for Type": "org",
+        "Subtype": "PoliticalOrganization",
+        "Output Value for Subtype": "politicalorganization",
+        "Sub-subtype": "Court",
+        "Output Value for Sub-subtype": "court",
+        "Definition": "A court of law"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_102",
+        "Type": "ORG",
+        "Output Value for Type": "org",
+        "Subtype": "PoliticalOrganization",
+        "Output Value for Subtype": "politicalorganization",
+        "Sub-subtype": "Party",
+        "Output Value for Sub-subtype": "party",
+        "Definition": "A political party, an organization to gain political power"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_103",
+        "Type": "PER",
+        "Output Value for Type": "per",
+        "Subtype": "n/a",
+        "Output Value for Subtype": "unspecified",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "Person entities are limited to humans. A PER entity may be a single person or a group."
+    },
+    {
+        "AnnotIndexID": "LDC_ent_104",
+        "Type": "PER",
+        "Output Value for Type": "per",
+        "Subtype": "Combatant",
+        "Output Value for Subtype": "combatant",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "Someone who fights (or is fighting)"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_105",
+        "Type": "PER",
+        "Output Value for Type": "per",
+        "Subtype": "Combatant",
+        "Output Value for Subtype": "combatant",
+        "Sub-subtype": "Mercenary",
+        "Output Value for Sub-subtype": "mercenary",
+        "Definition": "A mercenary, an individual who is hired to take part in an armed conflict but is not part of a regular army or other governmental military force"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_106",
+        "Type": "PER",
+        "Output Value for Type": "per",
+        "Subtype": "Combatant",
+        "Output Value for Subtype": "combatant",
+        "Sub-subtype": "Sniper",
+        "Output Value for Sub-subtype": "sniper",
+        "Definition": "A sniper, a marksman who shoots at people from a concealed place"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_107",
+        "Type": "PER",
+        "Output Value for Type": "per",
+        "Subtype": "Fan",
+        "Output Value for Subtype": "fan",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "An enthusiast or supporter, especially with regard to entertainment and sports"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_108",
+        "Type": "PER",
+        "Output Value for Type": "per",
+        "Subtype": "Fan",
+        "Output Value for Subtype": "fan",
+        "Sub-subtype": "SportsFan",
+        "Output Value for Sub-subtype": "sportsfan",
+        "Definition": "A sports fan"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_109",
+        "Type": "PER",
+        "Output Value for Type": "per",
+        "Subtype": "MilitaryPersonnel",
+        "Output Value for Subtype": "militarypersonnel",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "Someone who serves in the armed forces; a member of a military force"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_110",
+        "Type": "PER",
+        "Output Value for Type": "per",
+        "Subtype": "MilitaryPersonnel",
+        "Output Value for Subtype": "militarypersonnel",
+        "Sub-subtype": "MilitaryOfficer",
+        "Output Value for Sub-subtype": "militaryofficer",
+        "Definition": "Any person in the armed services who holds a position of authority or command"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_111",
+        "Type": "PER",
+        "Output Value for Type": "per",
+        "Subtype": "Police",
+        "Output Value for Subtype": "police",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "A policeman, an officer of the law"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_112",
+        "Type": "PER",
+        "Output Value for Type": "per",
+        "Subtype": "Police",
+        "Output Value for Subtype": "police",
+        "Sub-subtype": "ChiefOfPolice",
+        "Output Value for Sub-subtype": "chiefofpolice",
+        "Definition": "The Chief of Police"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_113",
+        "Type": "PER",
+        "Output Value for Type": "per",
+        "Subtype": "Politician",
+        "Output Value for Subtype": "politician",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "A leader engaged in civil administration"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_114",
+        "Type": "PER",
+        "Output Value for Type": "per",
+        "Subtype": "Politician",
+        "Output Value for Subtype": "politician",
+        "Sub-subtype": "Governor",
+        "Output Value for Sub-subtype": "governor",
+        "Definition": "The head of a state or provinvial government"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_115",
+        "Type": "PER",
+        "Output Value for Type": "per",
+        "Subtype": "Politician",
+        "Output Value for Subtype": "politician",
+        "Sub-subtype": "HeadOfGovernment",
+        "Output Value for Sub-subtype": "headofgovernment",
+        "Definition": "A head of government, a person who rules or commands"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_116",
+        "Type": "PER",
+        "Output Value for Type": "per",
+        "Subtype": "Politician",
+        "Output Value for Subtype": "politician",
+        "Sub-subtype": "Mayor",
+        "Output Value for Sub-subtype": "mayor",
+        "Definition": "The head of a city government"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_117",
+        "Type": "PER",
+        "Output Value for Type": "per",
+        "Subtype": "ProfessionalPosition",
+        "Output Value for Subtype": "professionalposition",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "A person in a professional position"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_118",
+        "Type": "PER",
+        "Output Value for Type": "per",
+        "Subtype": "ProfessionalPosition",
+        "Output Value for Subtype": "professionalposition",
+        "Sub-subtype": "Ambassador",
+        "Output Value for Sub-subtype": "ambassador",
+        "Definition": "An ambassador, diplomat of the highest rank; accredited as representative from one country to another"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_119",
+        "Type": "PER",
+        "Output Value for Type": "per",
+        "Subtype": "ProfessionalPosition",
+        "Output Value for Subtype": "professionalposition",
+        "Sub-subtype": "Firefighter",
+        "Output Value for Sub-subtype": "firefighter",
+        "Definition": "A fire fighter"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_120",
+        "Type": "PER",
+        "Output Value for Type": "per",
+        "Subtype": "ProfessionalPosition",
+        "Output Value for Subtype": "professionalposition",
+        "Sub-subtype": "Journalist",
+        "Output Value for Sub-subtype": "journalist",
+        "Definition": "A journalist, a writer for newspapers and magazines"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_121",
+        "Type": "PER",
+        "Output Value for Type": "per",
+        "Subtype": "ProfessionalPosition",
+        "Output Value for Subtype": "professionalposition",
+        "Sub-subtype": "Minister",
+        "Output Value for Sub-subtype": "minister",
+        "Definition": "A government minister, a person appointed to a high office in the government"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_122",
+        "Type": "PER",
+        "Output Value for Type": "per",
+        "Subtype": "ProfessionalPosition",
+        "Output Value for Subtype": "professionalposition",
+        "Sub-subtype": "MedicalPersonnel",
+        "Output Value for Sub-subtype": "medicalpersonnel",
+        "Definition": "Any medical professional, including doctors, nurses, medics, paramedics, etc."
+    },
+    {
+        "AnnotIndexID": "LDC_ent_123",
+        "Type": "PER",
+        "Output Value for Type": "per",
+        "Subtype": "ProfessionalPosition",
+        "Output Value for Subtype": "professionalposition",
+        "Sub-subtype": "Scientist",
+        "Output Value for Sub-subtype": "scientist",
+        "Definition": "A person with advanced knowledge of one or more sciences"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_124",
+        "Type": "PER",
+        "Output Value for Type": "per",
+        "Subtype": "ProfessionalPosition",
+        "Output Value for Subtype": "professionalposition",
+        "Sub-subtype": "Spokesperson",
+        "Output Value for Sub-subtype": "spokesperson",
+        "Definition": "A spokesperson"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_125",
+        "Type": "PER",
+        "Output Value for Type": "per",
+        "Subtype": "ProfessionalPosition",
+        "Output Value for Subtype": "professionalposition",
+        "Sub-subtype": "Spy",
+        "Output Value for Sub-subtype": "spy",
+        "Definition": "A spy, (military) a secret agent hired by a state to obtain information about its enemies or by a business to obtain industrial secrets from competitors"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_126",
+        "Type": "PER",
+        "Output Value for Type": "per",
+        "Subtype": "Protester",
+        "Output Value for Subtype": "protester",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "A protester"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_127",
+        "Type": "PER",
+        "Output Value for Type": "per",
+        "Subtype": "Protester",
+        "Output Value for Subtype": "protester",
+        "Sub-subtype": "ProtestLeader",
+        "Output Value for Sub-subtype": "protestleader",
+        "Definition": "The leader of a protest"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_128",
+        "Type": "RES",
+        "Output Value for Type": "res",
+        "Subtype": "n/a",
+        "Output Value for Subtype": "unspecified",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "The results of a voting event.  This will cover general results as well as counted results."
+    },
+    {
+        "AnnotIndexID": "LDC_ent_129",
+        "Type": "RES",
+        "Output Value for Type": "res",
+        "Subtype": "NumberPercentageVotes",
+        "Output Value for Subtype": "numberpercentagevotes",
+        "Sub-subtype": "NumberPercentageVotes",
+        "Output Value for Sub-subtype": "numberpercentagevotes",
+        "Definition": "Results of a voting event expressed as a number or a percentage of the vote"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_130",
+        "Type": "RES",
+        "Output Value for Type": "res",
+        "Subtype": "TurnoutVoters",
+        "Output Value for Subtype": "turnoutvoters",
+        "Sub-subtype": "TurnoutVoters",
+        "Output Value for Sub-subtype": "turnoutvoters",
+        "Definition": "Results of a voting event expressed as voter turnout"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_131",
+        "Type": "SID",
+        "Output Value for Type": "sid",
+        "Subtype": "n/a",
+        "Output Value for Subtype": "unspecified",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "The different sides of a conflict, such as  philosophical, cultural, ideological, religious, political, guiding philosophical movement or group orientation.  This will encompass sides of the battle/conflict, sports fans when salient, and other such affiliations, in addition to religions, political parties, and other philosophies."
+    },
+    {
+        "AnnotIndexID": "LDC_ent_132",
+        "Type": "SID",
+        "Output Value for Type": "sid",
+        "Subtype": "Cultural",
+        "Output Value for Subtype": "cultural",
+        "Sub-subtype": "Cultural",
+        "Output Value for Sub-subtype": "cultural",
+        "Definition": "Cultural side"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_133",
+        "Type": "SID",
+        "Output Value for Type": "sid",
+        "Subtype": "Ideological",
+        "Output Value for Subtype": "ideological",
+        "Sub-subtype": "Ideological",
+        "Output Value for Sub-subtype": "ideological",
+        "Definition": "Ideological side"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_134",
+        "Type": "SID",
+        "Output Value for Type": "sid",
+        "Subtype": "Political",
+        "Output Value for Subtype": "political",
+        "Sub-subtype": "Opposition",
+        "Output Value for Sub-subtype": "opposition",
+        "Definition": "Side of the opposition"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_135",
+        "Type": "SID",
+        "Output Value for Type": "sid",
+        "Subtype": "Religious",
+        "Output Value for Subtype": "religious",
+        "Sub-subtype": "Religious",
+        "Output Value for Sub-subtype": "religious",
+        "Definition": "Religious side"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_136",
+        "Type": "SID",
+        "Output Value for Type": "sid",
+        "Subtype": "Sports",
+        "Output Value for Subtype": "sports",
+        "Sub-subtype": "Sports",
+        "Output Value for Sub-subtype": "sports",
+        "Definition": "Side of a sports team"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_137",
+        "Type": "TTL",
+        "Output Value for Type": "ttl",
+        "Subtype": "n/a",
+        "Output Value for Subtype": "unspecified",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "A person\u2019s title or job role"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_138",
+        "Type": "VAL",
+        "Output Value for Type": "val",
+        "Subtype": "n/a",
+        "Output Value for Subtype": "unspecified",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "A non-numerical value, an informational property such as color or make or URL"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_139",
+        "Type": "VAL",
+        "Output Value for Type": "val",
+        "Subtype": "Number",
+        "Output Value for Subtype": "number",
+        "Sub-subtype": "Number",
+        "Output Value for Sub-subtype": "number",
+        "Definition": "The the smallest string of words that includes both the number and the indicator (type of number -- %, percent, miles, kilometers, etc.) and also any additional quantifiers that might be present such as \u2018nearly\u2019, \u2018almost\u2019 and \u2018over\u2019. "
+    },
+    {
+        "AnnotIndexID": "LDC_ent_140",
+        "Type": "VEH",
+        "Output Value for Type": "veh",
+        "Subtype": "n/a",
+        "Output Value for Subtype": "unspecified",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "A physical device primarily designed to move an object from one location to another, by (for example) carrying, flying, pulling, or pushing the transported object. Vehicle entities may or may not have their own power source."
+    },
+    {
+        "AnnotIndexID": "LDC_ent_141",
+        "Type": "VEH",
+        "Output Value for Type": "veh",
+        "Subtype": "Aircraft",
+        "Output Value for Subtype": "aircraft",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "Aircraft, a vehicle that can fly"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_142",
+        "Type": "VEH",
+        "Output Value for Type": "veh",
+        "Subtype": "Aircraft",
+        "Output Value for Subtype": "aircraft",
+        "Sub-subtype": "Airplane",
+        "Output Value for Sub-subtype": "airplane",
+        "Definition": "An airplane"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_143",
+        "Type": "VEH",
+        "Output Value for Type": "veh",
+        "Subtype": "Aircraft",
+        "Output Value for Subtype": "aircraft",
+        "Sub-subtype": "CargoAircraft",
+        "Output Value for Sub-subtype": "cargoaircraft",
+        "Definition": "A cargo plane"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_191",
+        "Type": "VEH",
+        "Output Value for Type": "veh",
+        "Subtype": "Aircraft",
+        "Output Value for Subtype": "aircraft",
+        "Sub-subtype": "Drone",
+        "Output Value for Sub-subtype": "drone",
+        "Definition": "Drone, an unmanned aircraft guided by remote control or onboard computers"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_144",
+        "Type": "VEH",
+        "Output Value for Type": "veh",
+        "Subtype": "Aircraft",
+        "Output Value for Subtype": "aircraft",
+        "Sub-subtype": "Helicopter",
+        "Output Value for Sub-subtype": "helicopter",
+        "Definition": "A helicopter"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_145",
+        "Type": "VEH",
+        "Output Value for Type": "veh",
+        "Subtype": "MilitaryVehicle",
+        "Output Value for Subtype": "militaryvehicle",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "Military vehicle, non-aircraft"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_146",
+        "Type": "VEH",
+        "Output Value for Type": "veh",
+        "Subtype": "MilitaryVehicle",
+        "Output Value for Subtype": "militaryvehicle",
+        "Sub-subtype": "FighterAircraft",
+        "Output Value for Sub-subtype": "fighteraircraft",
+        "Definition": "Military fighter aircraft"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_147",
+        "Type": "VEH",
+        "Output Value for Type": "veh",
+        "Subtype": "MilitaryVehicle",
+        "Output Value for Subtype": "militaryvehicle",
+        "Sub-subtype": "MilitaryBoat",
+        "Output Value for Sub-subtype": "militaryboat",
+        "Definition": "Military water craft"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_148",
+        "Type": "VEH",
+        "Output Value for Type": "veh",
+        "Subtype": "MilitaryVehicle",
+        "Output Value for Subtype": "militaryvehicle",
+        "Sub-subtype": "MilitaryTransportAircraft",
+        "Output Value for Sub-subtype": "militarytransportaircraft",
+        "Definition": "Military transport airplane"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_149",
+        "Type": "VEH",
+        "Output Value for Type": "veh",
+        "Subtype": "MilitaryVehicle",
+        "Output Value for Subtype": "militaryvehicle",
+        "Sub-subtype": "Tank",
+        "Output Value for Sub-subtype": "tank",
+        "Definition": "Tank, armoured fighting vehicle"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_150",
+        "Type": "VEH",
+        "Output Value for Type": "veh",
+        "Subtype": "Rocket",
+        "Output Value for Subtype": "rocket",
+        "Sub-subtype": "Rocket",
+        "Output Value for Sub-subtype": "rocket",
+        "Definition": "A rocket, any vehicle self-propelled by a rocket engine"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_151",
+        "Type": "VEH",
+        "Output Value for Type": "veh",
+        "Subtype": "Watercraft",
+        "Output Value for Subtype": "watercraft",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "A water craft, a vehicle for use in the water"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_152",
+        "Type": "VEH",
+        "Output Value for Type": "veh",
+        "Subtype": "Watercraft",
+        "Output Value for Subtype": "watercraft",
+        "Sub-subtype": "Boat",
+        "Output Value for Sub-subtype": "boat",
+        "Definition": "A boat"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_153",
+        "Type": "VEH",
+        "Output Value for Type": "veh",
+        "Subtype": "Watercraft",
+        "Output Value for Subtype": "watercraft",
+        "Sub-subtype": "Yacht",
+        "Output Value for Sub-subtype": "yacht",
+        "Definition": "A yacht"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_154",
+        "Type": "VEH",
+        "Output Value for Type": "veh",
+        "Subtype": "WheeledVehicle",
+        "Output Value for Subtype": "wheeledvehicle",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "A wheeled vehicle, a vehicle that moves on wheels and usually has a container for transporting things or people"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_155",
+        "Type": "VEH",
+        "Output Value for Type": "veh",
+        "Subtype": "WheeledVehicle",
+        "Output Value for Subtype": "wheeledvehicle",
+        "Sub-subtype": "Bus",
+        "Output Value for Sub-subtype": "bus",
+        "Definition": "A bus, motorbus, or autobus"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_156",
+        "Type": "VEH",
+        "Output Value for Type": "veh",
+        "Subtype": "WheeledVehicle",
+        "Output Value for Subtype": "wheeledvehicle",
+        "Sub-subtype": "Car",
+        "Output Value for Sub-subtype": "car",
+        "Definition": "A car, a wheeled motor vehicle used for transportation"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_157",
+        "Type": "VEH",
+        "Output Value for Type": "veh",
+        "Subtype": "WheeledVehicle",
+        "Output Value for Subtype": "wheeledvehicle",
+        "Sub-subtype": "FireApparatus",
+        "Output Value for Sub-subtype": "fireapparatus",
+        "Definition": "Fire truck, fire engine, vehicle used for fire fighting"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_158",
+        "Type": "VEH",
+        "Output Value for Type": "veh",
+        "Subtype": "WheeledVehicle",
+        "Output Value for Subtype": "wheeledvehicle",
+        "Sub-subtype": "Train",
+        "Output Value for Sub-subtype": "train",
+        "Definition": "A train, for rail transport"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_159",
+        "Type": "VEH",
+        "Output Value for Type": "veh",
+        "Subtype": "WheeledVehicle",
+        "Output Value for Subtype": "wheeledvehicle",
+        "Sub-subtype": "Truck",
+        "Output Value for Sub-subtype": "truck",
+        "Definition": "A truck or lorry, a motor vehicle designed to transport cargo"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_160",
+        "Type": "WEA",
+        "Output Value for Type": "wea",
+        "Subtype": "n/a",
+        "Output Value for Subtype": "unspecified",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "A physical device that is primarily used as an instrument for physically harming or destroying entities"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_161",
+        "Type": "WEA",
+        "Output Value for Type": "wea",
+        "Subtype": "Bomb",
+        "Output Value for Subtype": "bomb",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "A bomb, an explosive weapon that uses the exothermic reaction of an explosive material to provide an extremely sudden and violent release of energy"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_162",
+        "Type": "WEA",
+        "Output Value for Type": "wea",
+        "Subtype": "Bomb",
+        "Output Value for Subtype": "bomb",
+        "Sub-subtype": "Grenade",
+        "Output Value for Sub-subtype": "grenade",
+        "Definition": "A grenade"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_163",
+        "Type": "WEA",
+        "Output Value for Type": "wea",
+        "Subtype": "Bomb",
+        "Output Value for Subtype": "bomb",
+        "Sub-subtype": "MolotovCocktail",
+        "Output Value for Sub-subtype": "molotovcocktail",
+        "Definition": "A molotov cocktail"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_164",
+        "Type": "WEA",
+        "Output Value for Type": "wea",
+        "Subtype": "Bullets",
+        "Output Value for Subtype": "bullets",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "Bullets"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_165",
+        "Type": "WEA",
+        "Output Value for Type": "wea",
+        "Subtype": "Bullets",
+        "Output Value for Subtype": "bullets",
+        "Sub-subtype": "Ammunition",
+        "Output Value for Sub-subtype": "ammunition",
+        "Definition": "Bullets which are ammunition"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_166",
+        "Type": "WEA",
+        "Output Value for Type": "wea",
+        "Subtype": "Bullets",
+        "Output Value for Subtype": "bullets",
+        "Sub-subtype": "LiveRounds",
+        "Output Value for Sub-subtype": "liverounds",
+        "Definition": "Bullets which are live rounds"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_167",
+        "Type": "WEA",
+        "Output Value for Type": "wea",
+        "Subtype": "Bullets",
+        "Output Value for Subtype": "bullets",
+        "Sub-subtype": "RubberBullets",
+        "Output Value for Sub-subtype": "rubberbullets",
+        "Definition": "Rubber bullets"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_168",
+        "Type": "WEA",
+        "Output Value for Type": "wea",
+        "Subtype": "Cannon",
+        "Output Value for Subtype": "cannon",
+        "Sub-subtype": "Cannon",
+        "Output Value for Sub-subtype": "cannon",
+        "Definition": "Cannon"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_169",
+        "Type": "WEA",
+        "Output Value for Type": "wea",
+        "Subtype": "Club",
+        "Output Value for Subtype": "club",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "A club-type object used as a weapon"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_170",
+        "Type": "WEA",
+        "Output Value for Type": "wea",
+        "Subtype": "Club",
+        "Output Value for Subtype": "club",
+        "Sub-subtype": "Bat",
+        "Output Value for Sub-subtype": "bat",
+        "Definition": "A bat"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_171",
+        "Type": "WEA",
+        "Output Value for Type": "wea",
+        "Subtype": "DaggerKnifeSword",
+        "Output Value for Subtype": "daggerknifesword",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "A dagger, knife, or sword used as a weapon"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_172",
+        "Type": "WEA",
+        "Output Value for Type": "wea",
+        "Subtype": "DaggerKnifeSword",
+        "Output Value for Subtype": "daggerknifesword",
+        "Sub-subtype": "Hatchet",
+        "Output Value for Sub-subtype": "hatchet",
+        "Definition": "A hatchet"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_173",
+        "Type": "WEA",
+        "Output Value for Type": "wea",
+        "Subtype": "Gas",
+        "Output Value for Subtype": "gas",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "Gas used as a weapon"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_174",
+        "Type": "WEA",
+        "Output Value for Type": "wea",
+        "Subtype": "Gas",
+        "Output Value for Subtype": "gas",
+        "Sub-subtype": "PoisonGas",
+        "Output Value for Sub-subtype": "poisongas",
+        "Definition": "Poison gas"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_175",
+        "Type": "WEA",
+        "Output Value for Type": "wea",
+        "Subtype": "Gas",
+        "Output Value for Subtype": "gas",
+        "Sub-subtype": "TearGas",
+        "Output Value for Sub-subtype": "teargas",
+        "Definition": "Tear gas"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_176",
+        "Type": "WEA",
+        "Output Value for Type": "wea",
+        "Subtype": "GrenadeLauncher",
+        "Output Value for Subtype": "grenadelauncher",
+        "Sub-subtype": "GrenadeLauncher",
+        "Output Value for Sub-subtype": "grenadelauncher",
+        "Definition": "A grenade launcher"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_177",
+        "Type": "WEA",
+        "Output Value for Type": "wea",
+        "Subtype": "Gun",
+        "Output Value for Subtype": "gun",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "A weapon that discharges a missile at high velocity (especially from a metal tube or barrel)"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_178",
+        "Type": "WEA",
+        "Output Value for Type": "wea",
+        "Subtype": "Gun",
+        "Output Value for Subtype": "gun",
+        "Sub-subtype": "Artillery",
+        "Output Value for Sub-subtype": "artillery",
+        "Definition": "Artillery, heavy military weapons built to fire munitions far beyond the range and power of infantry's small arms"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_179",
+        "Type": "WEA",
+        "Output Value for Type": "wea",
+        "Subtype": "Gun",
+        "Output Value for Subtype": "gun",
+        "Sub-subtype": "Firearm",
+        "Output Value for Sub-subtype": "firearm",
+        "Definition": "A firearm, a portable gun"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_180",
+        "Type": "WEA",
+        "Output Value for Type": "wea",
+        "Subtype": "MissileSystem",
+        "Output Value for Subtype": "missilesystem",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "A missile launching system, including all components"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_181",
+        "Type": "WEA",
+        "Output Value for Type": "wea",
+        "Subtype": "MissileSystem",
+        "Output Value for Subtype": "missilesystem",
+        "Sub-subtype": "AirToAirMissile",
+        "Output Value for Sub-subtype": "airtoairmissile",
+        "Definition": "An air to air missile"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_182",
+        "Type": "WEA",
+        "Output Value for Type": "wea",
+        "Subtype": "MissileSystem",
+        "Output Value for Subtype": "missilesystem",
+        "Sub-subtype": "AntiAircraftMissle",
+        "Output Value for Sub-subtype": "antiaircraftmissle",
+        "Definition": "An anti-aircraft missile"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_183",
+        "Type": "WEA",
+        "Output Value for Type": "wea",
+        "Subtype": "MissileSystem",
+        "Output Value for Subtype": "missilesystem",
+        "Sub-subtype": "MissileLauncher",
+        "Output Value for Sub-subtype": "missilelauncher",
+        "Definition": "A missile launcher"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_184",
+        "Type": "WEA",
+        "Output Value for Type": "wea",
+        "Subtype": "MissileSystem",
+        "Output Value for Subtype": "missilesystem",
+        "Sub-subtype": "Missile",
+        "Output Value for Sub-subtype": "missile",
+        "Definition": "A rocket carrying a warhead of conventional or nuclear explosives; may be ballistic or directed by remote control"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_185",
+        "Type": "WEA",
+        "Output Value for Type": "wea",
+        "Subtype": "MissileSystem",
+        "Output Value for Subtype": "missilesystem",
+        "Sub-subtype": "SurfaceToAirMissile",
+        "Output Value for Sub-subtype": "surfacetoairmissile",
+        "Definition": "A surface to air missile"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_186",
+        "Type": "WEA",
+        "Output Value for Type": "wea",
+        "Subtype": "ThrownProjectile",
+        "Output Value for Subtype": "thrownprojectile",
+        "Sub-subtype": "n/a",
+        "Output Value for Sub-subtype": "unspecified",
+        "Definition": "A thrown projectile used as a weapon"
+    },
+    {
+        "AnnotIndexID": "LDC_ent_187",
+        "Type": "WEA",
+        "Output Value for Type": "wea",
+        "Subtype": "ThrownProjectile",
+        "Output Value for Subtype": "thrownprojectile",
+        "Sub-subtype": "Rock",
+        "Output Value for Sub-subtype": "rock",
+        "Definition": "A rock used as a weapon"
+    }
+]

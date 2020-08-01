@@ -1,0 +1,1955 @@
+[
+    {
+        "label": "ArtifactExistence.ArtifactFailure",
+        "slots": {
+            "MechanicalArtifact": [
+                "com",
+                "veh",
+                "wea"
+            ],
+            "Instrument": [
+                "com",
+                "wea"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "ArtifactExistence.DamageDestroy",
+        "slots": {
+            "DamagerDestroyer": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Artifact": [
+                "bal",
+                "com",
+                "fac",
+                "loc",
+                "mon",
+                "veh",
+                "wea"
+            ],
+            "Instrument": [
+                "com",
+                "veh",
+                "wea"
+            ],
+            "Place": [
+                "fac",
+                "loc",
+                "gpe"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "ArtifactExistence.Shortage",
+        "slots": {
+            "Experiencer": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Supply": [
+                "bal",
+                "com",
+                "fac",
+                "mon",
+                "veh",
+                "wea"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Conflict.Attack",
+        "slots": {
+            "Attacker": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Target": [
+                "loc",
+                "gpe",
+                "fac",
+                "per",
+                "com",
+                "veh",
+                "wea",
+                "sid"
+            ],
+            "Instrument": [
+                "com",
+                "veh",
+                "wea"
+            ],
+            "Place": [
+                "fac",
+                "loc",
+                "gpe"
+            ]
+        },
+        "origin": "AIDA/KAIROS"
+    },
+    {
+        "label": "Conflict.Coup",
+        "slots": {
+            "DeposedEntity": [
+                "per",
+                "org"
+            ],
+            "DeposingEntity": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Conflict.Demonstrate",
+        "slots": {
+            "Demonstrator": [
+                "per",
+                "org",
+                "sid"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA/KAIROS"
+    },
+    {
+        "label": "Conflict.Yield",
+        "slots": {
+            "Yielder": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Recipient": [
+                "loc",
+                "gpe",
+                "fac",
+                "per",
+                "com",
+                "veh",
+                "wea",
+                "sid"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Contact.Collaborate",
+        "slots": {
+            "Participant": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Contact.CommandOrder",
+        "slots": {
+            "Communicator": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Recipient": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Contact.CommitmentPromiseExpressIntent",
+        "slots": {
+            "Communicator": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Recipient": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Contact.Discussion",
+        "slots": {
+            "Participant": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Contact.FuneralVigil",
+        "slots": {
+            "Participant": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Deceased": [
+                "per"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Contact.MediaStatement",
+        "slots": {
+            "Communicator": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Recipient": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Contact.Negotiate",
+        "slots": {
+            "Participant": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Contact.Prevarication",
+        "slots": {
+            "Communicator": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Recipient": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Contact.PublicStatementInPerson",
+        "slots": {
+            "Communicator": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Recipient": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Contact.RequestAdvise",
+        "slots": {
+            "Communicator": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Recipient": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Contact.ThreatenCoerce",
+        "slots": {
+            "Communicator": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Recipient": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Disaster.AccidentCrash",
+        "slots": {
+            "DriverPassenger": [
+                "per"
+            ],
+            "Vehicle": [
+                "veh"
+            ],
+            "CrashObject": [
+                "com",
+                "fac",
+                "loc",
+                "per",
+                "veh",
+                "wea"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Disaster.DiseaseOutbreak",
+        "slots": {
+            "Disease": [
+                "mhi"
+            ],
+            "Victim": [
+                "per",
+                "org",
+                "sid"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac",
+                "veh"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Disaster.FireExplosion",
+        "slots": {
+            "FireExplosionObject": [
+                "bal",
+                "veh",
+                "wea",
+                "fac",
+                "loc",
+                "com"
+            ],
+            "Instrument": [
+                "com",
+                "veh",
+                "wea",
+                "fac"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "GenericCrime.GenericCrime",
+        "slots": {
+            "Perpetrator": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Victim": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Government.Agreements",
+        "slots": {
+            "Participant": [
+                "gpe",
+                "sid"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Government.Convene",
+        "slots": {
+            "Convener": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "ConvenedThing": [
+                "org"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Government.Formation",
+        "slots": {
+            "GPE": [
+                "gpe"
+            ],
+            "Founder": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Government.Legislate",
+        "slots": {
+            "GovernmentBody": [
+                "org"
+            ],
+            "Law": [
+                "law"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Government.Spy",
+        "slots": {
+            "Spy": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "ObservedEntity": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Beneficiary": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Government.Vote",
+        "slots": {
+            "Voter": [
+                "per",
+                "sid"
+            ],
+            "Candidate": [
+                "law",
+                "per",
+                "sid"
+            ],
+            "Ballot": [
+                "bal"
+            ],
+            "Result": [
+                "res"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Inspection.SensoryObserve",
+        "slots": {
+            "Observer": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "ObservedEntity": [
+                "per",
+                "org",
+                "gpe",
+                "sid",
+                "com",
+                "veh",
+                "wea",
+                "fac",
+                "bal",
+                "mon",
+                "mhi"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA/KAIROS"
+    },
+    {
+        "label": "Inspection.TargetAimAt",
+        "slots": {
+            "Targeter": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Target": [
+                "bal",
+                "com",
+                "fac",
+                "gpe",
+                "loc",
+                "org",
+                "per",
+                "sid",
+                "veh",
+                "wea",
+                "mon"
+            ],
+            "Instrument": [
+                "wea",
+                "veh",
+                "com"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ],
+            "": [
+                ""
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Justice.ArrestJailDetain",
+        "slots": {
+            "Jailer": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Detainee": [
+                "per"
+            ],
+            "Crime": [
+                "event"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Justice.InitiateJudicialProcess",
+        "slots": {
+            "Prosecutor": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Defendant": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "JudgeCourt": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Crime": [
+                "event"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Justice.Investigate",
+        "slots": {
+            "Investigator": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Defendant": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA/KAIROS"
+    },
+    {
+        "label": "Justice.JudicialConsequences",
+        "slots": {
+            "JudgeCourt": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Defendant": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Crime": [
+                "event"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Life.Die",
+        "slots": {
+            "Victim": [
+                "per"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA/KAIROS"
+    },
+    {
+        "label": "Life.Injure",
+        "slots": {
+            "Victim": [
+                "per"
+            ],
+            "Injurer": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Manufacture.Artifact",
+        "slots": {
+            "Manufacturer": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Artifact": [
+                "com"
+            ],
+            "Instrument": [
+                "com",
+                "veh",
+                "wea",
+                "fac"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Medical.Intervention",
+        "slots": {
+            "Treater": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Patient": [
+                "per"
+            ],
+            "MedicalIssue": [
+                "mhi"
+            ],
+            "Instrument": [
+                "com"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Movement.TransportArtifact",
+        "slots": {
+            "Transporter": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Artifact": [
+                "bal",
+                "com",
+                "fac",
+                "loc",
+                "mon",
+                "veh",
+                "wea"
+            ],
+            "Vehicle": [
+                "veh"
+            ],
+            "Origin": [
+                "loc",
+                "gpe",
+                "fac"
+            ],
+            "Destination": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Movement.TransportPerson",
+        "slots": {
+            "Transporter": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Passenger": [
+                "per"
+            ],
+            "Vehicle": [
+                "veh"
+            ],
+            "Origin": [
+                "loc",
+                "gpe",
+                "fac"
+            ],
+            "Destination": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Personnel.Elect",
+        "slots": {
+            "Voter": [
+                "per",
+                "sid"
+            ],
+            "Candidate": [
+                "per"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Personnel.EndPosition",
+        "slots": {
+            "Employee": [
+                "per"
+            ],
+            "PlaceOfEmployment": [
+                "gpe",
+                "org"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Personnel.StartPosition",
+        "slots": {
+            "Employee": [
+                "per"
+            ],
+            "PlaceOfEmployment": [
+                "gpe",
+                "org"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Transaction.Transaction",
+        "slots": {
+            "Participant": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Beneficiary": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Transaction.TransferMoney",
+        "slots": {
+            "Giver": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Recipient": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Beneficiary": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Money": [
+                "mon"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Transaction.TransferOwnership",
+        "slots": {
+            "Giver": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Recipient": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Beneficiary": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Artifact": [
+                "bal",
+                "com",
+                "fac",
+                "veh",
+                "wea",
+                "org"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "AIDA"
+    },
+    {
+        "label": "Detonate, explode",
+        "slots": {
+            "SubjectAgent": [
+                "per"
+            ],
+            "Object": [
+                "wea",
+                "veh",
+                "fac",
+                "com"
+            ],
+            "MeansInstrument": [
+                "wea",
+                "com"
+            ],
+            "Place": [
+                "loc"
+            ]
+        },
+        "origin": "KAIROS"
+    },
+    {
+        "label": "defeat",
+        "slots": {
+            "Victor/Agent": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Defeated/Victim": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Conflict": [
+                "conflict event",
+                "election",
+                "event"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "KAIROS"
+    },
+    {
+        "label": "election",
+        "slots": {
+            "AgentVoter": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Theme/Candidate": [
+                "per"
+            ],
+            "Goal": [
+                "ttl"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "KAIROS"
+    },
+    {
+        "label": "Contact.Contact",
+        "slots": {
+            "Participant": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Topic": [
+                "event",
+                "entity",
+                "informationobject.topicfiller"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "KAIROS"
+    },
+    {
+        "label": "Contact.Meet",
+        "slots": {
+            "Participant": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Topic": [
+                "event",
+                "entity",
+                "informationobject.topicfiller"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "KAIROS"
+    },
+    {
+        "label": "Contact.Correspondence",
+        "slots": {
+            "Participant": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Topic": [
+                "event",
+                "informationobject.toipicfiller"
+            ],
+            "Instrument": [
+                "com"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "KAIROS"
+    },
+    {
+        "label": "Contact.Broadcast",
+        "slots": {
+            "Participant": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Topic": [
+                "event",
+                "entity",
+                "informationobject.topicfiller"
+            ],
+            "Instrument": [
+                "com"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "KAIROS"
+    },
+    {
+        "label": "Movement.Transportation",
+        "slots": {
+            "Source Place": [
+                "loc",
+                "fac",
+                "gpe"
+            ],
+            "Destination Place": [
+                "loc",
+                "fac",
+                "gpe"
+            ],
+            "Agent of Movement": [
+                "per"
+            ],
+            "Method of Movement/instrument": [
+                "veh (if present but not needed for walking, running, etc.)"
+            ],
+            "Thing(s) Moved": [
+                "any physical object"
+            ]
+        },
+        "origin": "KAIROS"
+    },
+    {
+        "label": "Movement.TransportationAllowedOvertLegal",
+        "slots": {
+            "Source Place": [
+                "loc",
+                "fac",
+                "gpe"
+            ],
+            "Destination Place": [
+                "loc",
+                "fac",
+                "gpe"
+            ],
+            "Agent of Movement": [
+                "per"
+            ],
+            "Method of Movement/Instrument": [
+                "veh (if present but not needed for walking, running, etc.)"
+            ],
+            "Thing(s) Moved": [
+                "any physical object"
+            ]
+        },
+        "origin": "KAIROS"
+    },
+    {
+        "label": "Movement.TransportationDisallowedCovertIllegal",
+        "slots": {
+            "Source Place": [
+                "loc",
+                "fac",
+                "gpe"
+            ],
+            "Destination Place": [
+                "loc",
+                "fac",
+                "gpe"
+            ],
+            "Agent of Movement": [
+                "per"
+            ],
+            "Method of Movement/Instrument": [
+                "veh (if present but not needed for walking, running, etc.)"
+            ],
+            "Thing(s) Moved": [
+                "any physical object"
+            ]
+        },
+        "origin": "KAIROS"
+    },
+    {
+        "label": "Movement.Transportation.Evacuation",
+        "slots": {
+            "Agent": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Patient": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Method of Movement/Instrument": [
+                "veh"
+            ],
+            "Origin": [
+                "loc",
+                "gpe",
+                "fac"
+            ],
+            "Destination": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "KAIROS"
+    },
+    {
+        "label": "PreventPassage",
+        "slots": {
+            "Granter/Agent": [
+                "person",
+                "organization",
+                "side"
+            ],
+            "PreventedEntity/Theme": [
+                "person",
+                "organization",
+                "side",
+                "com",
+                "wea",
+                "mon"
+            ],
+            "Passageway": [
+                "fac",
+                "loc",
+                "gpe"
+            ],
+            "Means/Instrument": [
+                "veh",
+                "per",
+                "com",
+                "fac"
+            ]
+        },
+        "origin": "KAIROS"
+    },
+    {
+        "label": "Grant/AllowPassage",
+        "slots": {
+            "Grantor/Agent": [
+                "person",
+                "organization",
+                "side"
+            ],
+            "Theme": [
+                "person",
+                "organization",
+                "side",
+                "com",
+                "wea",
+                "mon"
+            ],
+            "Passageway": [
+                "fac",
+                "loc",
+                "gpe"
+            ],
+            "Means/Instrument": [
+                "veh",
+                "per",
+                "com",
+                "fac"
+            ]
+        },
+        "origin": "KAIROS"
+    },
+    {
+        "label": "Transaction.Exchange",
+        "slots": {
+            "GiverOrGranterOrSource": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "AcquirerOrRecipient": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "AcquiredEntity": [
+                "bal",
+                "com",
+                "gpe",
+                "fac",
+                "loc",
+                "mon",
+                "org",
+                "veh",
+                "wea"
+            ],
+            "ProvidedEntity/Money": [
+                "mon",
+                "bal",
+                "com",
+                "gpe",
+                "fac",
+                "loc",
+                "mon",
+                "org",
+                "veh",
+                "wea"
+            ],
+            "Beneficiary": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "KAIROS"
+    },
+    {
+        "label": "Aid",
+        "slots": {
+            "Agent": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Recipient": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Beneficiary": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Resource": [
+                "mon",
+                "com",
+                "bal",
+                "fac",
+                "veh",
+                "wea",
+                "org"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "KAIROS"
+    },
+    {
+        "label": "Donation",
+        "slots": {
+            "Donor": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Recipient": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Beneficiary": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Item": [
+                "mon",
+                "com",
+                "bal",
+                "fac",
+                "veh",
+                "wea",
+                "org"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "KAIROS"
+    },
+    {
+        "label": "Assemble",
+        "slots": {
+            "Place": [
+                "loc",
+                "fac",
+                "gpe"
+            ],
+            "Agent": [
+                "per"
+            ],
+            "CreatedEntity/Result": [
+                "mon",
+                "bal",
+                "com",
+                "veh",
+                "wea",
+                "fac"
+            ],
+            "Components": [
+                "per",
+                "bal",
+                "com",
+                "veh",
+                "wea",
+                "fac",
+                "mon"
+            ],
+            "Instrument": [
+                "com as a placeholder"
+            ]
+        },
+        "origin": "KAIROS"
+    },
+    {
+        "label": "ArtifactExistence.DamageDestroyDisableDismantle",
+        "slots": {
+            "Agent": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "TargetPatient": [
+                "bal",
+                "com",
+                "fac",
+                "loc",
+                "mon",
+                "veh",
+                "wea"
+            ],
+            "MeansInstrument": [
+                "com",
+                "veh",
+                "wea"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "KAIROS"
+    },
+    {
+        "label": "ArtifactExistence.Damage",
+        "slots": {
+            "Agent": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "TargetPatient": [
+                "bal",
+                "com",
+                "fac",
+                "loc",
+                "mon",
+                "veh",
+                "wea"
+            ],
+            "MeansInstrument": [
+                "com",
+                "veh",
+                "wea"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "KAIROS"
+    },
+    {
+        "label": "Destroy",
+        "slots": {
+            "Agent": [
+                "person",
+                "organization",
+                "side"
+            ],
+            "TargetPatient": [
+                "per",
+                "org",
+                "com",
+                "natural resource"
+            ],
+            "MeansInstrument": [
+                "weapon",
+                "commodity"
+            ]
+        },
+        "origin": "KAIROS"
+    },
+    {
+        "label": "Disable",
+        "slots": {
+            "Agent": [
+                "org (law enforcement)",
+                "per"
+            ],
+            "TargetPatient": [
+                "com",
+                "veh",
+                "wea",
+                "fac",
+                "org"
+            ],
+            "Means": [
+                "com"
+            ]
+        },
+        "origin": "KAIROS"
+    },
+    {
+        "label": "Dismantle",
+        "slots": {
+            "Agent": [
+                "per",
+                "org",
+                "sid"
+            ],
+            "TargetPatient": [
+                "wea",
+                "veh",
+                "fac",
+                "com"
+            ],
+            "MeansInstrument": [
+                "com"
+            ],
+            "Components": [
+                "com"
+            ]
+        },
+        "origin": "KAIROS"
+    },
+    {
+        "label": "Consume/take into the body",
+        "slots": {
+            "Agent": [
+                "per",
+                "animals"
+            ],
+            "Consumed thing": [
+                "com (includes appropriate consumables but also poisons toxins etc."
+            ]
+        },
+        "origin": "KAIROS"
+    },
+    {
+        "label": "Infect",
+        "slots": {
+            "Victim": [
+                "per",
+                "animal",
+                "plant"
+            ],
+            "Infecting agent": [
+                "infecting agents (ex., pathogen, disease, virus)"
+            ],
+            "Source": [
+                "com",
+                "loc"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "KAIROS"
+    },
+    {
+        "label": "Medicine.Diagnosis",
+        "slots": {
+            "MedicalProfessional": [
+                "per"
+            ],
+            "Patient": [
+                "per"
+            ],
+            "Symptom Sign": [
+                "MedicalHealthIssue"
+            ],
+            "MedicalCondition": [
+                "MedicalHealthIssue"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "KAIROS"
+    },
+    {
+        "label": "Medicine.MedicalIntervention",
+        "slots": {
+            "MedicalProfessional": [
+                "per"
+            ],
+            "Patient": [
+                "per"
+            ],
+            "Instrument": [
+                "com"
+            ],
+            "MedicalCondition": [
+                "MedicalHealthIssue"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "KAIROS"
+    },
+    {
+        "label": "Vaccinate",
+        "slots": {
+            "Agent": [
+                "per",
+                "org",
+                "gpe"
+            ],
+            "Patient": [
+                "per"
+            ],
+            "PathwayInstrument": [
+                "com [covers needles, sugar cubes, needles pills, nasal spray]"
+            ],
+            "Target": [
+                "MedicalHealthIssue"
+            ]
+        },
+        "origin": "KAIROS"
+    },
+    {
+        "label": "Justice.TrialHearing",
+        "slots": {
+            "AgentProsecutor": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Defendant": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "JudgeCourt": [
+                "per",
+                "org"
+            ],
+            "Crime": [
+                "event",
+                "genericcrime"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "KAIROS"
+    },
+    {
+        "label": "Justice.Sentence",
+        "slots": {
+            "AgentProsecutorJudge": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Defendant": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Crime": [
+                "event",
+                "genericcrime"
+            ],
+            "Sentence": [
+                "sen (string extent) defendant\u2019s punishment (particularly incarceration)"
+            ],
+            "Place": [
+                "loc",
+                "gpe",
+                "fac"
+            ]
+        },
+        "origin": "KAIROS"
+    },
+    {
+        "label": "Acquit",
+        "slots": {
+            "Agent/Court": [
+                "per (judge)",
+                "org (judicial, gov)"
+            ],
+            "Recipient/Defendant": [
+                "per",
+                "org"
+            ],
+            "Cause/Crime": [
+                "event",
+                "genericcrime"
+            ]
+        },
+        "origin": "KAIROS"
+    },
+    {
+        "label": "Indict/Charge",
+        "slots": {
+            "Agent": [
+                "per (judge)",
+                "org (Law enforcement, gov)"
+            ],
+            "Recipient": [
+                "per",
+                "org"
+            ],
+            "Cause/Crime": [
+                "event",
+                "genericcrime"
+            ]
+        },
+        "origin": "KAIROS"
+    },
+    {
+        "label": "Convict",
+        "slots": {
+            "Agent": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Recipient": [
+                "per",
+                "org",
+                "gpe",
+                "sid"
+            ],
+            "Cause/Crime": [
+                "event",
+                "genericcrime"
+            ]
+        },
+        "origin": "KAIROS"
+    },
+    {
+        "label": "Identify",
+        "slots": {
+            "Agent": [
+                "per",
+                "org"
+            ],
+            "Object": [
+                "per",
+                "org",
+                "com",
+                "event"
+            ],
+            "Goal": [
+                "per",
+                "org",
+                "com",
+                "event"
+            ]
+        },
+        "origin": "KAIROS"
+    }
+]
