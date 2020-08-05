@@ -1,0 +1,30 @@
+Transport:    <Agent> transported <Artifact> in <Vehicle> from <Origin> place to <Destination> place for <Price> on <Time>
+ChargeIndict:    <Prosecutor> charged or indicted <Defendant> before <Adjudicator> court or judge for <Crime> crime in <Place> place on <Time>
+ReleaseParole:    <Adjudicator> court or judge released or paroled <Person> from <Crime> crime in <Place> place on <Time>
+TransferMoney:    <Giver> gave <Money> money to <Recipient> for the benefit of <Beneficiary> at <Place> place on <Time>
+Meet:    <Entity> meet with <Entity> in <Place> on <Time>
+StartOrg:    <Agent> started <Org> organization in <Place> on <Time>
+Convict:    <Adjudicator> court or judge convicted <Defendant> of <Crime> crime in <Place> place on <Time>
+BeBorn:    <Person> was born in <Place> on <Time>
+Sue:    <Plaintiff> filed suit against <Defendant> before <Adjudicator> court or judge for <Crime> crime in <Place> place on <Time>
+Marry:    <Person> married in <Place> on <Time>
+Appeal:    <Prosecutor> appealed <Defendant> before <Adjudicator> court or judge for <Crime> crime in <Place> place on <Time>
+ArrestJail:    <Person> arrested or jailed by <Agent> for <Crime> crime at <Place> place on <Time>
+Acquit:    <Adjudicator> court or judge acquitted <Defendant> of <Crime> crime in <Place> place on <Time>
+StartPosition:    <Person> started working at <Entity> to be <Position> in <Place> place on <Time>
+Die:    <Victim> died at <Place> place killed by <Agent> using <Instrument> on <Time>
+Fine:    <Entity> was ordered by <Adjudicator> to pay a fine <Money> for <Crime> crime in <Place> place on <Time>
+Injure:    <Victim> was injured by <Agent> using <Instrument> at <Place> place on <Time>
+Sentence:    <Adjudicator> court or judge sentenced <Defendant> for <Crime> crime to <Sentence> sentence in <Place> place on <Time>
+Elect:    <Entity> elected <Person> to be <Position> in <Place> place on <Time>
+Demonstrate:    <Entity> was in a demonstration at <Place> place on <Time>
+Extradite:    <Agent> extradited <Person> for <Crime> crime from <Origin> place to <Destination> place on <Time>
+TrialHearing:    <Prosecutor> tried <Defendant> before <Adjudicator> court or judge for <Crime> crime in <Place> place on <Time>
+Pardon:    <Adjudicator> pardoned <Defendant> for <Crime> crime in <Place> place on <Time>
+EndPosition:    <Person> stopped working at <Entity> to be <Position> in <Place> place on <Time>
+PhoneWrite:    <Entity> communicated with <Entity> on <Time>
+Attack:    <Attacker> attacked <Target> using <Instrument> at <Place> place on <Time>
+Nominate:    <Person> was nominated by <Agent> to be <Position> in <Place> on <Time>
+TransferOwnership:    <Seller> gave <Artifact> to <Buyer> for the benefit of <Beneficiary> for <Price> price at <Place> place on <Time>
+Divorce:    <Person> divorced in <Place> on <Time>
+Execute:    <Agent> executed <Person> for <Crime> crime in <Place> place on <Time>
