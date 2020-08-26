@@ -104,7 +104,7 @@ input_ids_train,attention_masks_train,role_type_ids_train,entity_type_ids_train,
 
 input_ids_dev,attention_masks_dev,role_type_ids_dev,entity_type_ids_dev,labels_dev =prepare_input_withIBO('ACE05_events_three_level_dev_with_sent_id.json',event_type_dict,entity_type_dict,role_type_dict,tokenizer,tokenizer_max_len)
 
-quit()
+
 """split train and val dataset"""
 from torch.utils.data import TensorDataset, random_split
 
