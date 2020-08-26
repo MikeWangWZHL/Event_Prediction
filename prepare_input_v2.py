@@ -4,16 +4,20 @@ import json
 import re
 import collections
 
+# v2: with [PAD][SEP]... assigned special embedding in role and entity level
+
 # "EVENT_SUBTYPE": "Injure",
 # "INSTANCE_LEVEL": "<jessica lynch> was injured by <Agent> using <Instrument> at <Place> place on <NaN>",
 # "ROLE_TYPE_LEVEL": "<Victim> was injured by <Agent> using <Instrument> at <Place> place on <Time>",
 # "ENTITY_TYPE_LEVEL": "<PER> was injured by <Agent> using <Instrument> at <Place> place on <Time>"
-event_type_dict = {'Divorce': 0, 'EndPosition': 1, 'Acquit': 2, 'Meet': 3, 'Die': 4, 'Extradite': 5, 'Sue': 6, 'Elect': 7, 'Convict': 8, 'TransferOwnership': 9, 'Marry': 10, 'Attack': 11, 'StartPosition': 12, 'ArrestJail': 13, 'ReleaseParole': 14, 'Nominate': 15, 'Transport': 16, 'Fine': 17, 'Sentence': 18, 'TrialHearing': 19, 'BeBorn': 20, 'Pardon': 21, 'Demonstrate': 22, 'Execute': 23, 'StartOrg': 24, 'PhoneWrite': 25, 'Appeal': 26, 'Injure': 27, 'ChargeIndict': 28, 'TransferMoney': 29, 'Null':30}
+event_type_dict = {'Divorce': 0, 'EndPosition': 1, 'Acquit': 2, 'Meet': 3, 'Die': 4, 'Extradite': 5, 'Sue': 6, 'Elect': 7, 'Convict': 8, 'TransferOwnership': 9, 'Marry': 10, 'Attack': 11, 'StartPosition': 12, 'ArrestJail': 13, 'ReleaseParole': 14, 'Nominate': 15, 'Transport': 16, 'Fine': 17, 'Sentence': 18, 'TrialHearing': 19, 'BeBorn': 20, 'Pardon': 21, 'Demonstrate': 22, 'Execute': 23, 'StartOrg': 24, 'PhoneWrite': 25, 'Appeal': 26, 'Injure': 27, 'ChargeIndict': 28, 'TransferMoney': 29, 'EndOrg':30, 'DeclareBankruptcy':31, 'MergeOrg':32,'Null':33}
 
 entity_type_dict = {'ORG': 0, 'LOC': 1, 'VEH': 2, 'WEA': 3, 'GPE': 4, 'FAC': 5, 'PER': 6, 'CLS':7, 'SEP':8, 'PAD':9, 'UNK':10}
+
 for e in entity_type_dict.keys():
     entity_type_dict[e] += 1
 role_type_dict = {'Target': 0, 'Plaintiff': 1, 'Person': 2, 'Seller': 3, 'Time': 4, 'Recipient': 5, 'Instrument': 6, 'Artifact': 7, 'Adjudicator': 8, 'Prosecutor': 9, 'Agent': 10, 'Beneficiary': 11, 'Attacker': 12, 'Victim': 13, 'Money': 14, 'Buyer': 15, 'Docid': 16, 'Crime': 17, 'Giver': 18, 'Sentence': 19, 'Org': 20, 'Defendant': 21, 'Position': 22, 'Vehicle': 23, 'Destination': 24, 'Origin': 25, 'Place': 26, 'Entity': 27, 'Price':28, 'CLS':29, 'SEP':30, 'PAD':31} 
+
 for r in role_type_dict.keys():
     role_type_dict[r] += 1
 entity_type_dict['OTHER'] = 0
@@ -24,13 +28,14 @@ idx_to_role = {value:key for key,value in role_type_dict.items()}
 idx_to_entity = {value:key for key,value in entity_type_dict.items()}
 
 
+
 def parse_util(s):
     res = re.findall(r'\<.*?\>', s) 
     for i in range(len(res)):
         res[i] = res[i].replace('<','').replace('>','')
     return res
 
-def prepare_input(tempfile,event_type_dict,entity_type_dict,role_type_dict,tokenizer):
+def prepare_input_emma(tempfile,event_type_dict,entity_type_dict,role_type_dict,tokenizer,maxl):
 
     with open(tempfile) as f:
         temps = json.load(f)
@@ -40,8 +45,8 @@ def prepare_input(tempfile,event_type_dict,entity_type_dict,role_type_dict,token
     labelset = []
     
     #test:
-    test_dict = {}
-    test_event = 'EndPosition'
+    # test_dict = {}
+    # test_event = 'EndPosition'
 
     # print(tokenizer.convert_ids_to_tokens(100))
     for key, entity in temps.items():
@@ -84,12 +89,12 @@ def prepare_input(tempfile,event_type_dict,entity_type_dict,role_type_dict,token
                 first_sentence_instance = first_sentence_instance.replace('<','').replace('>','').strip()
 
                 #test
-                if entity[str(i)]['EVENT_SUBTYPE'] == test_event:
-                    label_type = idx_to_event[label]
-                    if label_type in test_dict:
-                        test_dict[label_type]+=1
-                    else:
-                        test_dict[label_type]=1
+                # if entity[str(i)]['EVENT_SUBTYPE'] == test_event:
+                #     label_type = idx_to_event[label]
+                #     if label_type in test_dict:
+                #         test_dict[label_type]+=1
+                #     else:
+                #         test_dict[label_type]=1
                 #end test
                 slots_index = []
                 start_index = 0
@@ -106,7 +111,7 @@ def prepare_input(tempfile,event_type_dict,entity_type_dict,role_type_dict,token
                     # print(ins,tokenized_ins_part)
                     instance_token_nums.append(len(tokenized_ins_part))
                     to_be_replce_ids.append([t for t in tokenized_ins_part.numpy()])               
-                tokenized = tokenizer(first_sentence_instance,return_tensors='pt',max_length = 64 ,padding= 'max_length')
+                tokenized = tokenizer(first_sentence_instance,return_tensors='pt',max_length = maxl ,padding= 'max_length')
                 input_ids = tokenized['input_ids'][0]
                 attention_masks = tokenized['attention_mask'][0]
                 # print('input sentence tokens:', input_ids)
@@ -190,16 +195,16 @@ def prepare_input(tempfile,event_type_dict,entity_type_dict,role_type_dict,token
     # print(final_labels)
     # quit()
 
-    ordered = collections.Counter(test_dict).most_common()
-    print(test_event,':',ordered)
+    # ordered = collections.Counter(test_dict).most_common()
+    # print(test_event,':',ordered)
     # quit()
+    print('Human data as validation:\n')
+    for eg in range(1):
 
-    for eg in range(5):
-
-        print('=============input token_id example:================')
+        print('=============validation input token_id example:================')
         print(dataset[eg])
 
-        print('=============label token_id example:================')
+        print('=============validation label token_id example:================')
         print(labelset[eg])
 
 
