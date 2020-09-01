@@ -11,7 +11,7 @@ from torch import nn
 
 # from gen_event_entity_dict import gen_event_entity_role_dict
 # from prepare_input_ACE05 import prepare_input
-from prepare_input_ACE05_with_sent_id import prepare_input, prepare_input_withIBO
+from prepare_input_ACE05_with_sent_id import prepare_input, prepare_input_withIBO_two_pair, prepare_input_withIBO_multi_pair
 from prepare_input_v2 import prepare_input_emma
 
 
@@ -91,7 +91,7 @@ print(role_type_dict)
 """set up tokenizer"""
 tokenizer = BertTokenizer.from_pretrained('bert-base-cased')
 # tokenizer = BertTokenizer.from_pretrained('bert-large-cased-whole-word-masking')
-tokenizer_max_len = 200
+tokenizer_max_len = 512
 
 """import data"""
 
@@ -100,30 +100,42 @@ tokenizer_max_len = 200
 # input_ids_dev,attention_masks_dev,role_type_ids_dev,entity_type_ids_dev,labels_dev = prepare_input_emma('test_temp_three_level.json',event_type_dict,entity_type_dict,role_type_dict,tokenizer,tokenizer_max_len)
 # input_ids_dev,attention_masks_dev,role_type_ids_dev,entity_type_ids_dev,labels_dev = prepare_input('ACE05_events_three_level_dev_with_sent_id.json',event_type_dict,entity_type_dict,role_type_dict,tokenizer,tokenizer_max_len)
 
-input_ids_train,attention_masks_train,role_type_ids_train,entity_type_ids_train,labels_train = prepare_input_withIBO('ACE05_events_three_level_train_with_sent_id.json',event_type_dict,entity_type_dict,role_type_dict,tokenizer,tokenizer_max_len)
+input_ids,attention_masks,role_type_ids,entity_type_ids,labels = prepare_input_withIBO_multi_pair(event_type_dict,entity_type_dict,role_type_dict,tokenizer,tokenizer_max_len)
 
-input_ids_dev,attention_masks_dev,role_type_ids_dev,entity_type_ids_dev,labels_dev =prepare_input_withIBO('ACE05_events_three_level_dev_with_sent_id.json',event_type_dict,entity_type_dict,role_type_dict,tokenizer,tokenizer_max_len)
-
-
-"""split train and val dataset"""
+# input_ids_dev,attention_masks_dev,role_type_ids_dev,entity_type_ids_dev,labels_dev =prepare_input_withIBO_multi_pair('ACE05_events_three_level_dev_with_sent_id.json',event_type_dict,entity_type_dict,role_type_dict,tokenizer,tokenizer_max_len)
 from torch.utils.data import TensorDataset, random_split
 
 # Combine the training inputs into a TensorDataset.
-dataset_train = TensorDataset(input_ids_train, attention_masks_train,role_type_ids_train,entity_type_ids_train, labels_train)
-dataset_dev = TensorDataset(input_ids_dev, attention_masks_dev,role_type_ids_dev,entity_type_ids_dev, labels_dev)
+dataset = TensorDataset(input_ids, attention_masks,role_type_ids,entity_type_ids, labels)
 
 # Create a 90-10 train-validation split.
 
 # Calculate the number of samples to include in each set.
-train_size = len(dataset_train)
-val_size = len(dataset_dev)
+train_size = int(0.9 * len(dataset))
+val_size = len(dataset) - train_size
+## train dev separate version
+    # # """split train and val dataset"""
+    # # from torch.utils.data import TensorDataset, random_split
+
+    # # # Combine the training inputs into a TensorDataset.
+    # # dataset_train = TensorDataset(input_ids_train, attention_masks_train,role_type_ids_train,entity_type_ids_train, labels_train)
+    # # dataset_dev = TensorDataset(input_ids_dev, attention_masks_dev,role_type_ids_dev,entity_type_ids_dev, labels_dev)
+
+    # # Create a 90-10 train-validation split.
+
+    # # Calculate the number of samples to include in each set.
+    # train_size = len(dataset_train)
+    # val_size = len(dataset_dev)
+
+
 # Divide the dataset by randomly selecting samples.
-# train_dataset, val_dataset = random_split(dataset, [train_size, val_size])
-train_dataset = dataset_train
-val_dataset = dataset_dev
+train_dataset, val_dataset = random_split(dataset, [train_size, val_size])
+# train_dataset = dataset_train
+# val_dataset = dataset_dev
 print('{:>5,} training samples'.format(train_size))
 print('{:>5,} validation samples'.format(val_size))
 
+quit()
 
 """prepare dataloader"""
 from torch.utils.data import DataLoader, RandomSampler, SequentialSampler
@@ -271,6 +283,10 @@ for epoch_i in range(0, epochs):
     # For each batch of training data...
     for step, batch in enumerate(train_dataloader):
         
+        #TODO: trim input!
+
+
+
         # Progress update every 40 batches.
         if step % 20 == 0 and not step == 0:
             # Calculate elapsed time in minutes.
