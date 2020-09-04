@@ -17,17 +17,6 @@ from prepare_input_v2 import prepare_input_emma
 
 
 
-# def trim_batch(
-#     input_ids, pad_token_id, attention_mask=None,
-# ):
-#     """Remove columns that are populated exclusively by pad_token_id"""
-#     keep_column_mask = input_ids.ne(pad_token_id).any(dim=0)
-#     if attention_mask is None:
-#         return input_ids[:, keep_column_mask]
-#     else:
-#         return (input_ids[:, keep_column_mask], attention_mask[:, keep_column_mask])
-
-
 if torch.cuda.is_available():  
   dev = "cuda:2" 
 else:  
@@ -135,7 +124,7 @@ train_dataset, val_dataset = random_split(dataset, [train_size, val_size])
 print('{:>5,} training samples'.format(train_size))
 print('{:>5,} validation samples'.format(val_size))
 
-quit()
+
 
 """prepare dataloader"""
 from torch.utils.data import DataLoader, RandomSampler, SequentialSampler
@@ -175,7 +164,7 @@ pretrain_config['add_cross_attention'] = False
 pretrain_config['use_return_dict'] = True
 pretrain_config['output_hidden_states'] = True
 pretrain_config['num_labels'] = len(event_type_dict)
-print(len(event_type_dict))
+print('event_type_dict length:',len(event_type_dict))
 
 
 configuration = BertConfig.from_dict(pretrain_config)
@@ -183,7 +172,8 @@ configuration.update(pretrain_config)
 
 # print(configuration)
 # quit()
-model = BertForSequenceClassification.from_pretrained('bert-base-cased',config=configuration)
+# model = BertForSequenceClassification.from_pretrained('bert-base-cased',config=configuration)
+model = BertForSequenceClassification.from_pretrained('./model_save_ACE05_doc_time_order_pretrain_batch16',config = configuration)
 # model = BertForSequenceClassification.from_pretrained('bert-large-cased-whole-word-masking',config=configuration)
 
 optimizer = AdamW(model.parameters(), lr=1e-5)
@@ -221,6 +211,18 @@ def format_time(elapsed):
     
     # Format as hh:mm:ss
     return str(datetime.timedelta(seconds=elapsed_rounded))
+
+
+
+def trim_batch(input_ids, pad_token_id, role_type_ids, entity_type_ids, labels, attention_mask=None):
+    """Remove columns that are populated exclusively by pad_token_id"""
+    keep_column_mask = input_ids.ne(pad_token_id).any(dim=0)
+    if attention_mask is None:
+        return (input_ids[:, keep_column_mask], None,  role_type_ids[:, keep_column_mask], entity_type_ids[:, keep_column_mask], labels)
+    else:
+        return (input_ids[:, keep_column_mask], attention_mask[:, keep_column_mask],  role_type_ids[:, keep_column_mask], entity_type_ids[:, keep_column_mask], labels)
+
+
 
 
 """training step"""
@@ -284,9 +286,15 @@ for epoch_i in range(0, epochs):
     for step, batch in enumerate(train_dataloader):
         
         #TODO: trim input!
-
-
-
+        # trim_batch(input_ids, pad_token_id, role_type_ids, entity_type_ids, labels, attention_mask=None):
+        # if step % 5 == 0:
+        #     print('before trim')
+        #     print('input size before:',len(batch[0][0]))
+        batch = trim_batch(batch[0],tokenizer.pad_token_id,batch[2],batch[3],batch[4],batch[1])
+        # if step % 5 == 0:
+        #     print('after trim')
+        #     print('input size after:',len(batch[0][0]))
+        #     print('')
         # Progress update every 40 batches.
         if step % 20 == 0 and not step == 0:
             # Calculate elapsed time in minutes.
@@ -303,8 +311,12 @@ for epoch_i in range(0, epochs):
         # `batch` contains three pytorch tensors:
         #   [0]: input ids 
         #   [1]: attention masks
-        #   [2]: labels 
-        # quit()
+        #   [2]: role types
+        #   [3]: entity types 
+        #   [4]: labels
+        
+        
+
         b_input_ids = batch[0].to(device)
         b_input_mask = batch[1].to(device)
         b_role_type_ids = batch[2].to(device)
@@ -386,6 +398,8 @@ for epoch_i in range(0, epochs):
     # Evaluate data for one epoch
     for batch in validation_dataloader:
         
+        batch = trim_batch(batch[0],tokenizer.pad_token_id,batch[2],batch[3],batch[4],batch[1])
+
         # Unpack this training batch from our dataloader. 
         #
         # As we unpack the batch, we'll also copy each tensor to the GPU using 
@@ -471,7 +485,7 @@ import os
 
 # Saving best-practices: if you use defaults names for the model, you can reload it using from_pretrained()
 
-output_dir = './model_save_ACE05_time_order_as_validation_4epoch_batch16/'
+output_dir = './model_save_ACE05_Haoyang_4tuple_finetune_on_doctimeorder_16batch/'
 
 # Create output directory if needed
 if not os.path.exists(output_dir):

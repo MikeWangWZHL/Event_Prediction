@@ -4,7 +4,7 @@ import json
 import re
 import collections
 from operator import itemgetter
-from construct_input_from_4tuple_data import construct_input_pair
+from construct_input_from_4tuple_data import construct_input_pair, construct_input_pair_individual
 
 
 
@@ -631,6 +631,182 @@ def prepare_input_withIBO_multi_pair(event_type_dict,entity_type_dict,role_type_
         
         add_train_label_pair(dataset,labelset,first_sentence_instance,first_sentence_role,first_sentence_entity,label)
         print_count += 1
+
+    final_input_ids = []
+    final_attention_masks = []
+    final_role_type_ids = []
+    final_entity_type_ids = []
+
+    for tuples in dataset:  
+        final_input_ids.append(tuples[0])              
+        final_attention_masks.append(tuples[1])              
+        final_role_type_ids.append(tuples[2])              
+        final_entity_type_ids.append(tuples[3])  
+                
+    # output as a list of inputs and labels
+    final_input_ids = torch.stack(final_input_ids)
+    final_attention_masks = torch.stack(final_attention_masks)
+    final_role_type_ids = torch.stack(final_role_type_ids)
+    final_entity_type_ids = torch.stack(final_entity_type_ids)
+    final_labels = torch.stack(labelset)
+
+    return final_input_ids,final_attention_masks,final_role_type_ids,final_entity_type_ids,final_labels
+
+def prepare_input_withIBO_multi_pair_individual(item,event_type_dict,entity_type_dict,role_type_dict,tokenizer,maxl):
+
+    # get dataset
+    # construct input pair    
+    item = construct_input_pair_individual(item,tokenizer)
+    dataset = []
+    labelset = []
+
+    print_count = 0
+    print_count_max = 1
+
+    # I think the bset way to do multiple events as input is modify this part: instead of using only one sentence, 
+    # we can pre-concatenate two or three sentences using {tokenizer.sep_token} in between,and treat it as a whole sentence,
+    # then the following code can work the same, we may need to change the outer loop structure  
+    
+    first_sentence_instance = item['first_sentence_instance']
+    first_sentence_role = item['first_sentence_role']
+    first_sentence_entity = item['first_sentence_entity']
+
+    # get the prediction training label (next event's type)
+    if item['label'].strip() not in event_type_dict:
+        label = event_type_dict['Null']
+    else:
+        label = event_type_dict[item['label'].strip()]
+
+    def add_train_label_pair(dataset,labelset,first_sentence_instance,first_sentence_role,first_sentence_entity,label):
+        # if print_count < print_count_max:
+        print('first_sentence_instance:\n\t',first_sentence_instance,'\n')
+        print('first_sentence_role:\n\t',first_sentence_role,'\n')
+        print('first_sentence_entity:\n\t',first_sentence_entity,'\n')
+        # extract all role_types and entity_types
+        instances = parse_util(first_sentence_instance)
+        role_types = parse_util(first_sentence_role)
+        entity_types = parse_util(first_sentence_entity)
+
+        # construct role_type_ids and entity_type_ids for replacement
+        role_types_ids = [(role_type_dict['B-'+r],role_type_dict['I-'+r]) for r in role_types]
+        entity_types_ids = []
+        for j in entity_types:
+            jj = 'B-'+j
+            if jj not in entity_type_dict:
+                entity_types_ids.append((entity_type_dict['B-'+'UNK'],entity_type_dict['I-'+'UNK'])) # if this slot is not filled with a certain entity, thus has noe entity type level infomation
+            else:
+                entity_types_ids.append((entity_type_dict['B-'+j],entity_type_dict['I-'+j]))
+        
+        assert len(instances)==len(role_types) and len(instances)==len(entity_types)
+
+
+
+        # get rid of '<' '>'
+        first_sentence_instance = first_sentence_instance.replace('<','').replace('>','').strip()
+    
+        # find the instance level token ids and its lengths, to be replaced for the other two level
+        instance_token_nums = []
+        to_be_replce_ids = []
+        for ins in instances:
+            tokenized_ins_part = tokenizer(ins,return_tensors='pt')['input_ids'][0][1:-1]
+            instance_token_nums.append(len(tokenized_ins_part))
+            to_be_replce_ids.append([t for t in tokenized_ins_part.numpy()])    
+                
+        
+        tokenized = tokenizer(first_sentence_instance,return_tensors='pt',max_length = maxl ,padding= 'max_length')
+        
+        input_ids = tokenized['input_ids'][0]
+        
+        attention_masks = tokenized['attention_mask'][0]
+
+
+        # preparing replacing ids for entity_types and role_types
+        replace_ids_role_type = []
+        replace_ids_entity_type = []
+        for i in range(len(instance_token_nums)):
+            role_t = []
+            entity_t = []
+            for j in range(instance_token_nums[i]):
+                if j == 0:
+                    role_t.append(role_types_ids[i][0]) 
+                    entity_t.append(entity_types_ids[i][0])
+                else:
+                    role_t.append(role_types_ids[i][1]) 
+                    entity_t.append(entity_types_ids[i][1])
+
+            replace_ids_role_type.append(role_t)
+            replace_ids_entity_type.append(entity_t)
+        
+        to_be_replce_ids = [item for sublist in to_be_replce_ids for item in sublist]
+        replace_ids_role_type = [item for sublist in replace_ids_role_type for item in sublist]
+        replace_ids_entity_type = [item for sublist in replace_ids_entity_type for item in sublist]
+        # print('to_be_replce_ids:',to_be_replce_ids)
+        # print('replace_ids_role_type:',replace_ids_role_type)
+        # print('replace_ids_role_type:',replace_ids_entity_type)
+        # if print_count < print_count_max:
+        #     print('')
+        #     print(tokenizer.convert_ids_to_tokens(input_ids.numpy()))
+        #     print('')
+        #     print('role_types_ids:',role_types_ids)
+        #     print('entity_types_ids:',entity_types_ids)
+        #     print('to_be_replce_ids:',to_be_replce_ids)
+        #     print('replace_ids_role_type:',replace_ids_role_type)
+        #     print('replace_ids_entity_type:',replace_ids_entity_type)
+
+        # clone the input_id tensor for replacing, to form role_type tensor and entity_type tensor
+        role_type_ids_tensor = input_ids.clone()
+        entity_type_ids_tensor = input_ids.clone()
+
+        # traversal through input_ids and replace instance level ids with role_type and entity_type, as well as special ids like 'PAD'
+        for i in range(len(input_ids)):
+            if len(to_be_replce_ids) != 0:
+                if input_ids[i] == 101:
+                    role_type_ids_tensor[i] = role_type_dict['CLS']
+                    entity_type_ids_tensor[i] = entity_type_dict['CLS']
+                elif input_ids[i] == 102:
+                    role_type_ids_tensor[i] = role_type_dict['SEP']
+                    entity_type_ids_tensor[i] = entity_type_dict['SEP']
+                elif input_ids[i] == 0:
+                    role_type_ids_tensor[i] = role_type_dict['PAD']
+                    entity_type_ids_tensor[i] = entity_type_dict['PAD']
+                elif input_ids[i] != to_be_replce_ids[0]:
+                    role_type_ids_tensor[i] = role_type_dict['Other']
+                    entity_type_ids_tensor[i] = entity_type_dict['OTHER']
+                else:
+                    role_type_ids_tensor[i] = replace_ids_role_type[0]
+                    entity_type_ids_tensor[i] = replace_ids_entity_type[0]
+                    to_be_replce_ids = to_be_replce_ids[1:]
+                    replace_ids_role_type = replace_ids_role_type[1:]
+                    replace_ids_entity_type = replace_ids_entity_type[1:]
+            else:
+                if input_ids[i] == 101:
+                    role_type_ids_tensor[i] = role_type_dict['CLS']
+                    entity_type_ids_tensor[i] = entity_type_dict['CLS']
+                elif input_ids[i] == 102:
+                    role_type_ids_tensor[i] = role_type_dict['SEP']
+                    entity_type_ids_tensor[i] = entity_type_dict['SEP']
+                elif input_ids[i] == 0:
+                    role_type_ids_tensor[i] = role_type_dict['PAD']
+                    entity_type_ids_tensor[i] = entity_type_dict['PAD']
+                else:
+                    role_type_ids_tensor[i] = role_type_dict['Other']
+                    entity_type_ids_tensor[i] = entity_type_dict['OTHER']
+        
+        # if print_count < print_count_max:
+        #     print('')
+        #     print('input_ids:',input_ids)
+        #     print('role input tensor:',role_type_ids_tensor)
+        #     print('entity input tensor:',entity_type_ids_tensor)
+        
+        # final inputs for this pair
+        final_data_input_tuple = (input_ids,attention_masks,role_type_ids_tensor,entity_type_ids_tensor)
+        # store input tuple in dataset
+        dataset.append(final_data_input_tuple)
+        # store label in labelset
+        labelset.append(torch.tensor([label]))
+        
+    add_train_label_pair(dataset,labelset,first_sentence_instance,first_sentence_role,first_sentence_entity,label)
+    print_count += 1
 
     final_input_ids = []
     final_attention_masks = []

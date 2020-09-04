@@ -77,6 +77,7 @@ for raw_item in data:
 print(event_type_set)
 print(entity_type_set)
 print(role_type_set)
+
 ##output
 with open('test_event_time_order.json','w') as out_file:
     json.dump(ACE05_events_three_level, out_file, indent = 4, sort_keys = False) 

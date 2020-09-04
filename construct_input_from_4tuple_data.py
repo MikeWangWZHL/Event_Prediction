@@ -312,3 +312,84 @@ def construct_input_pair(tokenizer):
 ## output
 # with open('arg_entity_to_ems.json','w') as out_file:
 #     json.dump(arg_em_dict, out_file, indent = 4, sort_keys = False) 
+def construct_input_pair_individual(em_pair, tokenizer):
+    '''set up arg_entity_to_ems_dict'''
+    data = {}
+    with open('em_id_lookup.json') as f:
+        data = json.load(f)
+
+    arg_em_dict = {}
+    for key,value in data.items():
+        if value['arguments'] != []:
+            for entity in value['arguments']:
+                sep = '-'
+                en_id = sep.join(entity['entity_id'].split('-')[:-1])
+                if en_id not in arg_em_dict:
+                    arg_em_dict[en_id] = []
+                    arg_em_dict[en_id].append({'event_mention':key,'role':entity['role']})
+                else:
+                    arg_em_dict[en_id].append({'event_mention':key,'role':entity['role']})
+    count = 0
+    for entity_key, ems in arg_em_dict.items():
+        if len(ems) >= 2:
+            count+=1
+    print('num of arg entity with appeared in more than one event mention:',count)
+
+
+    '''set up em to 4 tuple time dict'''
+    em_to_four_tuple_dict = {}
+    with open('4_tuple_upload.json') as f:
+        data = json.load(f)
+    for item in data:
+        key = item['event_mention']
+        value = item['four_tuple']
+        if key in em_to_four_tuple_dict:
+            if value != em_to_four_tuple_dict[key]:
+                print(value)
+                print(em_to_four_tuple_dict[key])
+        else:
+            em_to_four_tuple_dict[key] = value
+    
+    with open('ACE05_events_three_level_train_emid_lookup.json') as f:
+        lookup_dict_whole =  json.load(f)
+    with open('ACE05_events_three_level_dev_emid_lookup.json') as f:
+        lookup_dict_dev =  json.load(f)
+    with open('ACE05_events_three_level_test_emid_lookup.json') as f:
+        lookup_dict_test =  json.load(f)
+    
+    # print(len(lookup_dict_whole))
+    # print(len(lookup_dict_dev))
+    # print(len(lookup_dict_test))
+
+    lookup_dict_whole.update(lookup_dict_dev)
+    lookup_dict_whole.update(lookup_dict_test)
+
+    # print(len(lookup_dict_whole))
+
+    pair = em_pair
+    print(pair)
+    label = lookup_dict_whole[pair[-1]]['EVENT_SUBTYPE']
+    instance_sents = [lookup_dict_whole[pair[i]]['INSTANCE_LEVEL'] for i in range(len(pair)-1)]
+    role_sents = [lookup_dict_whole[pair[i]]['ROLE_TYPE_LEVEL'] for i in range(len(pair)-1)]
+    entity_sents = [lookup_dict_whole[pair[i]]['ENTITY_TYPE_LEVEL'] for i in range(len(pair)-1)]
+    
+    sep_token = tokenizer.sep_token
+    first_sent_instance = sep_token.join(instance_sents)
+    first_sent_role = sep_token.join(role_sents)
+    first_sent_entity = sep_token.join(entity_sents)
+    item = {}
+    item['first_sentence_instance'] = first_sent_instance
+    item['first_sentence_role'] = first_sent_role
+    item['first_sentence_entity'] = first_sent_entity
+    item['label'] = label
+    # print(item)
+    # print('')
+    # print('=====================================')
+    # print('total num of input items:',len(input_items))
+    # for i in range(10):
+    #     print('')
+    #     print(input_items[i])
+    #     print('')
+    #     print('=====================')
+    #     print('=====================')
+    return item
