@@ -198,7 +198,7 @@ def construct_input_pair_helper(ems,em_to_four_tuple_dict):
         return return_set
 
 
-def construct_input_pair(tokenizer):
+def construct_input_pair(tokenizer,input_pairs = None):
 
     '''set up arg_entity_to_ems_dict'''
     data = {}
@@ -237,30 +237,30 @@ def construct_input_pair(tokenizer):
         else:
             em_to_four_tuple_dict[key] = value
 
-    
-    print_count = 0
-    input_pairs = []
-    for entity_key, ems in arg_em_dict.items():
-        if len(ems) >= 2:
-            if print_count<=3:
-                print('==============================================\n')
-                for em in ems:
-                    print(em,em_to_four_tuple_dict[em['event_mention']])
-                input_ems = [em['event_mention'] for em in ems]
-                pairs = construct_input_pair_helper(input_ems,em_to_four_tuple_dict)
-                print('')
-                print('length of pairs',len(pairs))
-                print('')
-                print(pairs)
-                print('==============================================\n')
-                print_count += 1
-            else:
-                input_ems = [em['event_mention'] for em in ems]
-                pairs = construct_input_pair_helper(input_ems,em_to_four_tuple_dict)
+    if input_pairs is None:
+        print_count = 0
+        input_pairs = []
+        for entity_key, ems in arg_em_dict.items():
+            if len(ems) >= 2:
+                if print_count<=3:
+                    print('==============================================\n')
+                    for em in ems:
+                        print(em,em_to_four_tuple_dict[em['event_mention']])
+                    input_ems = [em['event_mention'] for em in ems]
+                    pairs = construct_input_pair_helper(input_ems,em_to_four_tuple_dict)
+                    print('')
+                    print('length of pairs',len(pairs))
+                    print('')
+                    print(pairs)
+                    print('==============================================\n')
+                    print_count += 1
+                else:
+                    input_ems = [em['event_mention'] for em in ems]
+                    pairs = construct_input_pair_helper(input_ems,em_to_four_tuple_dict)
 
-            for p in pairs:
-                input_pairs.append(p)
-    
+                for p in pairs:
+                    input_pairs.append(p)
+
     with open('ACE05_events_three_level_train_emid_lookup.json') as f:
         lookup_dict_whole =  json.load(f)
     with open('ACE05_events_three_level_dev_emid_lookup.json') as f:
@@ -276,9 +276,12 @@ def construct_input_pair(tokenizer):
     lookup_dict_whole.update(lookup_dict_test)
 
     # print(len(lookup_dict_whole))
+
     input_items = []
     for pair in input_pairs:
         # print(pair)
+        historical_event_types = [lookup_dict_whole[pair[i]]['EVENT_SUBTYPE'] for i in range(len(pair)-1)]
+
         label = lookup_dict_whole[pair[-1]]['EVENT_SUBTYPE']
         instance_sents = [lookup_dict_whole[pair[i]]['INSTANCE_LEVEL'] for i in range(len(pair)-1)]
         role_sents = [lookup_dict_whole[pair[i]]['ROLE_TYPE_LEVEL'] for i in range(len(pair)-1)]
@@ -293,6 +296,7 @@ def construct_input_pair(tokenizer):
         item['first_sentence_role'] = first_sent_role
         item['first_sentence_entity'] = first_sent_entity
         item['label'] = label
+        item['historical_event_types'] = historical_event_types
         input_items.append(item)
         # print(item)
         # print('')
@@ -368,6 +372,7 @@ def construct_input_pair_individual(em_pair, tokenizer):
 
     pair = em_pair
     print(pair)
+    historical_event_types = [lookup_dict_whole[pair[i]]['EVENT_SUBTYPE'] for i in range(len(pair)-1)]
     label = lookup_dict_whole[pair[-1]]['EVENT_SUBTYPE']
     instance_sents = [lookup_dict_whole[pair[i]]['INSTANCE_LEVEL'] for i in range(len(pair)-1)]
     role_sents = [lookup_dict_whole[pair[i]]['ROLE_TYPE_LEVEL'] for i in range(len(pair)-1)]
@@ -381,6 +386,7 @@ def construct_input_pair_individual(em_pair, tokenizer):
     item['first_sentence_instance'] = first_sent_instance
     item['first_sentence_role'] = first_sent_role
     item['first_sentence_entity'] = first_sent_entity
+    item['historical_event_types'] = historical_event_types
     item['label'] = label
     # print(item)
     # print('')

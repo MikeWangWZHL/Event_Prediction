@@ -1,0 +1,10451 @@
+[
+  {
+    "event_mention": "CNN_CF_20030303.1900.02-EV1-1",
+    "four_tuple": [
+      "2003-03-03",
+      "2003-03-03",
+      "2003-03-03",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_CF_20030303.1900.02-EV2-1",
+    "four_tuple": [
+      "2003-03-03",
+      "+inf",
+      "2003-03-03",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_CF_20030303.1900.02-EV14-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-03",
+      "-inf",
+      "2003-03-03"
+    ]
+  },
+  {
+    "event_mention": "CNN_CF_20030303.1900.02-EV15-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-03",
+      "-inf",
+      "2003-03-03"
+    ]
+  },
+  {
+    "event_mention": "CNN_CF_20030303.1900.02-EV17-1",
+    "four_tuple": [
+      "2003-03-03",
+      "+inf",
+      "2003-03-03",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_CF_20030303.1900.02-EV16-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-03",
+      "-inf",
+      "2003-03-03"
+    ]
+  },
+  {
+    "event_mention": "CNN_CF_20030303.1900.02-EV3-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-03",
+      "-inf",
+      "2003-03-03"
+    ]
+  },
+  {
+    "event_mention": "CNN_CF_20030303.1900.02-EV4-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-03",
+      "-inf",
+      "2003-03-03"
+    ]
+  },
+  {
+    "event_mention": "CNN_CF_20030303.1900.02-EV18-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-03",
+      "-inf",
+      "2003-03-03"
+    ]
+  },
+  {
+    "event_mention": "CNN_CF_20030303.1900.02-EV19-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-03",
+      "-inf",
+      "2003-03-03"
+    ]
+  },
+  {
+    "event_mention": "CNN_CF_20030303.1900.02-EV5-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_CF_20030303.1900.02-EV5-2",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_CF_20030303.1900.02-EV6-1",
+    "four_tuple": [
+      "2002-10-03",
+      "2002-10-03",
+      "2002-10-03",
+      "2002-10-03"
+    ]
+  },
+  {
+    "event_mention": "CNN_CF_20030303.1900.02-EV7-1",
+    "four_tuple": [
+      "2002-10-06",
+      "2003-03-03",
+      "2002-10-06",
+      "2003-03-03"
+    ]
+  },
+  {
+    "event_mention": "CNN_CF_20030303.1900.02-EV5-3",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_CF_20030303.1900.02-EV20-1",
+    "four_tuple": [
+      "2002-10-06",
+      "2003-03-03",
+      "2002-10-06",
+      "2003-03-03"
+    ]
+  },
+  {
+    "event_mention": "CNN_CF_20030303.1900.02-EV8-1",
+    "four_tuple": [
+      "2003-03-03",
+      "+inf",
+      "2003-03-03",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_CF_20030303.1900.02-EV5-4",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_CF_20030303.1900.02-EV5-5",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_CF_20030303.1900.02-EV9-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_CF_20030303.1900.02-EV10-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_CF_20030303.1900.02-EV11-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-03",
+      "-inf",
+      "2003-03-03"
+    ]
+  },
+  {
+    "event_mention": "CNN_CF_20030303.1900.02-EV12-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_CF_20030303.1900.02-EV13-1",
+    "four_tuple": [
+      "2003-03-03",
+      "+inf",
+      "2003-03-03",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_CF_20030303.1900.02-EV21-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-03",
+      "-inf",
+      "2003-03-03"
+    ]
+  },
+  {
+    "event_mention": "CNN_CF_20030303.1900.02-EV13-2",
+    "four_tuple": [
+      "2003-03-03",
+      "+inf",
+      "2003-03-03",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_CF_20030303.1900.02-EV22-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-03",
+      "-inf",
+      "2003-03-03"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030405.1600.01-1-EV4-1",
+    "four_tuple": [
+      "2003-04-05",
+      "2003-04-05",
+      "2003-04-05",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030405.1600.01-1-EV1-1",
+    "four_tuple": [
+      "2003-04-05",
+      "2003-04-05",
+      "2003-04-05",
+      "2003-04-05"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030405.1600.01-1-EV7-1",
+    "four_tuple": [
+      "2003-04-05",
+      "2003-04-05",
+      "2003-04-05",
+      "2003-04-05"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030405.1600.01-1-EV2-1",
+    "four_tuple": [
+      "2003-04-05",
+      "2003-04-05",
+      "2003-04-05",
+      "2003-04-05"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030405.1600.01-1-EV3-1",
+    "four_tuple": [
+      "2003-04-05",
+      "2003-04-05",
+      "2003-04-05",
+      "2003-04-05"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030405.1600.01-1-EV5-1",
+    "four_tuple": [
+      "2003-04-05",
+      "2003-04-05",
+      "2003-04-05",
+      "2003-04-05"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030405.1600.01-1-EV8-1",
+    "four_tuple": [
+      "2003-04-05",
+      "2003-04-05",
+      "2003-04-05",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030405.1600.01-1-EV6-1",
+    "four_tuple": [
+      "2003-04-05",
+      "2003-04-05",
+      "2003-04-05",
+      "2003-04-05"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030409.1600.02-EV1-2",
+    "four_tuple": [
+      "-inf",
+      "2003-04-09",
+      "2003-04-09",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030409.1600.02-EV2-1",
+    "four_tuple": [
+      "2003-04-09",
+      "+inf",
+      "2003-04-09",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030409.1600.02-EV1-4",
+    "four_tuple": [
+      "-inf",
+      "2003-04-09",
+      "2003-04-09",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030409.1600.02-EV1-5",
+    "four_tuple": [
+      "-inf",
+      "2003-04-09",
+      "2003-04-09",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030409.1600.02-EV2-3",
+    "four_tuple": [
+      "2003-04-09",
+      "+inf",
+      "2003-04-09",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030409.1600.02-EV3-1",
+    "four_tuple": [
+      "1991-01-01",
+      "1991-12-31",
+      "1991-01-01",
+      "1991-12-31"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030409.1600.02-EV1-1",
+    "four_tuple": [
+      "-inf",
+      "2003-04-09",
+      "2003-04-09",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030409.1600.02-EV2-2",
+    "four_tuple": [
+      "2003-04-09",
+      "+inf",
+      "2003-04-09",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030409.1600.02-EV4-1",
+    "four_tuple": [
+      "2003-04-09",
+      "2003-04-09",
+      "2003-04-09",
+      "2003-04-09"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030409.1600.02-EV6-2",
+    "four_tuple": [
+      "-inf",
+      "2003-04-09",
+      "-inf",
+      "2003-04-09"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030409.1600.02-EV5-1",
+    "four_tuple": [
+      "2003-04-09",
+      "+inf",
+      "2003-04-09",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030409.1600.02-EV6-1",
+    "four_tuple": [
+      "-inf",
+      "2003-04-09",
+      "-inf",
+      "2003-04-09"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030409.1600.02-EV7-2",
+    "four_tuple": [
+      "2003-04-12",
+      "2003-04-18",
+      "2003-04-12",
+      "2003-04-18"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030409.1600.02-EV7-1",
+    "four_tuple": [
+      "2003-04-12",
+      "2003-04-18",
+      "2003-04-12",
+      "2003-04-18"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030409.1600.02-EV7-3",
+    "four_tuple": [
+      "2003-04-12",
+      "2003-04-18",
+      "2003-04-12",
+      "2003-04-18"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030409.1600.02-EV8-1",
+    "four_tuple": [
+      "-inf",
+      "2003-04-09",
+      "-inf",
+      "2003-04-09"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030409.1600.02-EV1-3",
+    "four_tuple": [
+      "-inf",
+      "2003-04-09",
+      "2003-04-09",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030409.1600.02-EV10-1",
+    "four_tuple": [
+      "-inf",
+      "2003-04-09",
+      "2003-04-09",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030409.1600.02-EV9-1",
+    "four_tuple": [
+      "-inf",
+      "2003-04-09",
+      "-inf",
+      "2003-04-09"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030409.1600.02-EV11-1",
+    "four_tuple": [
+      "-inf",
+      "2003-04-09",
+      "-inf",
+      "2003-04-09"
+    ]
+  },
+  {
+    "event_mention": "CNNHL_ENG_20030304_142751.10-EV4-1",
+    "four_tuple": [
+      "2003-03-02",
+      "2003-03-02",
+      "2003-03-02",
+      "2003-03-02"
+    ]
+  },
+  {
+    "event_mention": "CNNHL_ENG_20030304_142751.10-EV5-1",
+    "four_tuple": [
+      "2003-03-03",
+      "2003-03-03",
+      "2003-03-03",
+      "2003-03-03"
+    ]
+  },
+  {
+    "event_mention": "CNNHL_ENG_20030304_142751.10-EV6-1",
+    "four_tuple": [
+      "2003-03-02",
+      "2003-03-02",
+      "2003-03-02",
+      "2003-03-02"
+    ]
+  },
+  {
+    "event_mention": "CNNHL_ENG_20030304_142751.10-EV7-1",
+    "four_tuple": [
+      "2003-03-02",
+      "2003-03-02",
+      "2003-03-02",
+      "2003-03-02"
+    ]
+  },
+  {
+    "event_mention": "CNNHL_ENG_20030304_142751.10-EV8-1",
+    "four_tuple": [
+      "2003-03-02",
+      "2003-03-02",
+      "2003-03-02",
+      "2003-03-02"
+    ]
+  },
+  {
+    "event_mention": "CNNHL_ENG_20030304_142751.10-EV1-1",
+    "four_tuple": [
+      "-inf",
+      "2003-01-01",
+      "2003-03-04",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNNHL_ENG_20030304_142751.10-EV9-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNNHL_ENG_20030304_142751.10-EV2-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-04",
+      "2003-03-04",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNNHL_ENG_20030304_142751.10-EV3-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-04",
+      "2003-03-04",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030328_150609.10-EV1-1",
+    "four_tuple": [
+      "2003-03-28",
+      "+inf",
+      "2003-03-28",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030328_150609.10-EV5-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-28",
+      "2003-03-28",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030328_150609.10-EV2-1",
+    "four_tuple": [
+      "2003-03-27",
+      "2003-03-27",
+      "2003-03-27",
+      "2003-03-27"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030328_150609.10-EV3-1",
+    "four_tuple": [
+      "2003-03-27",
+      "2003-03-27",
+      "2003-03-27",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030328_150609.10-EV4-1",
+    "four_tuple": [
+      "2003-01-01",
+      "2003-03-27",
+      "2003-01-01",
+      "2003-03-27"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030328_150609.10-EV6-1",
+    "four_tuple": [
+      "2003-03-28",
+      "2003-03-31",
+      "2003-03-28",
+      "2003-03-31"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030328_150609.10-EV11-1",
+    "four_tuple": [
+      "2003-03-27",
+      "2003-03-27",
+      "2003-03-27",
+      "2003-03-27"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030328_150609.10-EV7-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-27",
+      "-inf",
+      "2003-03-27"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030328_150609.10-EV9-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030328_150609.10-EV8-1",
+    "four_tuple": [
+      "2003-03-27",
+      "2003-03-27",
+      "2003-03-27",
+      "2003-03-27"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030328_150609.10-EV10-1",
+    "four_tuple": [
+      "2003-03-28",
+      "+inf",
+      "2003-03-28",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030424_070008.15-EV4-1",
+    "four_tuple": [
+      "2003-04-24",
+      "2003-04-24",
+      "2003-04-24",
+      "2003-04-24"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030424_070008.15-EV1-1",
+    "four_tuple": [
+      "-inf",
+      "2003-04-24",
+      "-inf",
+      "2003-04-24"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030424_070008.15-EV2-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030424_070008.15-EV3-1",
+    "four_tuple": [
+      "-inf",
+      "2003-04-24",
+      "-inf",
+      "2003-04-24"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041116.1347-EV1-1",
+    "four_tuple": [
+      "-inf",
+      "2004-11-16",
+      "-inf",
+      "2004-11-16"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041116.1347-EV2-1",
+    "four_tuple": [
+      "-inf",
+      "2004-11-15",
+      "2004-11-16",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041116.1347-EV3-1",
+    "four_tuple": [
+      "-inf",
+      "2004-11-16",
+      "-inf",
+      "2004-11-16"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041116.1347-EV6-1",
+    "four_tuple": [
+      "-inf",
+      "2004-11-16",
+      "-inf",
+      "2004-11-16"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041116.1347-EV4-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041116.1347-EV5-1",
+    "four_tuple": [
+      "2004-11-15",
+      "2004-11-15",
+      "2004-11-15",
+      "2004-11-15"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041116.1347-EV7-1",
+    "four_tuple": [
+      "2004-11-15",
+      "2004-11-15",
+      "2004-11-15",
+      "2004-11-15"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041116.1347-EV8-1",
+    "four_tuple": [
+      "2004-11-15",
+      "2004-11-15",
+      "2004-11-15",
+      "2004-11-15"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041116.1347-EV9-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041116.1347-EV10-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041116.1347-EV11-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041116.1347-EV12-1",
+    "four_tuple": [
+      "-inf",
+      "2004-11-15",
+      "2004-11-16",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041116.1347-EV13-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041116.1347-EV12-2",
+    "four_tuple": [
+      "-inf",
+      "2004-11-15",
+      "2004-11-16",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20050217.1237.014-EV1-1",
+    "four_tuple": [
+      "-inf",
+      "2005-02-14",
+      "-inf",
+      "2005-02-14"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20050217.1237.014-EV2-1",
+    "four_tuple": [
+      "2005-02-14",
+      "2005-02-14",
+      "2005-02-14",
+      "2005-02-14"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20050217.1237.014-EV3-1",
+    "four_tuple": [
+      "2005-02-01",
+      "+inf",
+      "2005-02-01",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20050217.1237.014-EV9-1",
+    "four_tuple": [
+      "-inf",
+      "2005-02-17",
+      "2005-02-17",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20050217.1237.014-EV4-1",
+    "four_tuple": [
+      "-inf",
+      "2005-02-17",
+      "2005-02-17",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20050217.1237.014-EV5-1",
+    "four_tuple": [
+      "-inf",
+      "2005-02-17",
+      "2005-02-17",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20050217.1237.014-EV6-1",
+    "four_tuple": [
+      "2005-02-16",
+      "2005-02-16",
+      "2005-02-16",
+      "2005-02-16"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20050217.1237.014-EV7-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20050217.1237.014-EV8-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "TTRACY_20050223.1049-EV2-1",
+    "four_tuple": [
+      "2004-12-25",
+      "2005-02-23",
+      "2004-12-25",
+      "2005-02-23"
+    ]
+  },
+  {
+    "event_mention": "TTRACY_20050223.1049-EV3-1",
+    "four_tuple": [
+      "2005-01-24",
+      "2005-01-28",
+      "2005-01-24",
+      "2005-01-28"
+    ]
+  },
+  {
+    "event_mention": "TTRACY_20050223.1049-EV4-1",
+    "four_tuple": [
+      "1995-01-01",
+      "1995-12-31",
+      "1995-01-01",
+      "1995-12-31"
+    ]
+  },
+  {
+    "event_mention": "TTRACY_20050223.1049-EV1-1",
+    "four_tuple": [
+      "2005-02-23",
+      "+inf",
+      "2005-02-23",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041116.1347-EV1-1",
+    "four_tuple": [
+      "-inf",
+      "2004-11-16",
+      "-inf",
+      "2004-11-16"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041116.1347-EV2-1",
+    "four_tuple": [
+      "-inf",
+      "2004-11-15",
+      "2004-11-16",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041116.1347-EV3-1",
+    "four_tuple": [
+      "-inf",
+      "2004-11-16",
+      "-inf",
+      "2004-11-16"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041116.1347-EV6-1",
+    "four_tuple": [
+      "-inf",
+      "2004-11-16",
+      "-inf",
+      "2004-11-16"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041116.1347-EV4-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041116.1347-EV5-1",
+    "four_tuple": [
+      "2004-11-15",
+      "2004-11-15",
+      "2004-11-15",
+      "2004-11-15"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041116.1347-EV7-1",
+    "four_tuple": [
+      "2004-11-15",
+      "2004-11-15",
+      "2004-11-15",
+      "2004-11-15"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041116.1347-EV8-1",
+    "four_tuple": [
+      "2004-11-15",
+      "2004-11-15",
+      "2004-11-15",
+      "2004-11-15"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041116.1347-EV9-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041116.1347-EV10-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041116.1347-EV11-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041116.1347-EV12-1",
+    "four_tuple": [
+      "-inf",
+      "2004-11-15",
+      "2004-11-16",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041116.1347-EV13-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041116.1347-EV12-2",
+    "four_tuple": [
+      "-inf",
+      "2004-11-15",
+      "2004-11-16",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041101.1144-EV1-1",
+    "four_tuple": [
+      "2004-10-30",
+      "2004-10-30",
+      "2004-10-30",
+      "2004-10-30"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041101.1144-EV2-1",
+    "four_tuple": [
+      "2004-09-01",
+      "2004-10-30",
+      "2004-09-01",
+      "2004-10-30"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041101.1806-EV1-1",
+    "four_tuple": [
+      "-inf",
+      "2004-11-01",
+      "2004-11-01",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041101.1806-EV8-1",
+    "four_tuple": [
+      "2004-11-01",
+      "2004-11-01",
+      "2004-11-01",
+      "2004-11-01"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041101.1806-EV2-1",
+    "four_tuple": [
+      "-inf",
+      "2004-11-01",
+      "-inf",
+      "2004-11-01"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041101.1806-EV3-1",
+    "four_tuple": [
+      "1997-01-01",
+      "1997-12-31",
+      "1997-01-01",
+      "1997-12-31"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041101.1806-EV4-1",
+    "four_tuple": [
+      "2002-01-01",
+      "2004-11-01",
+      "2002-01-01",
+      "2004-11-01"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041101.1806-EV5-1",
+    "four_tuple": [
+      "2002-01-01",
+      "2004-11-01",
+      "2002-01-01",
+      "2004-11-01"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041101.1806-EV6-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041101.1806-EV7-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041201.2313-EV1-1",
+    "four_tuple": [
+      "2004-11-21",
+      "2004-11-21",
+      "2004-11-21",
+      "2004-11-21"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041201.2313-EV1-5",
+    "four_tuple": [
+      "2004-11-21",
+      "2004-11-21",
+      "2004-11-21",
+      "2004-11-21"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041201.2313-EV1-2",
+    "four_tuple": [
+      "2004-11-21",
+      "2004-11-21",
+      "2004-11-21",
+      "2004-11-21"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041201.2313-EV2-1",
+    "four_tuple": [
+      "2004-11-21",
+      "2004-12-01",
+      "2004-12-01",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041201.2313-EV3-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041201.2313-EV1-3",
+    "four_tuple": [
+      "2004-11-21",
+      "2004-11-21",
+      "2004-11-21",
+      "2004-11-21"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041201.2313-EV1-4",
+    "four_tuple": [
+      "2004-11-21",
+      "2004-11-21",
+      "2004-11-21",
+      "2004-11-21"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041201.2313-EV1-7",
+    "four_tuple": [
+      "2004-11-21",
+      "2004-11-21",
+      "2004-11-21",
+      "2004-11-21"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041201.2313-EV4-1",
+    "four_tuple": [
+      "2004-12-01",
+      "+inf",
+      "2004-12-01",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041201.2313-EV5-1",
+    "four_tuple": [
+      "2004-12-01",
+      "+inf",
+      "2004-12-01",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041201.2313-EV4-2",
+    "four_tuple": [
+      "2004-12-01",
+      "+inf",
+      "2004-12-01",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041201.2313-EV1-6",
+    "four_tuple": [
+      "2004-11-21",
+      "2004-11-21",
+      "2004-11-21",
+      "2004-11-21"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041203.1959-EV1-1",
+    "four_tuple": [
+      "1944-01-01",
+      "1944-12-31",
+      "1944-01-01",
+      "1944-12-31"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041208.2133-EV4-1",
+    "four_tuple": [
+      "2004-12-08",
+      "2004-12-08",
+      "2004-12-08",
+      "2004-12-08"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041208.2133-EV1-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041208.2133-EV5-1",
+    "four_tuple": [
+      "2004-12-08",
+      "+inf",
+      "2005-12-08",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041208.2133-EV2-1",
+    "four_tuple": [
+      "-inf",
+      "2005-12-08",
+      "2005-12-08",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041208.2133-EV3-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041215.2302-EV1-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041218.1004-EV1-1",
+    "four_tuple": [
+      "2004-12-17",
+      "2004-12-17",
+      "2004-12-17",
+      "2004-12-17"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041218.1004-EV2-1",
+    "four_tuple": [
+      "2004-12-16",
+      "2004-12-16",
+      "2004-12-16",
+      "2004-12-16"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041218.1004-EV14-2",
+    "four_tuple": [
+      "2004-12-16",
+      "2004-12-16",
+      "2004-12-16",
+      "2004-12-16"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041218.1004-EV1-2",
+    "four_tuple": [
+      "2004-12-17",
+      "2004-12-17",
+      "2004-12-17",
+      "2004-12-17"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041218.1004-EV3-1",
+    "four_tuple": [
+      "2004-12-17",
+      "2004-12-17",
+      "2004-12-17",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041218.1004-EV4-1",
+    "four_tuple": [
+      "2004-12-16",
+      "2004-12-16",
+      "2004-12-16",
+      "2004-12-16"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041218.1004-EV5-1",
+    "four_tuple": [
+      "2004-12-16",
+      "2004-12-16",
+      "2004-12-16",
+      "2004-12-16"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041218.1004-EV6-1",
+    "four_tuple": [
+      "-inf",
+      "2004-12-16",
+      "-inf",
+      "2004-12-16"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041218.1004-EV6-2",
+    "four_tuple": [
+      "-inf",
+      "2004-12-16",
+      "-inf",
+      "2004-12-16"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041218.1004-EV8-1",
+    "four_tuple": [
+      "2004-12-16",
+      "2004-12-16",
+      "2004-12-16",
+      "2004-12-16"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041218.1004-EV9-1",
+    "four_tuple": [
+      "2004-12-16",
+      "2004-12-16",
+      "2004-12-16",
+      "2004-12-16"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041218.1004-EV10-1",
+    "four_tuple": [
+      "2004-12-16",
+      "2004-12-16",
+      "2004-12-16",
+      "2004-12-16"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041218.1004-EV2-2",
+    "four_tuple": [
+      "2004-12-16",
+      "2004-12-16",
+      "2004-12-16",
+      "2004-12-16"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041218.1004-EV14-1",
+    "four_tuple": [
+      "2004-12-16",
+      "2004-12-16",
+      "2004-12-16",
+      "2004-12-16"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041218.1004-EV15-2",
+    "four_tuple": [
+      "2004-12-16",
+      "2004-12-16",
+      "2004-12-16",
+      "2004-12-16"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041218.1004-EV2-3",
+    "four_tuple": [
+      "2004-12-16",
+      "2004-12-16",
+      "2004-12-16",
+      "2004-12-16"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041218.1004-EV11-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041218.1004-EV15-1",
+    "four_tuple": [
+      "2004-12-16",
+      "2004-12-16",
+      "2004-12-16",
+      "2004-12-16"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041218.1004-EV7-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041218.1004-EV12-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041218.1004-EV13-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041223.1449-EV2-1",
+    "four_tuple": [
+      "2004-12-23",
+      "+inf",
+      "2004-12-23",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041223.1449-EV3-1",
+    "four_tuple": [
+      "-inf",
+      "2004-12-23",
+      "-inf",
+      "2004-12-23"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041223.1449-EV4-1",
+    "four_tuple": [
+      "-inf",
+      "2004-12-23",
+      "-inf",
+      "2004-12-23"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041223.1449-EV5-1",
+    "four_tuple": [
+      "2004-11-01",
+      "2004-11-30",
+      "2004-11-01",
+      "2004-11-30"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041223.1449-EV1-1",
+    "four_tuple": [
+      "-inf",
+      "2004-12-23",
+      "2004-12-23",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041223.1449-EV6-1",
+    "four_tuple": [
+      "-inf",
+      "2004-12-23",
+      "-inf",
+      "2004-12-23"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041226.1712-EV1-1",
+    "four_tuple": [
+      "2003-12-26",
+      "2003-12-26",
+      "2003-12-26",
+      "2003-12-26"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20041226.1712-EV2-1",
+    "four_tuple": [
+      "2000-01-01",
+      "2000-12-31",
+      "2000-01-01",
+      "2000-12-31"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050106.1310-EV1-1",
+    "four_tuple": [
+      "-inf",
+      "2005-01-06",
+      "-inf",
+      "2005-01-06"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050106.1310-EV2-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050106.1310-EV6-1",
+    "four_tuple": [
+      "-inf",
+      "2005-01-06",
+      "-inf",
+      "2005-01-06"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050106.1310-EV3-1",
+    "four_tuple": [
+      "-inf",
+      "2002-12-31",
+      "-inf",
+      "2002-12-31"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050106.1310-EV4-1",
+    "four_tuple": [
+      "2001-01-01",
+      "2005-01-06",
+      "2005-01-06",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050106.1310-EV3-2",
+    "four_tuple": [
+      "-inf",
+      "2002-12-31",
+      "-inf",
+      "2002-12-31"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050106.1310-EV3-3",
+    "four_tuple": [
+      "-inf",
+      "2002-12-31",
+      "-inf",
+      "2002-12-31"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050106.1310-EV5-1",
+    "four_tuple": [
+      "2002-01-01",
+      "2002-12-31",
+      "2002-01-01",
+      "2002-12-31"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050106.1310-EV7-1",
+    "four_tuple": [
+      "2002-01-01",
+      "2002-12-31",
+      "2002-01-01",
+      "2002-12-31"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050106.1310-EV1-2",
+    "four_tuple": [
+      "-inf",
+      "2005-01-06",
+      "-inf",
+      "2005-01-06"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050106.1310-EV8-1",
+    "four_tuple": [
+      "2005-01-06",
+      "2005-01-06",
+      "2005-01-06",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030304.0250-EV1-1",
+    "four_tuple": [
+      "2003-03-04",
+      "2003-03-04",
+      "2003-03-04",
+      "2003-03-04"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030304.0250-EV2-4",
+    "four_tuple": [
+      "2003-03-04",
+      "2003-03-04",
+      "2003-03-04",
+      "2003-03-04"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030304.0250-EV3-1",
+    "four_tuple": [
+      "2003-03-04",
+      "2003-03-04",
+      "2003-03-04",
+      "2003-03-04"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030304.0250-EV4-1",
+    "four_tuple": [
+      "2003-03-04",
+      "2003-03-04",
+      "2003-03-04",
+      "2003-03-04"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030304.0250-EV7-1",
+    "four_tuple": [
+      "2003-03-04",
+      "2003-03-04",
+      "2003-03-04",
+      "2003-03-04"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030304.0250-EV1-2",
+    "four_tuple": [
+      "2003-03-04",
+      "2003-03-04",
+      "2003-03-04",
+      "2003-03-04"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030304.0250-EV2-1",
+    "four_tuple": [
+      "2003-03-04",
+      "2003-03-04",
+      "2003-03-04",
+      "2003-03-04"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030304.0250-EV2-2",
+    "four_tuple": [
+      "2003-03-04",
+      "2003-03-04",
+      "2003-03-04",
+      "2003-03-04"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030304.0250-EV3-2",
+    "four_tuple": [
+      "2003-03-04",
+      "2003-03-04",
+      "2003-03-04",
+      "2003-03-04"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030304.0250-EV5-2",
+    "four_tuple": [
+      "2003-03-04",
+      "2003-03-04",
+      "2003-03-04",
+      "2003-03-04"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030304.0250-EV5-1",
+    "four_tuple": [
+      "2003-03-04",
+      "2003-03-04",
+      "2003-03-04",
+      "2003-03-04"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030304.0250-EV6-1",
+    "four_tuple": [
+      "2003-03-04",
+      "2003-03-04",
+      "2003-03-04",
+      "2003-03-04"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030304.0250-EV3-3",
+    "four_tuple": [
+      "2003-03-04",
+      "2003-03-04",
+      "2003-03-04",
+      "2003-03-04"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030304.0250-EV2-3",
+    "four_tuple": [
+      "2003-03-04",
+      "2003-03-04",
+      "2003-03-04",
+      "2003-03-04"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030304.0250-EV8-1",
+    "four_tuple": [
+      "2003-03-04",
+      "2003-03-04",
+      "2003-03-04",
+      "2003-03-04"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030314.0238-EV8-1",
+    "four_tuple": [
+      "2003-03-14",
+      "+inf",
+      "2003-03-14",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030314.0238-EV1-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-13",
+      "2003-03-13",
+      "2003-03-13"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030314.0238-EV2-1",
+    "four_tuple": [
+      "2003-03-13",
+      "2003-03-13",
+      "2003-03-13",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030314.0238-EV13-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-14",
+      "2003-03-14",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030314.0238-EV9-1",
+    "four_tuple": [
+      "2003-03-17",
+      "+inf",
+      "2003-03-17",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030314.0238-EV3-1",
+    "four_tuple": [
+      "2003-03-14",
+      "2003-03-16",
+      "2003-03-14",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030314.0238-EV14-1",
+    "four_tuple": [
+      "2003-03-14",
+      "2003-03-14",
+      "2003-03-14",
+      "2003-03-14"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030314.0238-EV4-1",
+    "four_tuple": [
+      "2003-03-14",
+      "2003-03-14",
+      "2003-03-14",
+      "2003-03-14"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030314.0238-EV5-1",
+    "four_tuple": [
+      "2003-03-14",
+      "+inf",
+      "2003-03-14",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030314.0238-EV10-1",
+    "four_tuple": [
+      "2003-03-14",
+      "+inf",
+      "2003-03-14",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030314.0238-EV11-1",
+    "four_tuple": [
+      "2003-03-14",
+      "+inf",
+      "2003-03-14",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030314.0238-EV6-1",
+    "four_tuple": [
+      "2003-03-14",
+      "2003-03-14",
+      "2003-03-14",
+      "2003-03-14"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030314.0238-EV7-1",
+    "four_tuple": [
+      "2003-03-14",
+      "2003-03-14",
+      "2003-03-14",
+      "2003-03-14"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030314.0238-EV12-1",
+    "four_tuple": [
+      "2003-03-14",
+      "+inf",
+      "2003-03-14",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0022-EV2-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-27",
+      "-inf",
+      "2003-03-27"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0022-EV14-1",
+    "four_tuple": [
+      "2003-03-27",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0022-EV20-1",
+    "four_tuple": [
+      "2003-03-27",
+      "+inf",
+      "2003-03-27",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0022-EV1-1",
+    "four_tuple": [
+      "2003-03-27",
+      "+inf",
+      "2003-03-27",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0022-EV15-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-27",
+      "-inf",
+      "2003-03-27"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0022-EV3-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-27",
+      "-inf",
+      "2003-03-27"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0022-EV4-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-27",
+      "-inf",
+      "2003-03-27"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0022-EV21-1",
+    "four_tuple": [
+      "2003-03-27",
+      "+inf",
+      "2003-03-27",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0022-EV6-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-27",
+      "-inf",
+      "2003-03-27"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0022-EV5-1",
+    "four_tuple": [
+      "2003-03-27",
+      "+inf",
+      "2003-03-27",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0022-EV7-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0022-EV8-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0022-EV9-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-27",
+      "-inf",
+      "2003-03-27"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0022-EV14-2",
+    "four_tuple": [
+      "2003-03-27",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0022-EV10-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-27",
+      "-inf",
+      "2003-03-27"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0022-EV19-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-27",
+      "-inf",
+      "2003-03-27"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0022-EV11-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-27",
+      "-inf",
+      "2003-03-27"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0022-EV16-3",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0022-EV16-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0022-EV12-1",
+    "four_tuple": [
+      "1989-01-01",
+      "2001-05-31",
+      "1989-01-01",
+      "2001-05-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0022-EV13-1",
+    "four_tuple": [
+      "2001-05-01",
+      "2001-05-31",
+      "2001-05-01",
+      "2001-05-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0022-EV16-2",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0022-EV17-1",
+    "four_tuple": [
+      "1989-01-01",
+      "1989-12-31",
+      "1989-01-01",
+      "1989-12-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0022-EV18-1",
+    "four_tuple": [
+      "2001-05-01",
+      "2001-05-31",
+      "2001-05-01",
+      "2001-05-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030401.0476-EV7-1",
+    "four_tuple": [
+      "2003-04-01",
+      "2003-04-01",
+      "2003-04-01",
+      "2003-04-01"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030401.0476-EV1-1",
+    "four_tuple": [
+      "2005-09-01",
+      "2005-09-30",
+      "2005-09-01",
+      "2005-09-30"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030401.0476-EV2-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "2003-04-01",
+      "2003-04-01"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030401.0476-EV3-1",
+    "four_tuple": [
+      "2005-09-01",
+      "2005-09-30",
+      "2005-09-01",
+      "2005-09-30"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030401.0476-EV3-2",
+    "four_tuple": [
+      "2005-09-01",
+      "2005-09-30",
+      "2005-09-01",
+      "2005-09-30"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030401.0476-EV4-1",
+    "four_tuple": [
+      "2005-09-01",
+      "+inf",
+      "2005-09-01",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030401.0476-EV5-1",
+    "four_tuple": [
+      "-inf",
+      "2005-09-30",
+      "-inf",
+      "2005-09-30"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030401.0476-EV6-1",
+    "four_tuple": [
+      "-inf",
+      "2005-09-30",
+      "-inf",
+      "2005-09-30"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030413.0098-EV1-1",
+    "four_tuple": [
+      "2003-04-12",
+      "2003-04-12",
+      "2003-04-13",
+      "2003-04-13"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030413.0098-EV2-1",
+    "four_tuple": [
+      "-inf",
+      "2003-04-13",
+      "2003-04-13",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030413.0098-EV2-2",
+    "four_tuple": [
+      "-inf",
+      "2003-04-13",
+      "2003-04-13",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030413.0098-EV2-7",
+    "four_tuple": [
+      "-inf",
+      "2003-04-13",
+      "2003-04-13",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030413.0098-EV2-3",
+    "four_tuple": [
+      "-inf",
+      "2003-04-13",
+      "2003-04-13",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030413.0098-EV4-1",
+    "four_tuple": [
+      "2003-04-13",
+      "+inf",
+      "2003-04-13",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030413.0098-EV2-4",
+    "four_tuple": [
+      "-inf",
+      "2003-04-13",
+      "2003-04-13",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030413.0098-EV2-5",
+    "four_tuple": [
+      "-inf",
+      "2003-04-13",
+      "2003-04-13",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030413.0098-EV1-2",
+    "four_tuple": [
+      "2003-04-12",
+      "2003-04-12",
+      "2003-04-13",
+      "2003-04-13"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030413.0098-EV1-3",
+    "four_tuple": [
+      "2003-04-12",
+      "2003-04-12",
+      "2003-04-13",
+      "2003-04-13"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030413.0098-EV2-8",
+    "four_tuple": [
+      "-inf",
+      "2003-04-13",
+      "2003-04-13",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030413.0098-EV3-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030413.0098-EV2-6",
+    "four_tuple": [
+      "-inf",
+      "2003-04-13",
+      "2003-04-13",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030415.0734-EV1-1",
+    "four_tuple": [
+      "2003-04-15",
+      "2003-04-15",
+      "2003-04-15",
+      "2003-04-15"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030415.0734-EV2-1",
+    "four_tuple": [
+      "2000-10-01",
+      "2000-10-31",
+      "2000-10-01",
+      "2000-10-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030415.0734-EV4-1",
+    "four_tuple": [
+      "1975-01-01",
+      "1975-12-31",
+      "1990-01-01",
+      "1990-12-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030415.0734-EV3-1",
+    "four_tuple": [
+      "-inf",
+      "2003-04-15",
+      "-inf",
+      "2003-04-15"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0764-EV1-1",
+    "four_tuple": [
+      "1999-01-01",
+      "2003-04-18",
+      "1999-01-01",
+      "2003-04-18"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0764-EV12-2",
+    "four_tuple": [
+      "2003-04-18",
+      "2003-04-18",
+      "2009-04-19",
+      "2012-04-19"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0764-EV2-1",
+    "four_tuple": [
+      "1999-01-01",
+      "1999-04-18",
+      "1999-01-01",
+      "1999-04-18"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0764-EV3-1",
+    "four_tuple": [
+      "2009-04-19",
+      "2012-04-19",
+      "2009-04-19",
+      "2012-04-19"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0764-EV11-2",
+    "four_tuple": [
+      "2003-04-14",
+      "2003-04-14",
+      "2009-04-14",
+      "2012-04-14"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0764-EV4-1",
+    "four_tuple": [
+      "1998-09-01",
+      "2003-04-18",
+      "2003-04-18",
+      "2003-04-18"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0764-EV5-1",
+    "four_tuple": [
+      "1998-09-01",
+      "2003-04-18",
+      "2003-04-18",
+      "2003-04-18"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0764-EV6-1",
+    "four_tuple": [
+      "1998-09-01",
+      "1998-09-30",
+      "1998-09-01",
+      "1998-09-30"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0764-EV7-1",
+    "four_tuple": [
+      "1998-09-01",
+      "1998-09-30",
+      "1998-09-01",
+      "1998-09-30"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0764-EV8-1",
+    "four_tuple": [
+      "1998-09-01",
+      "+inf",
+      "1998-09-01",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0764-EV9-1",
+    "four_tuple": [
+      "1998-09-01",
+      "+inf",
+      "1998-09-01",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0764-EV10-1",
+    "four_tuple": [
+      "1998-09-01",
+      "2003-04-18",
+      "1998-09-01",
+      "2003-04-18"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0764-EV11-1",
+    "four_tuple": [
+      "2003-04-14",
+      "2003-04-14",
+      "2009-04-14",
+      "2012-04-14"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0764-EV12-1",
+    "four_tuple": [
+      "2003-04-14",
+      "2003-04-14",
+      "2009-04-14",
+      "2012-04-14"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030427.0118-EV1-1",
+    "four_tuple": [
+      "-inf",
+      "2003-04-27",
+      "-inf",
+      "2003-04-27"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030427.0118-EV2-1",
+    "four_tuple": [
+      "-inf",
+      "2003-04-27",
+      "-inf",
+      "2003-04-27"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030427.0118-EV2-2",
+    "four_tuple": [
+      "-inf",
+      "2003-04-27",
+      "-inf",
+      "2003-04-27"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030427.0118-EV3-1",
+    "four_tuple": [
+      "1998-01-01",
+      "1998-12-31",
+      "1998-01-01",
+      "1998-12-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030427.0118-EV4-1",
+    "four_tuple": [
+      "2003-04-26",
+      "2003-04-26",
+      "2003-04-26",
+      "2003-04-26"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030427.0118-EV3-2",
+    "four_tuple": [
+      "1998-01-01",
+      "1998-12-31",
+      "1998-01-01",
+      "1998-12-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030427.0118-EV5-1",
+    "four_tuple": [
+      "-inf",
+      "2003-04-27",
+      "-inf",
+      "2003-04-27"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030427.0118-EV6-1",
+    "four_tuple": [
+      "-inf",
+      "2003-04-27",
+      "-inf",
+      "2003-04-27"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030427.0118-EV6-2",
+    "four_tuple": [
+      "-inf",
+      "2003-04-27",
+      "-inf",
+      "2003-04-27"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030427.0118-EV7-1",
+    "four_tuple": [
+      "1998-01-01",
+      "1998-12-31",
+      "1998-01-01",
+      "1998-12-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030427.0118-EV8-1",
+    "four_tuple": [
+      "1996-01-01",
+      "1996-12-31",
+      "1996-01-01",
+      "1996-12-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030427.0118-EV9-1",
+    "four_tuple": [
+      "2002-01-01",
+      "2002-12-31",
+      "2002-01-01",
+      "2002-12-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030427.0118-EV10-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030427.0118-EV12-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030427.0118-EV11-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030429.0007-EV1-1",
+    "four_tuple": [
+      "2003-04-29",
+      "+inf",
+      "2003-04-29",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030429.0007-EV2-1",
+    "four_tuple": [
+      "2003-04-21",
+      "2003-04-27",
+      "2003-04-21",
+      "2003-04-27"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030429.0007-EV3-1",
+    "four_tuple": [
+      "-inf",
+      "2003-02-28",
+      "-inf",
+      "2003-02-28"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030429.0007-EV4-1",
+    "four_tuple": [
+      "2003-02-01",
+      "2003-02-28",
+      "2003-02-01",
+      "2003-02-28"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030429.0007-EV1-2",
+    "four_tuple": [
+      "2003-04-29",
+      "+inf",
+      "2003-04-29",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030429.0007-EV5-1",
+    "four_tuple": [
+      "2003-04-29",
+      "+inf",
+      "2003-04-29",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030429.0007-EV5-2",
+    "four_tuple": [
+      "2003-04-29",
+      "+inf",
+      "2003-04-29",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030429.0007-EV2-2",
+    "four_tuple": [
+      "2003-04-21",
+      "2003-04-27",
+      "2003-04-21",
+      "2003-04-27"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030429.0007-EV6-1",
+    "four_tuple": [
+      "2004-04-01",
+      "2004-04-30",
+      "2004-04-01",
+      "2004-04-30"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030430.0075-EV1-1",
+    "four_tuple": [
+      "2003-05-01",
+      "2003-05-01",
+      "2003-05-01",
+      "2003-05-01"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030430.0075-EV2-1",
+    "four_tuple": [
+      "2003-05-01",
+      "2003-05-01",
+      "2003-05-01",
+      "2003-05-01"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030430.0075-EV3-1",
+    "four_tuple": [
+      "2003-04-30",
+      "+inf",
+      "2003-04-30",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030430.0075-EV4-1",
+    "four_tuple": [
+      "2003-04-30",
+      "+inf",
+      "2003-04-30",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030430.0075-EV5-1",
+    "four_tuple": [
+      "-inf",
+      "2003-04-30",
+      "-inf",
+      "2003-04-30"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030430.0075-EV6-1",
+    "four_tuple": [
+      "2003-05-01",
+      "2003-05-01",
+      "2003-05-01",
+      "2003-05-01"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030430.0075-EV2-2",
+    "four_tuple": [
+      "2003-05-01",
+      "2003-05-01",
+      "2003-05-01",
+      "2003-05-01"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030430.0075-EV2-3",
+    "four_tuple": [
+      "2003-05-01",
+      "2003-05-01",
+      "2003-05-01",
+      "2003-05-01"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030502.0614-EV2-1",
+    "four_tuple": [
+      "2003-05-02",
+      "+inf",
+      "2003-05-02",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030502.0614-EV1-1",
+    "four_tuple": [
+      "2003-05-02",
+      "+inf",
+      "2003-05-02",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030502.0614-EV2-2",
+    "four_tuple": [
+      "2003-05-02",
+      "+inf",
+      "2003-05-02",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030502.0614-EV3-1",
+    "four_tuple": [
+      "2003-05-02",
+      "+inf",
+      "2003-05-02",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030502.0614-EV2-3",
+    "four_tuple": [
+      "2003-05-02",
+      "+inf",
+      "2003-05-02",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030502.0614-EV4-1",
+    "four_tuple": [
+      "2003-05-02",
+      "2003-12-31",
+      "2003-05-02",
+      "2003-12-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030502.0614-EV2-4",
+    "four_tuple": [
+      "2003-05-02",
+      "+inf",
+      "2003-05-02",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030502.0614-EV5-1",
+    "four_tuple": [
+      "2003-04-29",
+      "2003-04-29",
+      "2003-04-29",
+      "2003-04-29"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030508.0357-EV1-1",
+    "four_tuple": [
+      "2003-05-09",
+      "2003-05-09",
+      "2003-05-09",
+      "2003-05-09"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030508.0357-EV2-1",
+    "four_tuple": [
+      "2003-05-09",
+      "2003-05-09",
+      "2003-05-09",
+      "2003-05-09"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030508.0357-EV3-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030508.0357-EV4-1",
+    "four_tuple": [
+      "1998-01-01",
+      "2003-05-09",
+      "2003-05-09",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030508.0357-EV5-1",
+    "four_tuple": [
+      "1998-01-01",
+      "1998-12-31",
+      "1998-01-01",
+      "1998-12-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030508.0357-EV1-2",
+    "four_tuple": [
+      "2003-05-09",
+      "2003-05-09",
+      "2003-05-09",
+      "2003-05-09"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030508.0357-EV6-1",
+    "four_tuple": [
+      "2003-05-09",
+      "2003-05-09",
+      "2003-05-09",
+      "2003-05-09"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030508.0357-EV6-2",
+    "four_tuple": [
+      "2003-05-09",
+      "2003-05-09",
+      "2003-05-09",
+      "2003-05-09"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030508.0357-EV7-1",
+    "four_tuple": [
+      "1998-01-01",
+      "1998-12-31",
+      "1998-01-01",
+      "1998-12-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030508.0357-EV8-1",
+    "four_tuple": [
+      "1998-01-01",
+      "1998-12-31",
+      "1998-01-01",
+      "1998-12-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030508.0357-EV10-1",
+    "four_tuple": [
+      "1998-01-01",
+      "1998-12-31",
+      "1998-01-01",
+      "1998-12-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030508.0357-EV9-1",
+    "four_tuple": [
+      "1999-04-01",
+      "1999-04-30",
+      "2003-04-01",
+      "2003-04-30"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030508.0357-EV11-1",
+    "four_tuple": [
+      "2003-04-01",
+      "2003-05-08",
+      "2012-04-01",
+      "2012-05-08"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030508.0357-EV11-2",
+    "four_tuple": [
+      "2003-04-01",
+      "2003-05-08",
+      "2012-04-01",
+      "2012-05-08"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030508.0357-EV12-1",
+    "four_tuple": [
+      "2003-04-18",
+      "2003-04-18",
+      "2003-04-18",
+      "2003-04-18"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030508.0357-EV4-2",
+    "four_tuple": [
+      "1998-01-01",
+      "2003-05-09",
+      "2003-05-09",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030519.0049-EV1-1",
+    "four_tuple": [
+      "2003-05-19",
+      "+inf",
+      "2003-05-19",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030519.0049-EV1-2",
+    "four_tuple": [
+      "2003-05-19",
+      "+inf",
+      "2003-05-19",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030519.0049-EV2-1",
+    "four_tuple": [
+      "2002-01-01",
+      "2002-12-31",
+      "2002-01-01",
+      "2002-12-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030519.0049-EV3-1",
+    "four_tuple": [
+      "2003-04-01",
+      "2003-04-30",
+      "2003-04-01",
+      "2003-04-30"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030519.0049-EV6-1",
+    "four_tuple": [
+      "-inf",
+      "2003-04-30",
+      "-inf",
+      "2003-04-30"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030519.0049-EV7-1",
+    "four_tuple": [
+      "-inf",
+      "2003-04-29",
+      "-inf",
+      "2003-04-29"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030519.0049-EV7-2",
+    "four_tuple": [
+      "-inf",
+      "2003-04-29",
+      "-inf",
+      "2003-04-29"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030519.0049-EV4-1",
+    "four_tuple": [
+      "-inf",
+      "2003-05-19",
+      "-inf",
+      "2003-05-19"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030519.0049-EV5-1",
+    "four_tuple": [
+      "2003-05-19",
+      "+inf",
+      "2003-05-19",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030522.0878-EV1-1",
+    "four_tuple": [
+      "2003-05-26",
+      "2003-05-28",
+      "2003-05-26",
+      "2003-05-28"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030522.0878-EV2-1",
+    "four_tuple": [
+      "2003-03-01",
+      "2003-03-31",
+      "2003-03-01",
+      "2003-03-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030522.0878-EV3-1",
+    "four_tuple": [
+      "2003-05-26",
+      "2003-05-28",
+      "2003-05-26",
+      "2003-05-28"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030522.0878-EV4-1",
+    "four_tuple": [
+      "2003-05-28",
+      "2003-12-31",
+      "2003-05-28",
+      "2003-12-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030522.0878-EV5-1",
+    "four_tuple": [
+      "2003-05-28",
+      "2003-12-31",
+      "2003-05-28",
+      "2003-12-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030522.0878-EV1-2",
+    "four_tuple": [
+      "2003-05-26",
+      "2003-05-28",
+      "2003-05-26",
+      "2003-05-28"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030522.0878-EV2-2",
+    "four_tuple": [
+      "2003-03-01",
+      "2003-03-31",
+      "2003-03-01",
+      "2003-03-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030522.0878-EV3-2",
+    "four_tuple": [
+      "2003-05-26",
+      "2003-05-28",
+      "2003-05-26",
+      "2003-05-28"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030522.0878-EV6-1",
+    "four_tuple": [
+      "-inf",
+      "2002-12-31",
+      "-inf",
+      "2003-03-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030522.0878-EV8-1",
+    "four_tuple": [
+      "2002-12-01",
+      "2002-12-31",
+      "2002-12-01",
+      "2002-12-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030522.0878-EV7-1",
+    "four_tuple": [
+      "-inf",
+      "2003-05-22",
+      "2003-05-22",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030522.0878-EV3-3",
+    "four_tuple": [
+      "2003-05-26",
+      "2003-05-28",
+      "2003-05-26",
+      "2003-05-28"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030522.0878-EV9-1",
+    "four_tuple": [
+      "-inf",
+      "2003-05-22",
+      "2003-05-22",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030527.0616-EV1-1",
+    "four_tuple": [
+      "2003-06-01",
+      "2003-06-03",
+      "2003-06-01",
+      "2003-06-03"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030527.0616-EV4-1",
+    "four_tuple": [
+      "2003-05-26",
+      "2003-05-26",
+      "2003-05-26",
+      "2003-05-26"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030527.0616-EV1-2",
+    "four_tuple": [
+      "2003-06-01",
+      "2003-06-03",
+      "2003-06-01",
+      "2003-06-03"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030527.0616-EV1-3",
+    "four_tuple": [
+      "2003-06-01",
+      "2003-06-03",
+      "2003-06-01",
+      "2003-06-03"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030527.0616-EV4-2",
+    "four_tuple": [
+      "2003-05-26",
+      "2003-05-26",
+      "2003-05-26",
+      "2003-05-26"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030527.0616-EV2-1",
+    "four_tuple": [
+      "-inf",
+      "2003-05-27",
+      "2003-05-27",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030527.0616-EV3-1",
+    "four_tuple": [
+      "2003-05-27",
+      "+inf",
+      "2003-05-27",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030527.0616-EV1-4",
+    "four_tuple": [
+      "2003-06-01",
+      "2003-06-03",
+      "2003-06-01",
+      "2003-06-03"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030527.0616-EV4-3",
+    "four_tuple": [
+      "2003-05-26",
+      "2003-05-26",
+      "2003-05-26",
+      "2003-05-26"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030528.0561-EV1-1",
+    "four_tuple": [
+      "2003-04-01",
+      "2003-04-30",
+      "2003-04-01",
+      "2003-04-30"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030528.0561-EV2-1",
+    "four_tuple": [
+      "2003-05-28",
+      "+inf",
+      "2003-05-28",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030528.0561-EV3-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030528.0561-EV4-1",
+    "four_tuple": [
+      "-inf",
+      "2003-05-28",
+      "-inf",
+      "2003-05-28"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030607.0030-EV1-1",
+    "four_tuple": [
+      "2003-05-01",
+      "2003-05-31",
+      "2003-05-01",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030625.0057-EV1-1",
+    "four_tuple": [
+      "2003-06-25",
+      "+inf",
+      "2003-06-25",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030625.0057-EV2-1",
+    "four_tuple": [
+      "2003-06-25",
+      "+inf",
+      "2003-06-25",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030625.0057-EV3-1",
+    "four_tuple": [
+      "2003-06-25",
+      "+inf",
+      "2003-06-25",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030625.0057-EV1-2",
+    "four_tuple": [
+      "2003-06-25",
+      "+inf",
+      "2003-06-25",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030625.0057-EV1-3",
+    "four_tuple": [
+      "2003-06-25",
+      "+inf",
+      "2003-06-25",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030304.0555-EV1-3",
+    "four_tuple": [
+      "2003-03-04",
+      "+inf",
+      "2003-03-04",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030304.0555-EV1-2",
+    "four_tuple": [
+      "2003-03-04",
+      "+inf",
+      "2003-03-04",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030304.0555-EV2-1",
+    "four_tuple": [
+      "2003-03-04",
+      "+inf",
+      "2003-03-04",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030304.0555-EV1-1",
+    "four_tuple": [
+      "2003-03-04",
+      "+inf",
+      "2003-03-04",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030304.0555-EV6-1",
+    "four_tuple": [
+      "2003-03-10",
+      "2003-03-16",
+      "2003-03-10",
+      "2003-03-16"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030304.0555-EV3-1",
+    "four_tuple": [
+      "2003-03-04",
+      "+inf",
+      "2003-03-04",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030304.0555-EV4-1",
+    "four_tuple": [
+      "2003-03-04",
+      "+inf",
+      "2003-03-04",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030304.0555-EV5-1",
+    "four_tuple": [
+      "2003-03-04",
+      "+inf",
+      "2003-03-04",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030306.0191-EV1-1",
+    "four_tuple": [
+      "2003-03-13",
+      "+inf",
+      "2003-03-13",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030306.0191-EV2-1",
+    "four_tuple": [
+      "2003-03-10",
+      "2003-03-16",
+      "2003-03-10",
+      "2003-03-16"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030306.0191-EV3-1",
+    "four_tuple": [
+      "1987-01-01",
+      "1987-12-31",
+      "2000-10-01",
+      "2000-10-31"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030306.0191-EV4-1",
+    "four_tuple": [
+      "2000-01-01",
+      "2000-12-31",
+      "2000-01-01",
+      "2000-12-31"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030306.0191-EV1-2",
+    "four_tuple": [
+      "2003-03-13",
+      "+inf",
+      "2003-03-13",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030306.0191-EV5-1",
+    "four_tuple": [
+      "2003-03-13",
+      "2003-03-13",
+      "2003-03-13",
+      "2008-03-13"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030306.0191-EV7-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030306.0191-EV1-3",
+    "four_tuple": [
+      "2003-03-13",
+      "+inf",
+      "2003-03-13",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030306.0191-EV8-1",
+    "four_tuple": [
+      "2000-10-01",
+      "2000-10-31",
+      "2000-10-01",
+      "2000-10-31"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030306.0191-EV9-1",
+    "four_tuple": [
+      "2000-10-01",
+      "+inf",
+      "2000-10-01",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030306.0191-EV10-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030306.0191-EV6-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030308.0314-EV1-1",
+    "four_tuple": [
+      "2003-03-08",
+      "+inf",
+      "2003-03-08",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030308.0314-EV1-2",
+    "four_tuple": [
+      "2003-03-08",
+      "+inf",
+      "2003-03-08",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030308.0314-EV1-3",
+    "four_tuple": [
+      "2003-03-08",
+      "+inf",
+      "2003-03-08",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030308.0314-EV2-1",
+    "four_tuple": [
+      "1990-01-01",
+      "1990-12-31",
+      "1990-01-01",
+      "1990-12-31"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030308.0314-EV3-1",
+    "four_tuple": [
+      "2003-03-08",
+      "2003-03-08",
+      "2003-03-08",
+      "2003-03-08"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030308.0314-EV3-2",
+    "four_tuple": [
+      "2003-03-08",
+      "2003-03-08",
+      "2003-03-08",
+      "2003-03-08"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030308.0314-EV4-1",
+    "four_tuple": [
+      "2003-03-08",
+      "+inf",
+      "2003-03-08",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030308.0314-EV5-1",
+    "four_tuple": [
+      "2003-03-17",
+      "+inf",
+      "2003-03-17",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030308.0314-EV6-1",
+    "four_tuple": [
+      "2003-02-28",
+      "2003-03-08",
+      "2003-02-28",
+      "2003-03-08"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030318.0689-EV2-5",
+    "four_tuple": [
+      "2003-03-18",
+      "+inf",
+      "2003-03-18",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030318.0689-EV10-1",
+    "four_tuple": [
+      "2003-03-18",
+      "+inf",
+      "2003-03-18",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030318.0689-EV9-1",
+    "four_tuple": [
+      "2003-03-18",
+      "+inf",
+      "2003-03-18",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030318.0689-EV11-1",
+    "four_tuple": [
+      "2003-03-18",
+      "+inf",
+      "2003-03-18",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030318.0689-EV1-4",
+    "four_tuple": [
+      "2003-03-19",
+      "2003-03-19",
+      "2003-03-19",
+      "2003-03-19"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030318.0689-EV1-1",
+    "four_tuple": [
+      "2003-03-19",
+      "2003-03-19",
+      "2003-03-19",
+      "2003-03-19"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030318.0689-EV2-1",
+    "four_tuple": [
+      "2003-03-18",
+      "+inf",
+      "2003-03-18",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030318.0689-EV1-2",
+    "four_tuple": [
+      "2003-03-19",
+      "2003-03-19",
+      "2003-03-19",
+      "2003-03-19"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030318.0689-EV1-3",
+    "four_tuple": [
+      "2003-03-19",
+      "2003-03-19",
+      "2003-03-19",
+      "2003-03-19"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030318.0689-EV2-6",
+    "four_tuple": [
+      "2003-03-18",
+      "+inf",
+      "2003-03-18",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030318.0689-EV2-2",
+    "four_tuple": [
+      "2003-03-18",
+      "+inf",
+      "2003-03-18",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030318.0689-EV12-1",
+    "four_tuple": [
+      "2003-03-18",
+      "2003-03-18",
+      "2003-03-18",
+      "2003-03-18"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030318.0689-EV13-1",
+    "four_tuple": [
+      "2003-03-18",
+      "2003-03-20",
+      "2003-03-18",
+      "2003-03-20"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030318.0689-EV2-7",
+    "four_tuple": [
+      "2003-03-18",
+      "+inf",
+      "2003-03-18",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030318.0689-EV2-3",
+    "four_tuple": [
+      "2003-03-18",
+      "+inf",
+      "2003-03-18",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030318.0689-EV2-9",
+    "four_tuple": [
+      "2003-03-18",
+      "+inf",
+      "2003-03-18",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030318.0689-EV2-8",
+    "four_tuple": [
+      "2003-03-18",
+      "+inf",
+      "2003-03-18",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030318.0689-EV3-1",
+    "four_tuple": [
+      "2003-03-18",
+      "+inf",
+      "2003-03-18",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030318.0689-EV2-10",
+    "four_tuple": [
+      "2003-03-18",
+      "+inf",
+      "2003-03-18",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030318.0689-EV4-1",
+    "four_tuple": [
+      "2003-03-18",
+      "+inf",
+      "2003-03-18",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030318.0689-EV5-1",
+    "four_tuple": [
+      "2003-03-18",
+      "+inf",
+      "2003-03-18",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030318.0689-EV14-1",
+    "four_tuple": [
+      "2003-03-18",
+      "+inf",
+      "2003-03-18",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030318.0689-EV15-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-18",
+      "2003-03-18",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030318.0689-EV16-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-15",
+      "2003-03-15",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030318.0689-EV6-1",
+    "four_tuple": [
+      "2003-03-19",
+      "2003-03-19",
+      "2003-03-19",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030318.0689-EV17-1",
+    "four_tuple": [
+      "2003-03-15",
+      "2003-03-22",
+      "2003-03-15",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030318.0689-EV2-4",
+    "four_tuple": [
+      "2003-03-18",
+      "+inf",
+      "2003-03-18",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030318.0689-EV7-1",
+    "four_tuple": [
+      "2003-03-18",
+      "+inf",
+      "2003-03-18",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030318.0689-EV8-1",
+    "four_tuple": [
+      "2003-03-18",
+      "+inf",
+      "2003-03-18",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030318.0689-EV18-1",
+    "four_tuple": [
+      "2003-03-18",
+      "+inf",
+      "2003-03-18",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030318.0689-EV19-1",
+    "four_tuple": [
+      "2003-03-18",
+      "+inf",
+      "2003-03-18",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030324.0768-EV3-1",
+    "four_tuple": [
+      "2003-01-01",
+      "2003-01-10",
+      "2003-01-12",
+      "2003-01-12"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030324.0768-EV1-1",
+    "four_tuple": [
+      "2003-03-24",
+      "2003-03-24",
+      "2003-03-24",
+      "2003-03-24"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030324.0768-EV1-2",
+    "four_tuple": [
+      "2003-03-24",
+      "2003-03-24",
+      "2003-03-24",
+      "2003-03-24"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030324.0768-EV2-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030324.0768-EV4-1",
+    "four_tuple": [
+      "2003-01-12",
+      "2003-01-12",
+      "2003-01-12",
+      "2003-01-12"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV1-1",
+    "four_tuple": [
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV2-1",
+    "four_tuple": [
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV3-1",
+    "four_tuple": [
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV25-1",
+    "four_tuple": [
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV1-2",
+    "four_tuple": [
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV3-2",
+    "four_tuple": [
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV4-1",
+    "four_tuple": [
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV5-1",
+    "four_tuple": [
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV3-3",
+    "four_tuple": [
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV3-4",
+    "four_tuple": [
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV7-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-21",
+      "2003-03-23",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV7-14",
+    "four_tuple": [
+      "-inf",
+      "2003-03-21",
+      "2003-03-23",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV8-1",
+    "four_tuple": [
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV29-2",
+    "four_tuple": [
+      "2003-03-21",
+      "2003-03-21",
+      "2003-03-21",
+      "2003-03-21"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV3-5",
+    "four_tuple": [
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV9-1",
+    "four_tuple": [
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV7-2",
+    "four_tuple": [
+      "-inf",
+      "2003-03-21",
+      "2003-03-23",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV10-1",
+    "four_tuple": [
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV4-2",
+    "four_tuple": [
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV7-3",
+    "four_tuple": [
+      "-inf",
+      "2003-03-21",
+      "2003-03-23",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV11-1",
+    "four_tuple": [
+      "2003-03-22",
+      "+inf",
+      "2003-03-22",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV12-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-21",
+      "2003-03-22",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV13-1",
+    "four_tuple": [
+      "2003-03-23",
+      "+inf",
+      "2003-03-23",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV14-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-21",
+      "2003-03-23",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV15-1",
+    "four_tuple": [
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-23",
+      "2003-03-23"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV16-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV17-1",
+    "four_tuple": [
+      "2003-03-09",
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV7-5",
+    "four_tuple": [
+      "-inf",
+      "2003-03-21",
+      "2003-03-23",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV18-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-21",
+      "2003-03-23",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV7-4",
+    "four_tuple": [
+      "-inf",
+      "2003-03-21",
+      "2003-03-23",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV7-15",
+    "four_tuple": [
+      "-inf",
+      "2003-03-21",
+      "2003-03-23",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV19-1",
+    "four_tuple": [
+      "2003-03-09",
+      "2003-03-23",
+      "2003-03-09",
+      "2003-03-23"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV26-1",
+    "four_tuple": [
+      "2003-03-09",
+      "2003-03-23",
+      "2003-03-09",
+      "2003-03-23"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV7-6",
+    "four_tuple": [
+      "-inf",
+      "2003-03-21",
+      "2003-03-23",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV7-7",
+    "four_tuple": [
+      "-inf",
+      "2003-03-21",
+      "2003-03-23",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV27-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV7-8",
+    "four_tuple": [
+      "-inf",
+      "2003-03-21",
+      "2003-03-23",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV7-9",
+    "four_tuple": [
+      "-inf",
+      "2003-03-21",
+      "2003-03-23",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV28-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV20-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-21",
+      "2003-03-23",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV21-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV7-10",
+    "four_tuple": [
+      "-inf",
+      "2003-03-21",
+      "2003-03-23",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV22-1",
+    "four_tuple": [
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV29-1",
+    "four_tuple": [
+      "2003-03-21",
+      "2003-03-21",
+      "2003-03-21",
+      "2003-03-21"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV7-11",
+    "four_tuple": [
+      "-inf",
+      "2003-03-21",
+      "2003-03-23",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV30-1",
+    "four_tuple": [
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV7-12",
+    "four_tuple": [
+      "-inf",
+      "2003-03-21",
+      "2003-03-23",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV23-1",
+    "four_tuple": [
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV24-1",
+    "four_tuple": [
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV7-13",
+    "four_tuple": [
+      "-inf",
+      "2003-03-21",
+      "2003-03-23",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV6-1",
+    "four_tuple": [
+      "2003-03-09",
+      "2003-03-23",
+      "2003-03-09",
+      "2003-03-23"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030323.0020-EV31-1",
+    "four_tuple": [
+      "2003-03-09",
+      "2003-03-23",
+      "2003-03-09",
+      "2003-03-23"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030330.0211-EV1-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-30",
+      "2003-03-30",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030330.0211-EV2-1",
+    "four_tuple": [
+      "2003-03-30",
+      "2003-03-30",
+      "2003-03-30",
+      "2003-03-30"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030330.0211-EV1-3",
+    "four_tuple": [
+      "-inf",
+      "2003-03-30",
+      "2003-03-30",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030330.0211-EV1-4",
+    "four_tuple": [
+      "-inf",
+      "2003-03-30",
+      "2003-03-30",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030330.0211-EV2-2",
+    "four_tuple": [
+      "2003-03-30",
+      "2003-03-30",
+      "2003-03-30",
+      "2003-03-30"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030330.0211-EV3-1",
+    "four_tuple": [
+      "2003-01-01",
+      "2003-01-31",
+      "2003-03-30",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030330.0211-EV1-2",
+    "four_tuple": [
+      "-inf",
+      "2003-03-30",
+      "2003-03-30",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030330.0211-EV1-5",
+    "four_tuple": [
+      "-inf",
+      "2003-03-30",
+      "2003-03-30",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030326.0190-EV1-1",
+    "four_tuple": [
+      "2003-03-26",
+      "2003-03-26",
+      "2003-03-26",
+      "2003-03-26"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030326.0190-EV1-2",
+    "four_tuple": [
+      "2003-03-26",
+      "2003-03-26",
+      "2003-03-26",
+      "2003-03-26"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030326.0190-EV1-3",
+    "four_tuple": [
+      "2003-03-26",
+      "2003-03-26",
+      "2003-03-26",
+      "2003-03-26"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030326.0190-EV2-1",
+    "four_tuple": [
+      "2003-03-26",
+      "2003-03-26",
+      "2003-03-26",
+      "2003-03-26"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030326.0190-EV3-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-26",
+      "-inf",
+      "2003-03-26"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030326.0190-EV11-1",
+    "four_tuple": [
+      "2003-03-26",
+      "2003-03-26",
+      "2003-03-26",
+      "2003-03-26"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030326.0190-EV4-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-26",
+      "2003-03-26",
+      "2003-03-26"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030326.0190-EV4-2",
+    "four_tuple": [
+      "-inf",
+      "2003-03-26",
+      "2003-03-26",
+      "2003-03-26"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030326.0190-EV5-1",
+    "four_tuple": [
+      "2003-03-26",
+      "+inf",
+      "2003-03-26",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030326.0190-EV6-1",
+    "four_tuple": [
+      "2003-03-23",
+      "2003-03-25",
+      "2003-03-26",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030326.0190-EV7-1",
+    "four_tuple": [
+      "2003-03-25",
+      "+inf",
+      "2003-03-25",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030326.0190-EV8-1",
+    "four_tuple": [
+      "2003-03-25",
+      "2003-03-25",
+      "2003-03-25",
+      "2003-03-25"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030326.0190-EV9-1",
+    "four_tuple": [
+      "2003-03-26",
+      "2003-03-26",
+      "2003-03-26",
+      "2003-03-26"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030326.0190-EV10-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-25",
+      "2003-03-26",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030326.0190-EV10-2",
+    "four_tuple": [
+      "-inf",
+      "2003-03-25",
+      "2003-03-26",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030326.0190-EV10-3",
+    "four_tuple": [
+      "-inf",
+      "2003-03-25",
+      "2003-03-26",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030326.0190-EV10-4",
+    "four_tuple": [
+      "-inf",
+      "2003-03-25",
+      "2003-03-26",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030326.0190-EV10-5",
+    "four_tuple": [
+      "-inf",
+      "2003-03-25",
+      "2003-03-26",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030326.0190-EV10-6",
+    "four_tuple": [
+      "-inf",
+      "2003-03-25",
+      "2003-03-26",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030326.0190-EV10-7",
+    "four_tuple": [
+      "-inf",
+      "2003-03-25",
+      "2003-03-26",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV16-1",
+    "four_tuple": [
+      "2003-04-04",
+      "2003-04-04",
+      "2003-04-04",
+      "2003-04-04"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV17-1",
+    "four_tuple": [
+      "2003-04-04",
+      "2003-04-04",
+      "2003-04-04",
+      "2003-04-04"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV12-1",
+    "four_tuple": [
+      "2003-03-20",
+      "2003-04-04",
+      "2003-04-04",
+      "2003-04-04"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV18-1",
+    "four_tuple": [
+      "2003-03-20",
+      "2003-04-04",
+      "2003-04-04",
+      "2003-04-04"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV18-2",
+    "four_tuple": [
+      "2003-03-20",
+      "2003-04-04",
+      "2003-04-04",
+      "2003-04-04"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV13-1",
+    "four_tuple": [
+      "2003-03-20",
+      "2003-04-04",
+      "2003-04-04",
+      "2003-04-04"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV19-1",
+    "four_tuple": [
+      "2003-04-04",
+      "+inf",
+      "2003-04-04",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV20-1",
+    "four_tuple": [
+      "2003-04-04",
+      "+inf",
+      "2003-04-04",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV21-2",
+    "four_tuple": [
+      "2003-04-04",
+      "+inf",
+      "2003-04-04",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV22-1",
+    "four_tuple": [
+      "2003-04-04",
+      "+inf",
+      "2003-04-04",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV21-1",
+    "four_tuple": [
+      "2003-04-04",
+      "+inf",
+      "2003-04-04",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV23-1",
+    "four_tuple": [
+      "2003-04-04",
+      "2003-04-10",
+      "2003-04-04",
+      "2003-04-10"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV24-1",
+    "four_tuple": [
+      "-inf",
+      "2003-04-04",
+      "2003-04-04",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV2-1",
+    "four_tuple": [
+      "2003-04-03",
+      "2003-04-03",
+      "2003-04-03",
+      "2003-04-03"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV25-1",
+    "four_tuple": [
+      "2003-04-03",
+      "2003-04-03",
+      "2003-04-03",
+      "2003-04-03"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV26-1",
+    "four_tuple": [
+      "2003-04-03",
+      "2003-04-03",
+      "2003-04-03",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV4-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV27-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV28-1",
+    "four_tuple": [
+      "2003-04-03",
+      "2003-04-03",
+      "2003-04-03",
+      "2003-04-03"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV24-2",
+    "four_tuple": [
+      "-inf",
+      "2003-04-04",
+      "2003-04-04",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV5-1",
+    "four_tuple": [
+      "2003-03-20",
+      "2003-04-04",
+      "2003-03-20",
+      "2003-04-04"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV29-1",
+    "four_tuple": [
+      "2003-03-20",
+      "2003-04-04",
+      "2003-03-20",
+      "2003-04-04"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV30-1",
+    "four_tuple": [
+      "2003-03-20",
+      "2003-04-04",
+      "2003-03-20",
+      "2003-04-04"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV1-1",
+    "four_tuple": [
+      "2003-03-20",
+      "2003-04-04",
+      "2003-03-20",
+      "2003-04-04"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV3-1",
+    "four_tuple": [
+      "2003-04-02",
+      "2003-04-02",
+      "2003-04-02",
+      "2003-04-02"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV6-1",
+    "four_tuple": [
+      "2003-03-20",
+      "2003-04-04",
+      "2003-03-20",
+      "2003-04-04"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV14-1",
+    "four_tuple": [
+      "2003-03-20",
+      "2003-04-04",
+      "2003-03-20",
+      "2003-04-04"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV15-1",
+    "four_tuple": [
+      "-inf",
+      "2003-04-04",
+      "-inf",
+      "2003-04-04"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV7-1",
+    "four_tuple": [
+      "2003-03-20",
+      "2003-04-04",
+      "2003-03-20",
+      "2003-04-04"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV31-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV8-1",
+    "four_tuple": [
+      "2003-03-20",
+      "2003-04-04",
+      "2003-04-04",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV32-1",
+    "four_tuple": [
+      "2003-03-20",
+      "2003-04-04",
+      "2003-03-20",
+      "2003-04-04"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV33-1",
+    "four_tuple": [
+      "2003-03-20",
+      "2003-04-04",
+      "2003-03-20",
+      "2003-04-04"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV34-1",
+    "four_tuple": [
+      "2003-03-20",
+      "2003-04-04",
+      "2003-03-20",
+      "2003-04-04"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV35-1",
+    "four_tuple": [
+      "2003-03-20",
+      "2003-04-04",
+      "2003-03-20",
+      "2003-04-04"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV36-1",
+    "four_tuple": [
+      "2003-03-20",
+      "2003-04-04",
+      "2003-03-20",
+      "2003-04-04"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV9-1",
+    "four_tuple": [
+      "2003-03-20",
+      "2003-04-04",
+      "2003-04-04",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV10-1",
+    "four_tuple": [
+      "2003-03-20",
+      "2003-04-04",
+      "2003-04-04",
+      "2003-04-04"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV37-1",
+    "four_tuple": [
+      "2003-03-20",
+      "2003-04-03",
+      "2003-03-20",
+      "2003-04-03"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV38-1",
+    "four_tuple": [
+      "2003-04-03",
+      "+inf",
+      "2003-04-03",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV39-1",
+    "four_tuple": [
+      "2003-04-01",
+      "2003-04-01",
+      "2003-04-01",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV40-1",
+    "four_tuple": [
+      "2003-04-01",
+      "2003-04-04",
+      "2003-04-01",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV41-1",
+    "four_tuple": [
+      "2003-04-01",
+      "2003-04-04",
+      "2003-04-01",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV11-1",
+    "four_tuple": [
+      "2003-04-01",
+      "2003-04-04",
+      "2003-04-01",
+      "2003-04-04"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV42-2",
+    "four_tuple": [
+      "2003-04-01",
+      "2003-04-04",
+      "2003-04-01",
+      "2003-04-04"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV42-1",
+    "four_tuple": [
+      "2003-04-01",
+      "2003-04-04",
+      "2003-04-01",
+      "2003-04-04"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV43-1",
+    "four_tuple": [
+      "2003-04-01",
+      "2003-04-04",
+      "2003-04-01",
+      "2003-04-04"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV44-1",
+    "four_tuple": [
+      "2003-04-01",
+      "2003-04-04",
+      "2003-04-01",
+      "2003-04-04"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV45-1",
+    "four_tuple": [
+      "2003-04-01",
+      "2003-04-04",
+      "2003-04-04",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030403.0862-EV46-1",
+    "four_tuple": [
+      "2003-04-04",
+      "+inf",
+      "2003-04-04",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "rec.games.chess.politics_20041216.1047-EV1-1",
+    "four_tuple": [
+      "2003-08-11",
+      "2003-08-11",
+      "2003-08-11",
+      "2003-08-11"
+    ]
+  },
+  {
+    "event_mention": "rec.games.chess.politics_20041216.1047-EV2-1",
+    "four_tuple": [
+      "2003-08-11",
+      "2003-08-20",
+      "2003-08-11",
+      "2003-08-20"
+    ]
+  },
+  {
+    "event_mention": "rec.games.chess.politics_20041216.1047-EV3-1",
+    "four_tuple": [
+      "2003-08-20",
+      "2003-08-20",
+      "2003-08-20",
+      "2003-08-20"
+    ]
+  },
+  {
+    "event_mention": "rec.games.chess.politics_20041216.1047-EV4-1",
+    "four_tuple": [
+      "2003-08-20",
+      "2003-08-20",
+      "2003-08-20",
+      "2003-08-20"
+    ]
+  },
+  {
+    "event_mention": "rec.games.chess.politics_20041216.1047-EV5-2",
+    "four_tuple": [
+      "2003-08-20",
+      "2004-12-16",
+      "2003-08-20",
+      "2004-12-16"
+    ]
+  },
+  {
+    "event_mention": "rec.games.chess.politics_20041216.1047-EV4-2",
+    "four_tuple": [
+      "2003-08-20",
+      "2003-08-20",
+      "2003-08-20",
+      "2003-08-20"
+    ]
+  },
+  {
+    "event_mention": "rec.games.chess.politics_20041216.1047-EV6-1",
+    "four_tuple": [
+      "2003-09-21",
+      "2003-10-04",
+      "2003-09-21",
+      "2003-10-04"
+    ]
+  },
+  {
+    "event_mention": "rec.games.chess.politics_20041216.1047-EV7-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "rec.games.chess.politics_20041216.1047-EV8-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "rec.games.chess.politics_20041216.1047-EV8-2",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "rec.games.chess.politics_20041216.1047-EV9-1",
+    "four_tuple": [
+      "2003-08-20",
+      "2004-12-16",
+      "2003-08-20",
+      "2004-12-16"
+    ]
+  },
+  {
+    "event_mention": "rec.games.chess.politics_20041216.1047-EV4-3",
+    "four_tuple": [
+      "2003-08-20",
+      "2003-08-20",
+      "2003-08-20",
+      "2003-08-20"
+    ]
+  },
+  {
+    "event_mention": "rec.games.chess.politics_20041216.1047-EV4-4",
+    "four_tuple": [
+      "2003-08-20",
+      "2003-08-20",
+      "2003-08-20",
+      "2003-08-20"
+    ]
+  },
+  {
+    "event_mention": "rec.games.chess.politics_20041216.1047-EV4-5",
+    "four_tuple": [
+      "2003-08-20",
+      "2003-08-20",
+      "2003-08-20",
+      "2003-08-20"
+    ]
+  },
+  {
+    "event_mention": "rec.games.chess.politics_20041216.1047-EV5-1",
+    "four_tuple": [
+      "2003-08-20",
+      "2004-12-16",
+      "2003-08-20",
+      "2004-12-16"
+    ]
+  },
+  {
+    "event_mention": "rec.games.chess.politics_20041216.1047-EV13-1",
+    "four_tuple": [
+      "-inf",
+      "2004-12-16",
+      "-inf",
+      "2004-12-16"
+    ]
+  },
+  {
+    "event_mention": "rec.games.chess.politics_20041216.1047-EV14-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "rec.games.chess.politics_20041216.1047-EV4-7",
+    "four_tuple": [
+      "2003-08-20",
+      "2003-08-20",
+      "2003-08-20",
+      "2003-08-20"
+    ]
+  },
+  {
+    "event_mention": "rec.games.chess.politics_20041216.1047-EV10-1",
+    "four_tuple": [
+      "2003-08-20",
+      "2004-12-16",
+      "2003-08-20",
+      "2004-12-16"
+    ]
+  },
+  {
+    "event_mention": "rec.games.chess.politics_20041216.1047-EV11-1",
+    "four_tuple": [
+      "2003-10-01",
+      "2003-10-31",
+      "2003-10-01",
+      "2003-10-31"
+    ]
+  },
+  {
+    "event_mention": "rec.games.chess.politics_20041216.1047-EV4-6",
+    "four_tuple": [
+      "2003-08-20",
+      "2003-08-20",
+      "2003-08-20",
+      "2003-08-20"
+    ]
+  },
+  {
+    "event_mention": "rec.games.chess.politics_20041216.1047-EV12-1",
+    "four_tuple": [
+      "2004-01-01",
+      "2004-12-16",
+      "2004-01-01",
+      "2004-12-16"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030329.1600.00-2-EV1-1",
+    "four_tuple": [
+      "2003-03-29",
+      "2003-03-29",
+      "2003-03-29",
+      "2003-03-29"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030329.1600.00-2-EV5-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-29",
+      "2003-03-29",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030329.1600.00-2-EV6-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-29",
+      "2003-03-29",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030329.1600.00-2-EV7-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030329.1600.00-2-EV8-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030329.1600.00-2-EV2-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030329.1600.00-2-EV9-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030329.1600.00-2-EV10-1",
+    "four_tuple": [
+      "2003-03-29",
+      "2003-03-29",
+      "2003-03-29",
+      "2003-03-29"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030329.1600.00-2-EV11-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030329.1600.00-2-EV12-1",
+    "four_tuple": [
+      "2003-03-30",
+      "2003-03-30",
+      "2003-03-30",
+      "2003-03-30"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030329.1600.00-2-EV3-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-29",
+      "2003-03-29",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030329.1600.00-2-EV4-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-29",
+      "2003-03-29",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNNHL_ENG_20030424_123502.25-EV1-1",
+    "four_tuple": [
+      "2003-04-24",
+      "2003-04-24",
+      "2003-04-24",
+      "2003-04-24"
+    ]
+  },
+  {
+    "event_mention": "CNNHL_ENG_20030424_123502.25-EV2-3",
+    "four_tuple": [
+      "2003-04-24",
+      "2003-04-24",
+      "2003-04-24",
+      "2003-04-24"
+    ]
+  },
+  {
+    "event_mention": "CNNHL_ENG_20030424_123502.25-EV2-1",
+    "four_tuple": [
+      "2003-04-24",
+      "2003-04-24",
+      "2003-04-24",
+      "2003-04-24"
+    ]
+  },
+  {
+    "event_mention": "CNNHL_ENG_20030424_123502.25-EV2-2",
+    "four_tuple": [
+      "2003-04-24",
+      "2003-04-24",
+      "2003-04-24",
+      "2003-04-24"
+    ]
+  },
+  {
+    "event_mention": "CNNHL_ENG_20030424_123502.25-EV3-1",
+    "four_tuple": [
+      "2003-04-24",
+      "2003-04-24",
+      "2003-04-24",
+      "2003-04-24"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030620_085840.7-EV4-1",
+    "four_tuple": [
+      "2003-01-01",
+      "2003-01-31",
+      "2003-01-01",
+      "2003-01-31"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030620_085840.7-EV1-1",
+    "four_tuple": [
+      "2003-06-19",
+      "2003-06-19",
+      "2003-06-19",
+      "2003-06-19"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030620_085840.7-EV6-1",
+    "four_tuple": [
+      "2003-06-17",
+      "2003-06-17",
+      "2003-06-17",
+      "2003-06-17"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030620_085840.7-EV2-1",
+    "four_tuple": [
+      "2003-01-01",
+      "2003-01-31",
+      "2003-01-01",
+      "2003-01-31"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030620_085840.7-EV3-1",
+    "four_tuple": [
+      "-inf",
+      "2003-01-31",
+      "-inf",
+      "2003-01-31"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030620_085840.7-EV5-1",
+    "four_tuple": [
+      "2003-01-01",
+      "2003-01-31",
+      "2003-01-01",
+      "2003-01-31"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20041117.2002.024-EV1-1",
+    "four_tuple": [
+      "2004-11-16",
+      "2004-11-16",
+      "2004-11-16",
+      "2004-11-16"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20041117.2002.024-EV2-1",
+    "four_tuple": [
+      "-inf",
+      "2004-11-16",
+      "2004-11-16",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20041117.2002.024-EV3-1",
+    "four_tuple": [
+      "-inf",
+      "2004-11-16",
+      "2004-11-16",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20041117.2002.024-EV4-1",
+    "four_tuple": [
+      "-inf",
+      "2004-11-16",
+      "-inf",
+      "2004-11-16"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20041117.2002.024-EV5-1",
+    "four_tuple": [
+      "-inf",
+      "2004-11-16",
+      "-inf",
+      "2004-11-16"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20041117.2002.024-EV6-1",
+    "four_tuple": [
+      "-inf",
+      "2004-11-14",
+      "-inf",
+      "2004-11-14"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20041117.2002.024-EV7-1",
+    "four_tuple": [
+      "-inf",
+      "2004-11-14",
+      "-inf",
+      "2004-11-14"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20041117.2002.024-EV8-1",
+    "four_tuple": [
+      "-inf",
+      "2004-11-14",
+      "-inf",
+      "2004-11-14"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20041117.2002.024-EV9-1",
+    "four_tuple": [
+      "-inf",
+      "2004-11-14",
+      "2004-11-14",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20041117.2002.024-EV10-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20041117.2002.024-EV11-1",
+    "four_tuple": [
+      "-inf",
+      "2004-11-14",
+      "-inf",
+      "2004-11-14"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20041117.2002.024-EV12-1",
+    "four_tuple": [
+      "-inf",
+      "2004-11-14",
+      "-inf",
+      "2004-11-14"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20041117.2002.024-EV13-1",
+    "four_tuple": [
+      "2004-11-16",
+      "+inf",
+      "2004-11-16",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050208.1142-EV2-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050208.1142-EV1-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050213.2123-EV1-1",
+    "four_tuple": [
+      "2005-02-13",
+      "2005-02-13",
+      "2005-02-13",
+      "2005-02-13"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050213.2123-EV2-3",
+    "four_tuple": [
+      "2005-02-13",
+      "2005-02-13",
+      "2005-02-13",
+      "2005-02-13"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050213.2123-EV2-2",
+    "four_tuple": [
+      "2005-02-13",
+      "2005-02-13",
+      "2005-02-13",
+      "2005-02-13"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050213.2123-EV2-1",
+    "four_tuple": [
+      "2005-02-13",
+      "2005-02-13",
+      "2005-02-13",
+      "2005-02-13"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050213.2123-EV5-1",
+    "four_tuple": [
+      "2005-02-13",
+      "2005-02-13",
+      "2005-02-13",
+      "2005-02-13"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050213.2123-EV4-2",
+    "four_tuple": [
+      "2005-02-13",
+      "2005-02-13",
+      "2005-02-13",
+      "2005-02-13"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050213.2123-EV5-2",
+    "four_tuple": [
+      "2005-02-13",
+      "2005-02-13",
+      "2005-02-13",
+      "2005-02-13"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050213.2123-EV3-1",
+    "four_tuple": [
+      "2005-02-13",
+      "2005-02-13",
+      "2005-02-13",
+      "2005-02-13"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050213.2123-EV4-1",
+    "four_tuple": [
+      "2005-02-13",
+      "2005-02-13",
+      "2005-02-13",
+      "2005-02-13"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050224.1207-EV1-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050224.1207-EV1-2",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050224.1207-EV2-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050224.1207-EV8-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050224.1207-EV3-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050224.1207-EV4-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050224.1207-EV5-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050224.1207-EV2-2",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050224.1207-EV6-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050224.1207-EV6-2",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050224.1207-EV2-3",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050224.1207-EV2-4",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050224.1207-EV7-1",
+    "four_tuple": [
+      "-inf",
+      "2005-02-23",
+      "-inf",
+      "2005-02-23"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050224.1207-EV6-3",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050224.2252-EV1-1",
+    "four_tuple": [
+      "2005-02-24",
+      "2005-02-24",
+      "2005-02-24",
+      "2005-02-24"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050224.2252-EV2-1",
+    "four_tuple": [
+      "2005-02-24",
+      "2005-02-24",
+      "2005-02-24",
+      "2005-02-24"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050224.2252-EV3-1",
+    "four_tuple": [
+      "2005-02-24",
+      "2005-02-24",
+      "2005-02-24",
+      "2005-02-24"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050224.2252-EV5-1",
+    "four_tuple": [
+      "-inf",
+      "2005-02-24",
+      "-inf",
+      "2005-02-24"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050224.2252-EV4-1",
+    "four_tuple": [
+      "2005-02-24",
+      "2005-02-24",
+      "2005-02-24",
+      "2005-02-24"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050224.2252-EV6-1",
+    "four_tuple": [
+      "-inf",
+      "2005-02-24",
+      "2005-02-24",
+      "2005-02-24"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050224.2252-EV3-2",
+    "four_tuple": [
+      "2005-02-24",
+      "2005-02-24",
+      "2005-02-24",
+      "2005-02-24"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV5-1",
+    "four_tuple": [
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV6-1",
+    "four_tuple": [
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV7-1",
+    "four_tuple": [
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV8-1",
+    "four_tuple": [
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV8-2",
+    "four_tuple": [
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV1-1",
+    "four_tuple": [
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV2-1",
+    "four_tuple": [
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV2-2",
+    "four_tuple": [
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV3-1",
+    "four_tuple": [
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV4-1",
+    "four_tuple": [
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV9-1",
+    "four_tuple": [
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV10-1",
+    "four_tuple": [
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV5-2",
+    "four_tuple": [
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV8-17",
+    "four_tuple": [
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV11-1",
+    "four_tuple": [
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV8-3",
+    "four_tuple": [
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV12-1",
+    "four_tuple": [
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV36-1",
+    "four_tuple": [
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV12-2",
+    "four_tuple": [
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV13-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-05",
+      "2003-03-05",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV7-2",
+    "four_tuple": [
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV7-3",
+    "four_tuple": [
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV8-4",
+    "four_tuple": [
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV14-1",
+    "four_tuple": [
+      "2001-09-01",
+      "2001-09-30",
+      "2001-09-01",
+      "2001-09-30"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV8-5",
+    "four_tuple": [
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV15-1",
+    "four_tuple": [
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV16-1",
+    "four_tuple": [
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV8-6",
+    "four_tuple": [
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV17-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-05",
+      "2003-03-05",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV8-7",
+    "four_tuple": [
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV8-8",
+    "four_tuple": [
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV18-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-05",
+      "2003-03-05",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV8-9",
+    "four_tuple": [
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV19-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-05",
+      "2003-03-05",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV8-10",
+    "four_tuple": [
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV20-1",
+    "four_tuple": [
+      "2003-02-01",
+      "2003-02-28",
+      "2003-02-01",
+      "2003-02-28"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV8-11",
+    "four_tuple": [
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV21-1",
+    "four_tuple": [
+      "-inf",
+      "2003-01-05",
+      "-inf",
+      "2003-01-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV22-1",
+    "four_tuple": [
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV23-1",
+    "four_tuple": [
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV37-1",
+    "four_tuple": [
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV37-2",
+    "four_tuple": [
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV8-12",
+    "four_tuple": [
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV8-13",
+    "four_tuple": [
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV8-18",
+    "four_tuple": [
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV24-1",
+    "four_tuple": [
+      "2003-03-05",
+      "+inf",
+      "2003-03-05",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV8-14",
+    "four_tuple": [
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV8-15",
+    "four_tuple": [
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV25-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-05",
+      "-inf",
+      "2003-03-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV26-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-05",
+      "2003-03-05",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV8-16",
+    "four_tuple": [
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05",
+      "2003-01-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV27-1",
+    "four_tuple": [
+      "2003-03-03",
+      "2003-03-03",
+      "2003-03-03",
+      "2003-03-03"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV28-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-03",
+      "-inf",
+      "2003-03-03"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV29-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-03",
+      "-inf",
+      "2003-03-03"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV30-1",
+    "four_tuple": [
+      "2003-03-05",
+      "+inf",
+      "2003-03-05",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV38-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "2003-03-05",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV26-2",
+    "four_tuple": [
+      "-inf",
+      "2003-03-05",
+      "2003-03-05",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV27-2",
+    "four_tuple": [
+      "2003-03-03",
+      "2003-03-03",
+      "2003-03-03",
+      "2003-03-03"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV31-1",
+    "four_tuple": [
+      "2003-03-03",
+      "2003-03-03",
+      "2003-03-03",
+      "2003-03-03"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV32-1",
+    "four_tuple": [
+      "2003-03-04",
+      "2003-03-04",
+      "2003-03-04",
+      "2003-03-04"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV33-1",
+    "four_tuple": [
+      "2003-03-04",
+      "2003-03-04",
+      "2003-03-04",
+      "2003-03-04"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV34-1",
+    "four_tuple": [
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030305.0918-EV35-1",
+    "four_tuple": [
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05",
+      "2003-03-05"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030319.0879-EV1-1",
+    "four_tuple": [
+      "2003-03-19",
+      "2003-03-19",
+      "2003-03-19",
+      "2003-03-19"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030319.0879-EV2-1",
+    "four_tuple": [
+      "2002-12-01",
+      "2002-12-31",
+      "2003-03-19",
+      "2003-03-19"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030319.0879-EV3-1",
+    "four_tuple": [
+      "2001-12-01",
+      "2001-12-31",
+      "2001-12-01",
+      "2001-12-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030319.0879-EV4-1",
+    "four_tuple": [
+      "2003-03-19",
+      "+inf",
+      "2003-03-19",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030319.0879-EV5-1",
+    "four_tuple": [
+      "2003-03-19",
+      "2003-03-19",
+      "2003-03-19",
+      "2003-03-19"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030319.0879-EV6-1",
+    "four_tuple": [
+      "2002-07-01",
+      "2002-07-31",
+      "2002-07-01",
+      "2002-07-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030319.0879-EV7-1",
+    "four_tuple": [
+      "2003-03-19",
+      "+inf",
+      "2003-03-19",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0004-EV1-1",
+    "four_tuple": [
+      "2003-04-16",
+      "2003-04-16",
+      "2003-04-16",
+      "2003-04-16"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0004-EV2-1",
+    "four_tuple": [
+      "2003-04-16",
+      "2003-04-16",
+      "2003-04-16",
+      "2003-04-16"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0004-EV3-1",
+    "four_tuple": [
+      "2003-04-16",
+      "2003-04-16",
+      "2003-04-16",
+      "2003-04-16"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0004-EV1-2",
+    "four_tuple": [
+      "2003-04-16",
+      "2003-04-16",
+      "2003-04-16",
+      "2003-04-16"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0004-EV4-1",
+    "four_tuple": [
+      "2003-04-16",
+      "2003-04-16",
+      "2003-04-16",
+      "2003-04-16"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0004-EV5-1",
+    "four_tuple": [
+      "2003-04-17",
+      "2003-04-17",
+      "2003-04-17",
+      "2003-04-17"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0004-EV6-1",
+    "four_tuple": [
+      "2003-04-16",
+      "2003-04-16",
+      "2003-04-16",
+      "2003-04-16"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0004-EV7-1",
+    "four_tuple": [
+      "2003-04-16",
+      "2003-04-16",
+      "2003-04-17",
+      "2003-04-17"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0004-EV8-1",
+    "four_tuple": [
+      "2003-04-16",
+      "2003-04-16",
+      "2003-04-16",
+      "2003-04-16"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030418.0556-EV1-1",
+    "four_tuple": [
+      "2003-04-18",
+      "+inf",
+      "2003-04-18",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030418.0556-EV2-1",
+    "four_tuple": [
+      "2003-04-18",
+      "+inf",
+      "2003-04-18",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030418.0556-EV5-1",
+    "four_tuple": [
+      "2003-04-18",
+      "+inf",
+      "2003-04-18",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030418.0556-EV2-2",
+    "four_tuple": [
+      "2003-04-18",
+      "+inf",
+      "2003-04-18",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030418.0556-EV3-1",
+    "four_tuple": [
+      "2002-09-01",
+      "2002-09-30",
+      "2002-09-01",
+      "2002-09-30"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030418.0556-EV4-1",
+    "four_tuple": [
+      "-inf",
+      "2002-09-30",
+      "2003-04-18",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030504.0248-EV1-1",
+    "four_tuple": [
+      "2003-05-04",
+      "2003-05-04",
+      "2003-05-04",
+      "2003-05-04"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030504.0248-EV4-1",
+    "four_tuple": [
+      "2003-05-03",
+      "2003-05-03",
+      "2003-05-03",
+      "2003-05-03"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030504.0248-EV2-2",
+    "four_tuple": [
+      "1993-01-01",
+      "1993-12-31",
+      "1993-01-01",
+      "1993-12-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030504.0248-EV3-2",
+    "four_tuple": [
+      "2005-02-28",
+      "2005-02-28",
+      "2005-02-28",
+      "2005-02-28"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030504.0248-EV3-1",
+    "four_tuple": [
+      "2005-02-28",
+      "2005-02-28",
+      "2005-02-28",
+      "2005-02-28"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030504.0248-EV4-2",
+    "four_tuple": [
+      "2003-05-03",
+      "2003-05-03",
+      "2003-05-03",
+      "2003-05-03"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030504.0248-EV2-1",
+    "four_tuple": [
+      "1993-01-01",
+      "1993-12-31",
+      "1993-01-01",
+      "1993-12-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030509.0345-EV1-1",
+    "four_tuple": [
+      "-inf",
+      "2003-05-09",
+      "-inf",
+      "2003-05-09"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030509.0345-EV2-1",
+    "four_tuple": [
+      "1995-01-01",
+      "1995-12-31",
+      "1995-01-01",
+      "1995-12-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030509.0345-EV3-1",
+    "four_tuple": [
+      "2003-05-09",
+      "+inf",
+      "2003-05-09",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030509.0345-EV4-1",
+    "four_tuple": [
+      "2003-05-23",
+      "2003-05-23",
+      "2003-05-23",
+      "2003-05-23"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030509.0345-EV4-2",
+    "four_tuple": [
+      "2003-05-23",
+      "2003-05-23",
+      "2003-05-23",
+      "2003-05-23"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030530.0132-EV1-1",
+    "four_tuple": [
+      "2002-01-01",
+      "2002-12-31",
+      "2002-01-01",
+      "2002-12-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030530.0132-EV2-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030616.0715-EV1-1",
+    "four_tuple": [
+      "-inf",
+      "2003-06-08",
+      "2003-06-08",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030616.0715-EV2-1",
+    "four_tuple": [
+      "2001-04-01",
+      "2001-04-30",
+      "2003-01-14",
+      "2003-01-14"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030616.0715-EV3-1",
+    "four_tuple": [
+      "2003-06-14",
+      "2003-06-14",
+      "2003-06-14",
+      "2003-06-14"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030616.0715-EV4-2",
+    "four_tuple": [
+      "2003-06-02",
+      "2003-06-02",
+      "2003-06-02",
+      "2003-06-02"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030616.0715-EV5-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030616.0715-EV6-1",
+    "four_tuple": [
+      "2003-01-14",
+      "2003-01-14",
+      "2003-01-14",
+      "2003-01-14"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030616.0715-EV7-1",
+    "four_tuple": [
+      "2003-06-14",
+      "2003-06-16",
+      "2003-06-16",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030616.0715-EV8-1",
+    "four_tuple": [
+      "2003-06-14",
+      "2003-06-16",
+      "2003-06-16",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030616.0715-EV9-1",
+    "four_tuple": [
+      "2003-01-14",
+      "2003-01-14",
+      "2003-01-14",
+      "2003-01-14"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030616.0715-EV6-3",
+    "four_tuple": [
+      "2003-01-14",
+      "2003-01-14",
+      "2003-01-14",
+      "2003-01-14"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030616.0715-EV6-2",
+    "four_tuple": [
+      "2003-01-14",
+      "2003-01-14",
+      "2003-01-14",
+      "2003-01-14"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030616.0715-EV4-1",
+    "four_tuple": [
+      "2003-06-02",
+      "2003-06-02",
+      "2003-06-02",
+      "2003-06-02"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030616.0715-EV10-1",
+    "four_tuple": [
+      "2003-01-14",
+      "2003-06-02",
+      "2003-01-14",
+      "2003-06-02"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030310.0719-EV1-1",
+    "four_tuple": [
+      "2003-03-04",
+      "+inf",
+      "2003-03-04",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030310.0719-EV1-2",
+    "four_tuple": [
+      "2003-03-04",
+      "+inf",
+      "2003-03-04",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030319.0545-EV2-1",
+    "four_tuple": [
+      "2003-03-19",
+      "2003-03-19",
+      "2003-03-19",
+      "2003-03-19"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030319.0545-EV2-2",
+    "four_tuple": [
+      "2003-03-19",
+      "2003-03-19",
+      "2003-03-19",
+      "2003-03-19"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030319.0545-EV6-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-19",
+      "2003-03-19",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030319.0545-EV3-1",
+    "four_tuple": [
+      "2002-01-01",
+      "2002-12-31",
+      "2003-03-19",
+      "2003-03-19"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030319.0545-EV4-1",
+    "four_tuple": [
+      "2002-01-01",
+      "2002-12-31",
+      "2002-01-01",
+      "2002-12-31"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030319.0545-EV5-1",
+    "four_tuple": [
+      "2003-03-19",
+      "+inf",
+      "2003-03-19",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030319.0545-EV1-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-19",
+      "2003-03-19",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030319.0545-EV7-1",
+    "four_tuple": [
+      "2003-03-19",
+      "+inf",
+      "2003-03-19",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030319.0545-EV2-3",
+    "four_tuple": [
+      "2003-03-19",
+      "2003-03-19",
+      "2003-03-19",
+      "2003-03-19"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030319.0545-EV8-1",
+    "four_tuple": [
+      "2003-03-19",
+      "+inf",
+      "2003-03-19",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030319.0545-EV8-2",
+    "four_tuple": [
+      "2003-03-19",
+      "+inf",
+      "2003-03-19",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030319.0545-EV9-1",
+    "four_tuple": [
+      "-inf",
+      "2002-12-31",
+      "2002-01-01",
+      "2002-12-31"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030319.0545-EV10-1",
+    "four_tuple": [
+      "-inf",
+      "2002-12-31",
+      "2002-01-01",
+      "2002-12-31"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030327.0376-EV4-2",
+    "four_tuple": [
+      "2003-03-27",
+      "2003-03-27",
+      "2003-03-27",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030327.0376-EV6-1",
+    "four_tuple": [
+      "2003-03-26",
+      "2003-03-26",
+      "2003-03-26",
+      "2003-03-26"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030327.0376-EV6-3",
+    "four_tuple": [
+      "2003-03-26",
+      "2003-03-26",
+      "2003-03-26",
+      "2003-03-26"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030327.0376-EV2-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-27",
+      "-inf",
+      "2003-03-27"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030327.0376-EV7-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-27",
+      "2003-03-27",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030327.0376-EV8-2",
+    "four_tuple": [
+      "-inf",
+      "2003-03-27",
+      "2003-03-27",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030327.0376-EV8-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-27",
+      "2003-03-27",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030327.0376-EV2-2",
+    "four_tuple": [
+      "-inf",
+      "2003-03-27",
+      "-inf",
+      "2003-03-27"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030327.0376-EV9-1",
+    "four_tuple": [
+      "2003-03-27",
+      "2003-03-27",
+      "2003-03-27",
+      "2003-03-27"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030327.0376-EV3-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030327.0376-EV10-1",
+    "four_tuple": [
+      "2003-03-27",
+      "2003-03-27",
+      "2003-03-27",
+      "2003-03-27"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030327.0376-EV1-1",
+    "four_tuple": [
+      "2003-03-27",
+      "+inf",
+      "2003-03-27",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030327.0376-EV11-1",
+    "four_tuple": [
+      "2003-03-27",
+      "+inf",
+      "2003-03-27",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030327.0376-EV12-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-27",
+      "-inf",
+      "2003-03-27"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030327.0376-EV13-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030327.0376-EV4-1",
+    "four_tuple": [
+      "2003-03-27",
+      "2003-03-27",
+      "2003-03-27",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030327.0376-EV14-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-27",
+      "2003-03-27",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030327.0376-EV15-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030327.0376-EV5-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030327.0376-EV6-2",
+    "four_tuple": [
+      "2003-03-26",
+      "2003-03-26",
+      "2003-03-26",
+      "2003-03-26"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030327.0376-EV16-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-26",
+      "-inf",
+      "2003-03-26"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030327.0376-EV17-1",
+    "four_tuple": [
+      "2003-03-27",
+      "+inf",
+      "2003-03-27",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030327.0376-EV18-1",
+    "four_tuple": [
+      "2003-03-27",
+      "+inf",
+      "2003-03-27",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030402.1600.00-1-EV8-1",
+    "four_tuple": [
+      "2003-04-02",
+      "+inf",
+      "2003-04-02",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030402.1600.00-1-EV9-1",
+    "four_tuple": [
+      "2003-04-02",
+      "2003-04-02",
+      "2003-04-02",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030402.1600.00-1-EV10-1",
+    "four_tuple": [
+      "-inf",
+      "2003-04-02",
+      "-inf",
+      "2003-04-02"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030402.1600.00-1-EV11-1",
+    "four_tuple": [
+      "-inf",
+      "2003-04-02",
+      "-inf",
+      "2003-04-02"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030402.1600.00-1-EV12-1",
+    "four_tuple": [
+      "-inf",
+      "2003-04-02",
+      "2003-04-02",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030402.1600.00-1-EV13-1",
+    "four_tuple": [
+      "-inf",
+      "2003-04-02",
+      "-inf",
+      "2003-04-02"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030402.1600.00-1-EV3-1",
+    "four_tuple": [
+      "-inf",
+      "2003-04-02",
+      "-inf",
+      "2003-04-02"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030402.1600.00-1-EV14-1",
+    "four_tuple": [
+      "-inf",
+      "2003-04-02",
+      "-inf",
+      "2003-04-02"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030402.1600.00-1-EV15-1",
+    "four_tuple": [
+      "-inf",
+      "2003-04-02",
+      "2003-04-02",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030402.1600.00-1-EV1-1",
+    "four_tuple": [
+      "2003-04-02",
+      "2003-04-02",
+      "2003-04-02",
+      "2003-04-02"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030402.1600.00-1-EV17-1",
+    "four_tuple": [
+      "2003-04-02",
+      "2003-04-02",
+      "2003-04-02",
+      "2003-04-02"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030402.1600.00-1-EV2-1",
+    "four_tuple": [
+      "2003-04-02",
+      "2003-04-02",
+      "2003-04-02",
+      "2003-04-02"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030402.1600.00-1-EV6-1",
+    "four_tuple": [
+      "-inf",
+      "2003-04-02",
+      "2003-04-02",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030402.1600.00-1-EV7-1",
+    "four_tuple": [
+      "-inf",
+      "2003-04-02",
+      "2003-04-02",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030402.1600.00-1-EV2-2",
+    "four_tuple": [
+      "2003-04-02",
+      "2003-04-02",
+      "2003-04-02",
+      "2003-04-02"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030402.1600.00-1-EV16-1",
+    "four_tuple": [
+      "2003-04-02",
+      "2003-04-02",
+      "2003-04-02",
+      "2003-04-02"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030402.1600.00-1-EV18-1",
+    "four_tuple": [
+      "2003-04-02",
+      "2003-04-02",
+      "2003-04-02",
+      "2003-04-02"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030402.1600.00-1-EV19-1",
+    "four_tuple": [
+      "2003-04-02",
+      "2003-04-02",
+      "2003-04-02",
+      "2003-04-02"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030402.1600.00-1-EV4-1",
+    "four_tuple": [
+      "2003-04-02",
+      "2003-04-02",
+      "2003-04-02",
+      "2003-04-02"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030402.1600.00-1-EV5-1",
+    "four_tuple": [
+      "2003-04-02",
+      "2003-04-02",
+      "2003-04-02",
+      "2003-04-02"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030402.1600.00-1-EV20-1",
+    "four_tuple": [
+      "2003-04-02",
+      "2003-04-02",
+      "2003-04-02",
+      "2003-04-02"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030402.1600.00-1-EV21-1",
+    "four_tuple": [
+      "2003-04-02",
+      "2003-04-02",
+      "2003-04-02",
+      "2003-04-02"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030402.1600.00-1-EV22-1",
+    "four_tuple": [
+      "-inf",
+      "2003-04-01",
+      "2003-04-02",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030402.1600.00-1-EV23-1",
+    "four_tuple": [
+      "2003-04-01",
+      "2003-04-02",
+      "2003-04-02",
+      "2003-04-02"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030402.1600.00-1-EV24-1",
+    "four_tuple": [
+      "2003-04-01",
+      "2003-04-02",
+      "2003-04-02",
+      "2003-04-02"
+    ]
+  },
+  {
+    "event_mention": "CNN_IP_20030402.1600.00-1-EV25-1",
+    "four_tuple": [
+      "2003-04-02",
+      "2003-04-02",
+      "2003-04-02",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNNHL_ENG_20030513_220910.32-EV4-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNNHL_ENG_20030513_220910.32-EV1-1",
+    "four_tuple": [
+      "1970-01-01",
+      "2003-05-13",
+      "2003-05-13",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNNHL_ENG_20030513_220910.32-EV2-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNNHL_ENG_20030513_220910.32-EV3-1",
+    "four_tuple": [
+      "-inf",
+      "2003-05-13",
+      "2003-05-13",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030304_173120.16-EV2-1",
+    "four_tuple": [
+      "2003-03-10",
+      "2003-06-08",
+      "2003-03-10",
+      "2003-06-08"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030304_173120.16-EV1-1",
+    "four_tuple": [
+      "1950-01-01",
+      "2003-03-10",
+      "2003-03-10",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030512_170454.13-EV1-1",
+    "four_tuple": [
+      "-inf",
+      "2003-05-12",
+      "2003-05-12",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030512_170454.13-EV2-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030512_170454.13-EV3-1",
+    "four_tuple": [
+      "2001-12-01",
+      "2003-05-12",
+      "2001-12-01",
+      "2003-05-12"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030512_170454.13-EV4-1",
+    "four_tuple": [
+      "2001-12-01",
+      "2003-05-12",
+      "2001-12-01",
+      "2003-05-12"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030512_170454.13-EV3-5",
+    "four_tuple": [
+      "2001-12-01",
+      "2003-05-12",
+      "2001-12-01",
+      "2003-05-12"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030512_170454.13-EV5-1",
+    "four_tuple": [
+      "2001-12-01",
+      "2003-05-12",
+      "2001-12-01",
+      "2003-05-12"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030512_170454.13-EV6-1",
+    "four_tuple": [
+      "2001-12-01",
+      "2003-05-12",
+      "2001-12-01",
+      "2003-05-12"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030512_170454.13-EV6-2",
+    "four_tuple": [
+      "2001-12-01",
+      "2003-05-12",
+      "2001-12-01",
+      "2003-05-12"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030512_170454.13-EV3-6",
+    "four_tuple": [
+      "2001-12-01",
+      "2003-05-12",
+      "2001-12-01",
+      "2003-05-12"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030512_170454.13-EV4-3",
+    "four_tuple": [
+      "2001-12-01",
+      "2003-05-12",
+      "2001-12-01",
+      "2003-05-12"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030512_170454.13-EV3-2",
+    "four_tuple": [
+      "2001-12-01",
+      "2003-05-12",
+      "2001-12-01",
+      "2003-05-12"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030512_170454.13-EV3-3",
+    "four_tuple": [
+      "2001-12-01",
+      "2003-05-12",
+      "2001-12-01",
+      "2003-05-12"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030512_170454.13-EV3-4",
+    "four_tuple": [
+      "2001-12-01",
+      "2003-05-12",
+      "2001-12-01",
+      "2003-05-12"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030512_170454.13-EV4-2",
+    "four_tuple": [
+      "2001-12-01",
+      "2003-05-12",
+      "2001-12-01",
+      "2003-05-12"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030512_170454.13-EV5-2",
+    "four_tuple": [
+      "2001-12-01",
+      "2003-05-12",
+      "2001-12-01",
+      "2003-05-12"
+    ]
+  },
+  {
+    "event_mention": "CNN_ENG_20030512_170454.13-EV7-1",
+    "four_tuple": [
+      "2001-12-01",
+      "2003-05-12",
+      "2001-12-01",
+      "2003-05-12"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20050203.1953.038-EV1-3",
+    "four_tuple": [
+      "-inf",
+      "2005-02-02",
+      "-inf",
+      "2005-02-02"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20050203.1953.038-EV1-4",
+    "four_tuple": [
+      "-inf",
+      "2005-02-02",
+      "-inf",
+      "2005-02-02"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20050203.1953.038-EV2-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20050203.1953.038-EV1-5",
+    "four_tuple": [
+      "-inf",
+      "2005-02-02",
+      "-inf",
+      "2005-02-02"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20050203.1953.038-EV1-1",
+    "four_tuple": [
+      "-inf",
+      "2005-02-02",
+      "-inf",
+      "2005-02-02"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20050203.1953.038-EV1-2",
+    "four_tuple": [
+      "-inf",
+      "2005-02-02",
+      "-inf",
+      "2005-02-02"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20050203.1953.038-EV1-6",
+    "four_tuple": [
+      "-inf",
+      "2005-02-02",
+      "-inf",
+      "2005-02-02"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20050203.1953.038-EV3-1",
+    "four_tuple": [
+      "2001-01-01",
+      "2001-12-31",
+      "2001-01-01",
+      "2001-12-31"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20050203.1953.038-EV4-1",
+    "four_tuple": [
+      "-inf",
+      "2005-02-03",
+      "-inf",
+      "2005-02-03"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20050203.1953.038-EV5-3",
+    "four_tuple": [
+      "1994-01-01",
+      "1994-12-31",
+      "1994-01-01",
+      "1994-12-31"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20050203.1953.038-EV6-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20050203.1953.038-EV5-4",
+    "four_tuple": [
+      "1994-01-01",
+      "1994-12-31",
+      "1994-01-01",
+      "1994-12-31"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20050203.1953.038-EV7-2",
+    "four_tuple": [
+      "1994-01-01",
+      "1994-12-31",
+      "1994-01-01",
+      "1994-12-31"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20050203.1953.038-EV7-1",
+    "four_tuple": [
+      "1994-01-01",
+      "1994-12-31",
+      "1994-01-01",
+      "1994-12-31"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20050203.1953.038-EV8-1",
+    "four_tuple": [
+      "1993-10-01",
+      "1994-09-30",
+      "1993-10-01",
+      "1994-09-30"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20050203.1953.038-EV5-5",
+    "four_tuple": [
+      "1994-01-01",
+      "1994-12-31",
+      "1994-01-01",
+      "1994-12-31"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20050203.1953.038-EV9-1",
+    "four_tuple": [
+      "1993-10-01",
+      "1994-09-30",
+      "1993-10-01",
+      "1994-09-30"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20050203.1953.038-EV5-6",
+    "four_tuple": [
+      "1994-01-01",
+      "1994-12-31",
+      "1994-01-01",
+      "1994-12-31"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20050203.1953.038-EV5-7",
+    "four_tuple": [
+      "1994-01-01",
+      "1994-12-31",
+      "1994-01-01",
+      "1994-12-31"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20050203.1953.038-EV5-8",
+    "four_tuple": [
+      "1994-01-01",
+      "1994-12-31",
+      "1994-01-01",
+      "1994-12-31"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20050203.1953.038-EV5-1",
+    "four_tuple": [
+      "1994-01-01",
+      "1994-12-31",
+      "1994-01-01",
+      "1994-12-31"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20050203.1953.038-EV5-2",
+    "four_tuple": [
+      "1994-01-01",
+      "1994-12-31",
+      "1994-01-01",
+      "1994-12-31"
+    ]
+  },
+  {
+    "event_mention": "FLOPPINGACES_20050203.1953.038-EV5-9",
+    "four_tuple": [
+      "1994-01-01",
+      "1994-12-31",
+      "1994-01-01",
+      "1994-12-31"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050107.2012-EV1-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050107.2012-EV2-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050107.2012-EV3-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050107.2012-EV4-1",
+    "four_tuple": [
+      "1988-01-01",
+      "1988-12-31",
+      "1988-01-01",
+      "1988-12-31"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050107.2012-EV5-1",
+    "four_tuple": [
+      "2004-04-01",
+      "2004-04-30",
+      "2004-04-01",
+      "2004-04-30"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050113.1400-EV1-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050116.2149-EV1-1",
+    "four_tuple": [
+      "2005-01-16",
+      "+inf",
+      "2005-01-16",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050124.1354-EV1-1",
+    "four_tuple": [
+      "2005-01-24",
+      "2005-01-24",
+      "2005-01-24",
+      "2005-01-24"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050124.1354-EV1-2",
+    "four_tuple": [
+      "2005-01-24",
+      "2005-01-24",
+      "2005-01-24",
+      "2005-01-24"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050203.1356-EV1-1",
+    "four_tuple": [
+      "-inf",
+      "2005-02-03",
+      "-inf",
+      "2005-02-03"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050203.1356-EV3-1",
+    "four_tuple": [
+      "-inf",
+      "2005-02-03",
+      "-inf",
+      "2005-02-03"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050203.1356-EV2-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050205.1954-EV1-1",
+    "four_tuple": [
+      "2005-02-03",
+      "2005-02-03",
+      "2005-02-03",
+      "2005-02-03"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050205.1954-EV1-2",
+    "four_tuple": [
+      "2005-02-03",
+      "2005-02-03",
+      "2005-02-03",
+      "2005-02-03"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050205.1954-EV2-1",
+    "four_tuple": [
+      "2004-08-01",
+      "2005-02-03",
+      "2005-02-03",
+      "2005-02-03"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050205.1954-EV3-1",
+    "four_tuple": [
+      "2004-08-01",
+      "2004-08-01",
+      "2004-08-01",
+      "2004-08-01"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050205.1954-EV1-3",
+    "four_tuple": [
+      "2005-02-03",
+      "2005-02-03",
+      "2005-02-03",
+      "2005-02-03"
+    ]
+  },
+  {
+    "event_mention": "AGGRESSIVEVOICEDAILY_20050205.1954-EV4-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030311.0491-EV4-1",
+    "four_tuple": [
+      "2003-03-11",
+      "+inf",
+      "2003-03-11",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030311.0491-EV4-2",
+    "four_tuple": [
+      "2003-03-11",
+      "+inf",
+      "2003-03-11",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030311.0491-EV5-1",
+    "four_tuple": [
+      "1993-01-01",
+      "1993-12-31",
+      "2000-01-01",
+      "2000-12-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030311.0491-EV4-4",
+    "four_tuple": [
+      "2003-03-11",
+      "+inf",
+      "2003-03-11",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030311.0491-EV1-1",
+    "four_tuple": [
+      "2003-03-11",
+      "+inf",
+      "2003-03-11",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030311.0491-EV5-2",
+    "four_tuple": [
+      "1993-01-01",
+      "1993-12-31",
+      "2000-01-01",
+      "2000-12-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030311.0491-EV2-1",
+    "four_tuple": [
+      "2000-09-01",
+      "2000-09-30",
+      "2000-09-01",
+      "2000-09-30"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030311.0491-EV6-1",
+    "four_tuple": [
+      "2001-12-01",
+      "2001-12-31",
+      "2001-12-01",
+      "2001-12-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030311.0491-EV7-1",
+    "four_tuple": [
+      "2002-04-01",
+      "2002-04-30",
+      "2002-04-01",
+      "2002-04-30"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030311.0491-EV8-1",
+    "four_tuple": [
+      "-inf",
+      "2001-12-31",
+      "-inf",
+      "2001-12-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030311.0491-EV3-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030311.0491-EV4-3",
+    "four_tuple": [
+      "2003-03-11",
+      "+inf",
+      "2003-03-11",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030311.0491-EV4-5",
+    "four_tuple": [
+      "2003-03-11",
+      "+inf",
+      "2003-03-11",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV4-2",
+    "four_tuple": [
+      "2003-03-20",
+      "2003-03-20",
+      "2003-03-20",
+      "2003-03-20"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV5-7",
+    "four_tuple": [
+      "-inf",
+      "2003-03-20",
+      "2003-03-20",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV6-2",
+    "four_tuple": [
+      "2003-03-20",
+      "+inf",
+      "2003-03-20",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV5-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-20",
+      "2003-03-20",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV5-8",
+    "four_tuple": [
+      "-inf",
+      "2003-03-20",
+      "2003-03-20",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV4-1",
+    "four_tuple": [
+      "2003-03-20",
+      "2003-03-20",
+      "2003-03-20",
+      "2003-03-20"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV5-3",
+    "four_tuple": [
+      "-inf",
+      "2003-03-20",
+      "2003-03-20",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV5-9",
+    "four_tuple": [
+      "-inf",
+      "2003-03-20",
+      "2003-03-20",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV7-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV5-5",
+    "four_tuple": [
+      "-inf",
+      "2003-03-20",
+      "2003-03-20",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV5-4",
+    "four_tuple": [
+      "-inf",
+      "2003-03-20",
+      "2003-03-20",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV5-6",
+    "four_tuple": [
+      "-inf",
+      "2003-03-20",
+      "2003-03-20",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV8-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-20",
+      "2003-03-20",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV9-1",
+    "four_tuple": [
+      "2003-03-20",
+      "+inf",
+      "2003-03-20",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV5-10",
+    "four_tuple": [
+      "-inf",
+      "2003-03-20",
+      "2003-03-20",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV10-1",
+    "four_tuple": [
+      "2003-03-20",
+      "2003-03-20",
+      "2003-03-20",
+      "2003-03-20"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV5-11",
+    "four_tuple": [
+      "-inf",
+      "2003-03-20",
+      "2003-03-20",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV5-12",
+    "four_tuple": [
+      "-inf",
+      "2003-03-20",
+      "2003-03-20",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV5-13",
+    "four_tuple": [
+      "-inf",
+      "2003-03-20",
+      "2003-03-20",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV11-1",
+    "four_tuple": [
+      "2003-03-20",
+      "+inf",
+      "2003-03-20",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV5-14",
+    "four_tuple": [
+      "-inf",
+      "2003-03-20",
+      "2003-03-20",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV5-15",
+    "four_tuple": [
+      "-inf",
+      "2003-03-20",
+      "2003-03-20",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV5-16",
+    "four_tuple": [
+      "-inf",
+      "2003-03-20",
+      "2003-03-20",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV1-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-20",
+      "2003-03-20",
+      "2003-03-20"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV5-2",
+    "four_tuple": [
+      "-inf",
+      "2003-03-20",
+      "2003-03-20",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV5-17",
+    "four_tuple": [
+      "-inf",
+      "2003-03-20",
+      "2003-03-20",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV5-18",
+    "four_tuple": [
+      "-inf",
+      "2003-03-20",
+      "2003-03-20",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV5-19",
+    "four_tuple": [
+      "-inf",
+      "2003-03-20",
+      "2003-03-20",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV5-20",
+    "four_tuple": [
+      "-inf",
+      "2003-03-20",
+      "2003-03-20",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV6-1",
+    "four_tuple": [
+      "2003-03-20",
+      "+inf",
+      "2003-03-20",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV6-3",
+    "four_tuple": [
+      "2003-03-20",
+      "+inf",
+      "2003-03-20",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV2-1",
+    "four_tuple": [
+      "2003-03-20",
+      "2003-03-20",
+      "2003-03-20",
+      "2003-03-20"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV3-2",
+    "four_tuple": [
+      "2003-03-20",
+      "2003-03-20",
+      "2003-03-20",
+      "2003-03-20"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV12-1",
+    "four_tuple": [
+      "2003-03-20",
+      "2003-03-20",
+      "2003-03-20",
+      "2003-03-20"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV3-1",
+    "four_tuple": [
+      "2003-03-20",
+      "2003-03-20",
+      "2003-03-20",
+      "2003-03-20"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV13-1",
+    "four_tuple": [
+      "2003-03-20",
+      "2003-03-20",
+      "2003-03-20",
+      "2003-03-20"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV14-1",
+    "four_tuple": [
+      "2003-03-20",
+      "2003-03-20",
+      "2003-03-20",
+      "2003-03-20"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV15-1",
+    "four_tuple": [
+      "2003-03-20",
+      "2003-03-20",
+      "2003-03-20",
+      "2003-03-20"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV16-1",
+    "four_tuple": [
+      "2003-03-20",
+      "2003-03-20",
+      "2003-03-20",
+      "2003-03-20"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030320.0722-EV17-1",
+    "four_tuple": [
+      "2003-03-20",
+      "2003-03-20",
+      "2003-03-20",
+      "2003-03-20"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0224-EV1-1",
+    "four_tuple": [
+      "2003-03-27",
+      "2003-03-27",
+      "2003-03-27",
+      "2003-03-27"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0224-EV2-1",
+    "four_tuple": [
+      "2003-03-27",
+      "2003-03-27",
+      "2003-03-27",
+      "2003-03-27"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0224-EV3-1",
+    "four_tuple": [
+      "2003-03-27",
+      "+inf",
+      "2003-03-27",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0224-EV4-1",
+    "four_tuple": [
+      "2003-03-27",
+      "2003-03-27",
+      "2003-03-27",
+      "2003-03-27"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0224-EV5-1",
+    "four_tuple": [
+      "2003-03-27",
+      "2003-03-27",
+      "2003-03-27",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0224-EV6-1",
+    "four_tuple": [
+      "2003-03-27",
+      "2003-03-27",
+      "2003-03-27",
+      "2003-03-27"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0224-EV7-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-27",
+      "2003-03-27",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0224-EV8-1",
+    "four_tuple": [
+      "2003-03-27",
+      "+inf",
+      "2003-03-27",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0224-EV5-2",
+    "four_tuple": [
+      "2003-03-27",
+      "2003-03-27",
+      "2003-03-27",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0224-EV9-1",
+    "four_tuple": [
+      "2003-03-27",
+      "+inf",
+      "2003-03-27",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0224-EV5-3",
+    "four_tuple": [
+      "2003-03-27",
+      "2003-03-27",
+      "2003-03-27",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0224-EV10-1",
+    "four_tuple": [
+      "2003-03-26",
+      "2003-03-26",
+      "2003-03-26",
+      "2003-03-26"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0224-EV11-1",
+    "four_tuple": [
+      "2003-03-26",
+      "2003-03-26",
+      "2003-03-28",
+      "2003-03-28"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0224-EV5-4",
+    "four_tuple": [
+      "2003-03-27",
+      "2003-03-27",
+      "2003-03-27",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0224-EV12-1",
+    "four_tuple": [
+      "2003-03-27",
+      "2003-03-27",
+      "2003-03-27",
+      "2003-03-27"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0224-EV5-5",
+    "four_tuple": [
+      "2003-03-27",
+      "2003-03-27",
+      "2003-03-27",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0224-EV5-6",
+    "four_tuple": [
+      "2003-03-27",
+      "2003-03-27",
+      "2003-03-27",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0224-EV5-7",
+    "four_tuple": [
+      "2003-03-27",
+      "2003-03-27",
+      "2003-03-27",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030327.0224-EV13-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0307-EV1-1",
+    "four_tuple": [
+      "-inf",
+      "2003-04-17",
+      "2003-04-17",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0307-EV1-2",
+    "four_tuple": [
+      "-inf",
+      "2003-04-17",
+      "2003-04-17",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0307-EV2-1",
+    "four_tuple": [
+      "-inf",
+      "2003-04-17",
+      "2003-04-17",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0307-EV1-3",
+    "four_tuple": [
+      "-inf",
+      "2003-04-17",
+      "2003-04-17",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0307-EV3-1",
+    "four_tuple": [
+      "2003-04-23",
+      "2003-04-23",
+      "2003-04-23",
+      "2003-04-23"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0307-EV3-2",
+    "four_tuple": [
+      "2003-04-23",
+      "2003-04-23",
+      "2003-04-23",
+      "2003-04-23"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0307-EV4-1",
+    "four_tuple": [
+      "2003-04-15",
+      "2003-04-15",
+      "2003-04-15",
+      "2003-04-15"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0307-EV1-4",
+    "four_tuple": [
+      "-inf",
+      "2003-04-17",
+      "2003-04-17",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0307-EV5-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0307-EV1-5",
+    "four_tuple": [
+      "-inf",
+      "2003-04-17",
+      "2003-04-17",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0307-EV1-6",
+    "four_tuple": [
+      "-inf",
+      "2003-04-17",
+      "2003-04-17",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0307-EV1-7",
+    "four_tuple": [
+      "-inf",
+      "2003-04-17",
+      "2003-04-17",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0307-EV6-1",
+    "four_tuple": [
+      "2003-05-01",
+      "2003-05-31",
+      "2003-05-01",
+      "2003-05-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0307-EV1-8",
+    "four_tuple": [
+      "-inf",
+      "2003-04-17",
+      "2003-04-17",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0307-EV1-9",
+    "four_tuple": [
+      "-inf",
+      "2003-04-17",
+      "2003-04-17",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0307-EV1-10",
+    "four_tuple": [
+      "-inf",
+      "2003-04-17",
+      "2003-04-17",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0307-EV1-11",
+    "four_tuple": [
+      "-inf",
+      "2003-04-17",
+      "2003-04-17",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0307-EV7-2",
+    "four_tuple": [
+      "2004-03-01",
+      "2004-03-31",
+      "2004-03-01",
+      "2004-03-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0307-EV7-1",
+    "four_tuple": [
+      "2004-03-01",
+      "2004-03-31",
+      "2004-03-01",
+      "2004-03-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030417.0307-EV8-1",
+    "four_tuple": [
+      "-inf",
+      "2003-04-17",
+      "2003-04-17",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030425.0408-EV1-1",
+    "four_tuple": [
+      "2003-04-25",
+      "+inf",
+      "2003-04-25",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030425.0408-EV3-1",
+    "four_tuple": [
+      "2003-04-25",
+      "+inf",
+      "2003-04-25",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030425.0408-EV2-1",
+    "four_tuple": [
+      "2003-04-25",
+      "2003-04-25",
+      "2003-04-25",
+      "2003-04-25"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030425.0408-EV4-1",
+    "four_tuple": [
+      "2003-04-25",
+      "2003-04-25",
+      "2003-04-25",
+      "2003-04-25"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030425.0408-EV5-1",
+    "four_tuple": [
+      "2003-04-27",
+      "2003-04-27",
+      "2003-04-27",
+      "2003-04-27"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030428.0720-EV2-1",
+    "four_tuple": [
+      "2003-04-21",
+      "2003-04-27",
+      "2003-04-21",
+      "2003-04-27"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030428.0720-EV2-2",
+    "four_tuple": [
+      "2003-04-21",
+      "2003-04-27",
+      "2003-04-21",
+      "2003-04-27"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030428.0720-EV3-1",
+    "four_tuple": [
+      "2003-04-28",
+      "+inf",
+      "2003-04-28",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030428.0720-EV2-3",
+    "four_tuple": [
+      "2003-04-21",
+      "2003-04-27",
+      "2003-04-21",
+      "2003-04-27"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030428.0720-EV1-1",
+    "four_tuple": [
+      "2003-04-28",
+      "+inf",
+      "2003-04-28",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030508.0118-EV1-1",
+    "four_tuple": [
+      "2003-05-08",
+      "2003-07-31",
+      "2003-05-08",
+      "2003-07-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030508.0118-EV1-2",
+    "four_tuple": [
+      "2003-05-08",
+      "2003-07-31",
+      "2003-05-08",
+      "2003-07-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030508.0118-EV1-3",
+    "four_tuple": [
+      "2003-05-08",
+      "2003-07-31",
+      "2003-05-08",
+      "2003-07-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030508.0118-EV2-1",
+    "four_tuple": [
+      "2003-05-08",
+      "2003-07-31",
+      "2003-05-08",
+      "2003-07-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030508.0118-EV1-4",
+    "four_tuple": [
+      "2003-05-08",
+      "2003-07-31",
+      "2003-05-08",
+      "2003-07-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030508.0118-EV1-5",
+    "four_tuple": [
+      "2003-05-08",
+      "2003-07-31",
+      "2003-05-08",
+      "2003-07-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030514.0706-EV1-1",
+    "four_tuple": [
+      "2003-05-14",
+      "2003-05-14",
+      "2003-05-14",
+      "2003-05-14"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030514.0706-EV4-1",
+    "four_tuple": [
+      "-inf",
+      "2003-05-14",
+      "-inf",
+      "2003-05-14"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030514.0706-EV1-2",
+    "four_tuple": [
+      "2003-05-14",
+      "2003-05-14",
+      "2003-05-14",
+      "2003-05-14"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030514.0706-EV1-3",
+    "four_tuple": [
+      "2003-05-14",
+      "2003-05-14",
+      "2003-05-14",
+      "2003-05-14"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030514.0706-EV1-4",
+    "four_tuple": [
+      "2003-05-14",
+      "2003-05-14",
+      "2003-05-14",
+      "2003-05-14"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030514.0706-EV5-1",
+    "four_tuple": [
+      "2003-02-27",
+      "2003-02-27",
+      "2003-02-27",
+      "2003-02-27"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030514.0706-EV2-1",
+    "four_tuple": [
+      "2003-05-14",
+      "+inf",
+      "2003-05-14",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030514.0706-EV3-1",
+    "four_tuple": [
+      "2003-05-14",
+      "+inf",
+      "2003-05-14",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030519.0372-EV3-1",
+    "four_tuple": [
+      "2003-05-19",
+      "2003-05-19",
+      "2003-05-19",
+      "2003-05-19"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030519.0372-EV3-2",
+    "four_tuple": [
+      "2003-05-19",
+      "2003-05-19",
+      "2003-05-19",
+      "2003-05-19"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030519.0372-EV3-3",
+    "four_tuple": [
+      "2003-05-19",
+      "2003-05-19",
+      "2003-05-19",
+      "2003-05-19"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030519.0372-EV1-1",
+    "four_tuple": [
+      "2003-04-09",
+      "2003-04-13",
+      "2003-04-09",
+      "2003-04-13"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030519.0372-EV4-1",
+    "four_tuple": [
+      "2003-04-07",
+      "2003-05-12",
+      "2003-05-19",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030519.0372-EV5-1",
+    "four_tuple": [
+      "-inf",
+      "2004-04-09",
+      "2004-04-09",
+      "2004-04-09"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030519.0372-EV5-2",
+    "four_tuple": [
+      "-inf",
+      "2004-04-09",
+      "2004-04-09",
+      "2004-04-09"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030519.0372-EV6-1",
+    "four_tuple": [
+      "2003-05-12",
+      "2003-05-18",
+      "2003-05-12",
+      "2003-05-18"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030519.0372-EV2-1",
+    "four_tuple": [
+      "2003-05-19",
+      "+inf",
+      "2003-05-19",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030519.0372-EV2-2",
+    "four_tuple": [
+      "2003-05-19",
+      "+inf",
+      "2003-05-19",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030519.0372-EV7-1",
+    "four_tuple": [
+      "2003-05-19",
+      "+inf",
+      "2003-05-19",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030519.0372-EV7-2",
+    "four_tuple": [
+      "2003-05-19",
+      "+inf",
+      "2003-05-19",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030519.0372-EV8-1",
+    "four_tuple": [
+      "2003-05-06",
+      "2003-05-06",
+      "2003-05-06",
+      "2003-05-06"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030519.0372-EV7-3",
+    "four_tuple": [
+      "2003-05-19",
+      "+inf",
+      "2003-05-19",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030519.0372-EV9-1",
+    "four_tuple": [
+      "2003-05-19",
+      "+inf",
+      "2003-05-19",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030601.0262-EV5-1",
+    "four_tuple": [
+      "-inf",
+      "2003-06-01",
+      "2003-06-01",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030601.0262-EV1-1",
+    "four_tuple": [
+      "2003-05-31",
+      "2003-06-01",
+      "2003-06-01",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030601.0262-EV1-2",
+    "four_tuple": [
+      "2003-05-31",
+      "2003-06-01",
+      "2003-06-01",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030601.0262-EV2-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030601.0262-EV1-3",
+    "four_tuple": [
+      "2003-05-31",
+      "2003-06-01",
+      "2003-06-01",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030601.0262-EV3-1",
+    "four_tuple": [
+      "2003-06-01",
+      "2003-06-01",
+      "2003-06-01",
+      "2003-06-01"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030601.0262-EV4-1",
+    "four_tuple": [
+      "-inf",
+      "2003-06-01",
+      "2003-06-01",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030601.0262-EV6-1",
+    "four_tuple": [
+      "2001-11-01",
+      "2001-11-30",
+      "2001-11-01",
+      "2001-11-30"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030601.0262-EV1-4",
+    "four_tuple": [
+      "2003-05-31",
+      "2003-06-01",
+      "2003-06-01",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030601.0262-EV8-1",
+    "four_tuple": [
+      "2003-05-31",
+      "2003-05-31",
+      "2003-05-31",
+      "2003-05-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030601.0262-EV9-1",
+    "four_tuple": [
+      "2003-05-31",
+      "2003-05-31",
+      "2003-05-31",
+      "2003-05-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030601.0262-EV10-1",
+    "four_tuple": [
+      "-inf",
+      "2003-06-01",
+      "2003-06-01",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030601.0262-EV1-5",
+    "four_tuple": [
+      "2003-05-31",
+      "2003-06-01",
+      "2003-06-01",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030601.0262-EV7-1",
+    "four_tuple": [
+      "2003-06-01",
+      "+inf",
+      "2003-06-01",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030601.0262-EV11-1",
+    "four_tuple": [
+      "2003-06-01",
+      "+inf",
+      "2003-06-01",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030617.0846-EV1-1",
+    "four_tuple": [
+      "2003-06-17",
+      "2003-06-17",
+      "2003-06-17",
+      "2003-06-17"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030617.0846-EV1-2",
+    "four_tuple": [
+      "2003-06-17",
+      "2003-06-17",
+      "2003-06-17",
+      "2003-06-17"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030617.0846-EV2-1",
+    "four_tuple": [
+      "1990-01-01",
+      "1990-12-31",
+      "2003-06-17",
+      "2003-12-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030617.0846-EV3-1",
+    "four_tuple": [
+      "1969-01-01",
+      "1969-12-31",
+      "1969-01-01",
+      "1969-12-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030617.0846-EV4-1",
+    "four_tuple": [
+      "1979-01-01",
+      "1979-12-31",
+      "2003-06-17",
+      "2003-06-17"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030617.0846-EV6-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030617.0846-EV5-1",
+    "four_tuple": [
+      "1979-01-01",
+      "1979-12-31",
+      "1984-01-01",
+      "1984-12-31"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030630.0271-EV2-4",
+    "four_tuple": [
+      "2000-09-28",
+      "2000-09-28",
+      "2000-09-28",
+      "2003-06-29"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030630.0271-EV2-5",
+    "four_tuple": [
+      "2000-09-28",
+      "2000-09-28",
+      "2000-09-28",
+      "2003-06-29"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030630.0271-EV2-1",
+    "four_tuple": [
+      "2000-09-28",
+      "2000-09-28",
+      "2000-09-28",
+      "2003-06-29"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030630.0271-EV2-3",
+    "four_tuple": [
+      "2000-09-28",
+      "2000-09-28",
+      "2000-09-28",
+      "2003-06-29"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030630.0271-EV3-1",
+    "four_tuple": [
+      "2003-06-29",
+      "2003-06-29",
+      "2003-06-29",
+      "2003-06-29"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030630.0271-EV1-1",
+    "four_tuple": [
+      "2003-06-29",
+      "2003-06-30",
+      "2003-06-29",
+      "2003-06-30"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030630.0271-EV4-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030630.0271-EV2-2",
+    "four_tuple": [
+      "2000-09-28",
+      "2000-09-28",
+      "2000-09-28",
+      "2003-06-29"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030630.0271-EV5-1",
+    "four_tuple": [
+      "2000-09-28",
+      "2000-09-28",
+      "2003-06-30",
+      "2003-06-30"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030630.0271-EV2-6",
+    "four_tuple": [
+      "2000-09-28",
+      "2000-09-28",
+      "2000-09-28",
+      "2003-06-29"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030630.0271-EV6-1",
+    "four_tuple": [
+      "2003-06-29",
+      "+inf",
+      "2003-06-29",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "AFP_ENG_20030630.0271-EV7-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030311.0775-EV1-1",
+    "four_tuple": [
+      "2003-03-11",
+      "2003-03-11",
+      "2003-03-11",
+      "2003-03-11"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030311.0775-EV2-1",
+    "four_tuple": [
+      "2003-03-11",
+      "+inf",
+      "2003-03-11",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030311.0775-EV2-2",
+    "four_tuple": [
+      "2003-03-11",
+      "+inf",
+      "2003-03-11",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030311.0775-EV3-1",
+    "four_tuple": [
+      "2003-03-11",
+      "+inf",
+      "2003-03-11",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030311.0775-EV15-2",
+    "four_tuple": [
+      "2003-03-11",
+      "+inf",
+      "2003-03-11",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030311.0775-EV2-3",
+    "four_tuple": [
+      "2003-03-11",
+      "+inf",
+      "2003-03-11",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030311.0775-EV4-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-11",
+      "2003-03-11",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030311.0775-EV5-1",
+    "four_tuple": [
+      "2003-03-11",
+      "+inf",
+      "2003-03-11",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030311.0775-EV6-1",
+    "four_tuple": [
+      "2003-03-11",
+      "+inf",
+      "2003-03-11",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030311.0775-EV2-4",
+    "four_tuple": [
+      "2003-03-11",
+      "+inf",
+      "2003-03-11",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030311.0775-EV7-1",
+    "four_tuple": [
+      "2003-03-11",
+      "+inf",
+      "2003-03-11",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030311.0775-EV15-3",
+    "four_tuple": [
+      "2003-03-11",
+      "+inf",
+      "2003-03-11",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030311.0775-EV8-1",
+    "four_tuple": [
+      "1988-01-01",
+      "1988-12-31",
+      "2003-03-11",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030311.0775-EV1-2",
+    "four_tuple": [
+      "2003-03-11",
+      "2003-03-11",
+      "2003-03-11",
+      "2003-03-11"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030311.0775-EV17-1",
+    "four_tuple": [
+      "2003-03-11",
+      "+inf",
+      "2003-03-11",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030311.0775-EV9-1",
+    "four_tuple": [
+      "2003-03-11",
+      "+inf",
+      "2003-03-11",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030311.0775-EV10-1",
+    "four_tuple": [
+      "2003-03-11",
+      "+inf",
+      "2003-03-11",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030311.0775-EV11-1",
+    "four_tuple": [
+      "2003-03-11",
+      "2003-03-11",
+      "2003-03-11",
+      "2003-03-11"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030311.0775-EV12-1",
+    "four_tuple": [
+      "2003-03-09",
+      "2003-03-09",
+      "2003-03-09",
+      "2003-03-09"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030311.0775-EV13-1",
+    "four_tuple": [
+      "2003-03-11",
+      "2003-03-11",
+      "2003-03-11",
+      "2003-03-11"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030311.0775-EV11-2",
+    "four_tuple": [
+      "2003-03-11",
+      "2003-03-11",
+      "2003-03-11",
+      "2003-03-11"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030311.0775-EV14-1",
+    "four_tuple": [
+      "1999-01-01",
+      "1999-12-31",
+      "1999-01-01",
+      "1999-12-31"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030311.0775-EV14-2",
+    "four_tuple": [
+      "1999-01-01",
+      "1999-12-31",
+      "1999-01-01",
+      "1999-12-31"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030311.0775-EV15-1",
+    "four_tuple": [
+      "2003-03-11",
+      "+inf",
+      "2003-03-11",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030311.0775-EV16-1",
+    "four_tuple": [
+      "2003-03-11",
+      "2003-03-11",
+      "2003-03-11",
+      "2003-03-11"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030322.0119-EV1-1",
+    "four_tuple": [
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030322.0119-EV2-1",
+    "four_tuple": [
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030322.0119-EV3-1",
+    "four_tuple": [
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030322.0119-EV4-1",
+    "four_tuple": [
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030322.0119-EV5-1",
+    "four_tuple": [
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030322.0119-EV2-2",
+    "four_tuple": [
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030322.0119-EV6-1",
+    "four_tuple": [
+      "2003-03-21",
+      "2003-03-21",
+      "2003-03-21",
+      "2003-03-21"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030322.0119-EV7-1",
+    "four_tuple": [
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030322.0119-EV8-1",
+    "four_tuple": [
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030322.0119-EV10-1",
+    "four_tuple": [
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030322.0119-EV11-1",
+    "four_tuple": [
+      "1991-01-01",
+      "1991-12-31",
+      "1991-01-01",
+      "1991-12-31"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030322.0119-EV9-1",
+    "four_tuple": [
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030322.0119-EV12-1",
+    "four_tuple": [
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030322.0119-EV34-1",
+    "four_tuple": [
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030322.0119-EV13-1",
+    "four_tuple": [
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030322.0119-EV14-1",
+    "four_tuple": [
+      "-inf",
+      "+inf",
+      "-inf",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030322.0119-EV35-1",
+    "four_tuple": [
+      "2003-03-22",
+      "+inf",
+      "2003-03-22",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030322.0119-EV15-1",
+    "four_tuple": [
+      "2003-03-22",
+      "+inf",
+      "2003-03-22",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030322.0119-EV16-1",
+    "four_tuple": [
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030322.0119-EV17-1",
+    "four_tuple": [
+      "2003-03-22",
+      "+inf",
+      "2003-03-22",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030322.0119-EV18-1",
+    "four_tuple": [
+      "2003-03-22",
+      "+inf",
+      "2003-03-22",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030322.0119-EV19-1",
+    "four_tuple": [
+      "2003-03-22",
+      "+inf",
+      "2003-03-22",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030322.0119-EV20-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-22",
+      "-inf",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030322.0119-EV21-1",
+    "four_tuple": [
+      "2003-03-20",
+      "2003-03-21",
+      "2003-03-20",
+      "2003-03-21"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030322.0119-EV22-1",
+    "four_tuple": [
+      "2003-03-20",
+      "2003-03-21",
+      "2003-03-20",
+      "2003-03-21"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030322.0119-EV23-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-22",
+      "-inf",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030322.0119-EV24-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-22",
+      "-inf",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030322.0119-EV25-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-22",
+      "2003-03-22",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030322.0119-EV26-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-22",
+      "-inf",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030322.0119-EV27-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-22",
+      "-inf",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030322.0119-EV28-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-22",
+      "2003-03-22",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030322.0119-EV29-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-22",
+      "2003-03-22",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030322.0119-EV33-1",
+    "four_tuple": [
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030322.0119-EV30-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-22",
+      "-inf",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030322.0119-EV31-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-22",
+      "-inf",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030322.0119-EV32-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-22",
+      "-inf",
+      "2003-03-22"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030325.0786-EV1-1",
+    "four_tuple": [
+      "-inf",
+      "2003-04-25",
+      "2003-04-25",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030325.0786-EV2-1",
+    "four_tuple": [
+      "-inf",
+      "2003-04-25",
+      "-inf",
+      "2003-04-25"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030325.0786-EV1-2",
+    "four_tuple": [
+      "-inf",
+      "2003-04-25",
+      "2003-04-25",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030325.0786-EV3-1",
+    "four_tuple": [
+      "-inf",
+      "2002-01-01",
+      "2002-01-01",
+      "2002-12-31"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030325.0786-EV5-1",
+    "four_tuple": [
+      "2003-03-25",
+      "+inf",
+      "2003-03-25",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030325.0786-EV8-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-25",
+      "-inf",
+      "2003-03-25"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030325.0786-EV4-1",
+    "four_tuple": [
+      "2003-03-25",
+      "+inf",
+      "2003-03-25",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030325.0786-EV9-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-25",
+      "-inf",
+      "2003-03-25"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030325.0786-EV1-3",
+    "four_tuple": [
+      "-inf",
+      "2003-04-25",
+      "2003-04-25",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030325.0786-EV10-1",
+    "four_tuple": [
+      "-inf",
+      "2003-03-25",
+      "-inf",
+      "2003-03-25"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030325.0786-EV6-1",
+    "four_tuple": [
+      "-inf",
+      "2002-12-31",
+      "2002-01-01",
+      "2002-12-31"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030325.0786-EV7-1",
+    "four_tuple": [
+      "-inf",
+      "2002-12-31",
+      "2002-01-01",
+      "2002-12-31"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030331.0410-EV1-1",
+    "four_tuple": [
+      "2003-03-31",
+      "2003-03-31",
+      "2003-07-31",
+      "2003-07-31"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030331.0410-EV2-1",
+    "four_tuple": [
+      "2002-01-01",
+      "2002-10-31",
+      "2002-01-01",
+      "2002-10-31"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030331.0410-EV3-2",
+    "four_tuple": [
+      "2002-10-01",
+      "2003-03-31",
+      "2003-03-31",
+      "2003-03-31"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030331.0410-EV13-2",
+    "four_tuple": [
+      "2002-10-01",
+      "2002-10-31",
+      "2002-10-01",
+      "2002-10-31"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030331.0410-EV2-2",
+    "four_tuple": [
+      "2002-01-01",
+      "2002-10-31",
+      "2002-01-01",
+      "2002-10-31"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030331.0410-EV13-1",
+    "four_tuple": [
+      "2002-10-01",
+      "2002-10-31",
+      "2002-10-01",
+      "2002-10-31"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030331.0410-EV1-2",
+    "four_tuple": [
+      "2003-03-31",
+      "2003-03-31",
+      "2003-07-31",
+      "2003-07-31"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030331.0410-EV3-1",
+    "four_tuple": [
+      "2002-10-01",
+      "2003-03-31",
+      "2003-03-31",
+      "2003-03-31"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030331.0410-EV4-1",
+    "four_tuple": [
+      "2003-04-10",
+      "2003-04-10",
+      "2003-04-10",
+      "2003-04-10"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030331.0410-EV1-3",
+    "four_tuple": [
+      "2003-03-31",
+      "2003-03-31",
+      "2003-07-31",
+      "2003-07-31"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030331.0410-EV3-3",
+    "four_tuple": [
+      "2002-10-01",
+      "2003-03-31",
+      "2003-03-31",
+      "2003-03-31"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030331.0410-EV5-1",
+    "four_tuple": [
+      "2003-03-01",
+      "2003-03-31",
+      "2003-03-01",
+      "2003-03-31"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030331.0410-EV1-4",
+    "four_tuple": [
+      "2003-03-31",
+      "2003-03-31",
+      "2003-07-31",
+      "2003-07-31"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030331.0410-EV6-1",
+    "four_tuple": [
+      "2003-07-31",
+      "+inf",
+      "2003-07-31",
+      "+inf"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030331.0410-EV3-4",
+    "four_tuple": [
+      "2002-10-01",
+      "2003-03-31",
+      "2003-03-31",
+      "2003-03-31"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030331.0410-EV7-1",
+    "four_tuple": [
+      "2002-02-01",
+      "2002-02-28",
+      "2002-02-01",
+      "2002-02-28"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030331.0410-EV8-1",
+    "four_tuple": [
+      "1999-01-01",
+      "1999-12-31",
+      "1999-01-01",
+      "1999-12-31"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030331.0410-EV9-1",
+    "four_tuple": [
+      "1999-01-01",
+      "1999-12-31",
+      "1999-01-21",
+      "1999-12-31"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030331.0410-EV10-1",
+    "four_tuple": [
+      "1999-01-01",
+      "1999-12-31",
+      "1999-01-01",
+      "1999-12-31"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030331.0410-EV11-1",
+    "four_tuple": [
+      "2002-01-01",
+      "2002-12-31",
+      "2002-01-01",
+      "2002-12-31"
+    ]
+  },
+  {
+    "event_mention": "APW_ENG_20030331.0410-EV12-1",
+    "four_tuple": [
+      "1993-01-01",
+      "1993-12-31",
+      "1993-01-01",
+      "1993-12-31"
+    ]
+  }
+]
