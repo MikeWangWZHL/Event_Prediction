@@ -184,7 +184,7 @@ configuration.update(pretrain_config)
 
 # print(configuration)
 # quit()
-pretrained_model_from_ACE = './model_save_ACE05_doc_time_order_pretrain_with_event_type_embedding_bert_base/'
+pretrained_model_from_ACE = './model_save_ACE05_doc_time_order_pretrain_with_event_type_embedding_bert_base'
 # pretrained_model_from_ACE = './model_save_ACE05_doc_time_order_pretrain_batch16'
 # model = BertForSequenceClassification.from_pretrained('bert-base-cased',config=configuration)
 # model = BertForSequenceClassification.from_pretrained(pretrained_model_from_ACE,config = configuration)
@@ -550,7 +550,7 @@ import os
 
 # Saving best-practices: if you use defaults names for the model, you can reload it using from_pretrained()
 
-output_dir = './model_save_ACE05_Haoyang_4tuple_finetune_on_doctimeorder_with_event_embed_top3_acc_595_training_samples/'
+output_dir = './model_save_bert_case_finetune_with_right_event_embed_TEMP'
 
 # Create output directory if needed
 if not os.path.exists(output_dir):

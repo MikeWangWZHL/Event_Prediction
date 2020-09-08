@@ -267,7 +267,6 @@ def construct_input_pair(tokenizer,input_pairs = None):
         lookup_dict_dev =  json.load(f)
     with open('ACE05_events_three_level_test_emid_lookup.json') as f:
         lookup_dict_test =  json.load(f)
-    
     # print(len(lookup_dict_whole))
     # print(len(lookup_dict_dev))
     # print(len(lookup_dict_test))
@@ -292,6 +291,8 @@ def construct_input_pair(tokenizer,input_pairs = None):
         first_sent_role = sep_token.join(role_sents)
         first_sent_entity = sep_token.join(entity_sents)
         item = {}
+        item['historical_event_ids'] = pair[:-1]
+        item['label_event_id'] = pair[-1]
         item['first_sentence_instance'] = first_sent_instance
         item['first_sentence_role'] = first_sent_role
         item['first_sentence_entity'] = first_sent_entity

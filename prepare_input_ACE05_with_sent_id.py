@@ -595,8 +595,8 @@ def prepare_input_withIBO_multi_pair(event_type_dict,entity_type_dict,role_type_
 
 
             # traversal through input_ids and replace instance level ids with role_type and entity_type, as well as special ids like 'PAD'
+            sentence_idx = 0
             for i in range(len(input_ids)):
-                sentence_idx = 0
                 if len(to_be_replce_ids) != 0:
                     if input_ids[i] == 101:
                         role_type_ids_tensor[i] = role_type_dict['CLS']
@@ -629,10 +629,24 @@ def prepare_input_withIBO_multi_pair(event_type_dict,entity_type_dict,role_type_
                     else:
                         role_type_ids_tensor[i] = role_type_dict['Other']
                         entity_type_ids_tensor[i] = entity_type_dict['OTHER']
-                if input_ids[i] != 0:
-                    event_type_ids_tensor[i] = historical_event_ids[sentence_idx]
+
                 if input_ids[i] == 102:
+                    if input_ids[i] != 0:
+                        event_type_ids_tensor[i] = historical_event_ids[sentence_idx]
                     sentence_idx += 1
+                else:
+                    if input_ids[i] !=0:
+                        event_type_ids_tensor[i] = historical_event_ids[sentence_idx]
+            # if len(historical_event_ids) >= 2:
+            #     print(tokenizer.convert_ids_to_tokens(input_ids.numpy()))
+            #     print('historical_event_ids:',historical_event_ids)
+            #     print('')
+            #     print('input_ids:',input_ids)
+            #     print('role input tensor:',role_type_ids_tensor)
+            #     print('entity input tensor:',entity_type_ids_tensor)
+            #     print('event input tensor:',event_type_ids_tensor)
+            #     print('***** Note: event_embedding_id = event_id + 1 *****')
+            #     quit()
             if print_count < print_count_max:
                 print('')
                 print('input_ids:',input_ids)
@@ -647,6 +661,7 @@ def prepare_input_withIBO_multi_pair(event_type_dict,entity_type_dict,role_type_
             dataset.append(final_data_input_tuple)
             # store label in labelset
             labelset.append(torch.tensor([label]))
+            
         
         add_train_label_pair(dataset,labelset,historical_event_ids,first_sentence_instance,first_sentence_role,first_sentence_entity,label)
         print_count += 1
@@ -850,3 +865,55 @@ def prepare_input_withIBO_multi_pair_individual(item,event_type_dict,entity_type
 
     return final_input_ids,final_attention_masks,final_role_type_ids,final_entity_type_ids,final_labels
 
+def get_event_info_multi_pair(tokenizer,input_pairs):
+    '''set up arg_entity_to_ems_dict'''
+    data = {}
+    with open('em_id_lookup.json') as f:
+        data = json.load(f)
+
+    em_id_lookup_table = data
+
+
+    with open('ACE05_events_three_level_train_emid_lookup.json') as f:
+        lookup_dict_whole =  json.load(f)
+    with open('ACE05_events_three_level_dev_emid_lookup.json') as f:
+        lookup_dict_dev =  json.load(f)
+    with open('ACE05_events_three_level_test_emid_lookup.json') as f:
+        lookup_dict_test =  json.load(f)
+    
+    # print(len(lookup_dict_whole))
+    # print(len(lookup_dict_dev))
+    # print(len(lookup_dict_test))
+
+    lookup_dict_whole.update(lookup_dict_dev)
+    lookup_dict_whole.update(lookup_dict_test)
+
+    # print(len(lookup_dict_whole))
+
+    input_info = []
+    for pair in input_pairs:
+        # print(pair)
+        historical_event_types = [lookup_dict_whole[pair[i]]['EVENT_SUBTYPE'] for i in range(len(pair)-1)]
+
+        label = lookup_dict_whole[pair[-1]]['EVENT_SUBTYPE']
+        instance_sents = [lookup_dict_whole[pair[i]]['INSTANCE_LEVEL'] for i in range(len(pair)-1)]
+        triggers = [em_id_lookup_table[pair[i]]['trigger'] for i in range(len(pair)-1)]
+        arguments = [em_id_lookup_table[pair[i]]['arguments'] for i in range(len(pair)-1)]
+        
+        next_event_sentence = lookup_dict_whole[pair[-1]]['INSTANCE_LEVEL']
+        next_event_args = em_id_lookup_table[pair[-1]]['arguments']
+        
+        
+        info = {}
+        info['historical_event_types'] = historical_event_types
+        info['historical_event_ids'] = pair[:-1]
+        info['historical_sentences'] = instance_sents
+        info['historical_triggers'] = triggers
+        info['historical_arguments'] = arguments
+        info['next_event_sentence'] = next_event_sentence
+        info['next_event_arguments'] = next_event_args
+        info['next_event_id'] = pair[-1]
+        info['label'] = label
+        input_info.append(info)
+    
+    return input_info
