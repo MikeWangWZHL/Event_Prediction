@@ -67,6 +67,9 @@ idx_to_role = {value:key for key,value in role_type_dict.items()}
 idx_to_entity = {value:key for key,value in entity_type_dict.items()}
 
 
+for ev in event_type_dict:
+    role_type_dict[ev] = len(role_type_dict)
+
 print(event_type_dict)
 print(entity_type_dict)
 print(role_type_dict)
@@ -92,19 +95,19 @@ tokenizer_max_len = 512
 # if using prepared input pairs:
 with open('event_chains_train.json') as f:
     input_pairs = json.load(f)
-input_ids,attention_masks,role_type_ids,entity_type_ids,event_type_ids,labels = prepare_input_withIBO_multi_pair(event_type_dict,entity_type_dict,role_type_dict,tokenizer,tokenizer_max_len,input_pairs)
+input_ids,attention_masks,role_type_ids,entity_type_ids,labels = prepare_input_withIBO_multi_pair(event_type_dict,entity_type_dict,role_type_dict,tokenizer,tokenizer_max_len,input_pairs)
 
 with open('event_chains_test.json') as f:
     input_pairs_test = json.load(f)
-input_ids_test,attention_masks_test,role_type_ids_test,entity_type_ids_test,event_type_ids_test,labels_test = prepare_input_withIBO_multi_pair(event_type_dict,entity_type_dict,role_type_dict,tokenizer,tokenizer_max_len,input_pairs_test)
+input_ids_test,attention_masks_test,role_type_ids_test,entity_type_ids_test,labels_test = prepare_input_withIBO_multi_pair(event_type_dict,entity_type_dict,role_type_dict,tokenizer,tokenizer_max_len,input_pairs_test)
 
 
 # input_ids_dev,attention_masks_dev,role_type_ids_dev,entity_type_ids_dev,labels_dev =prepare_input_withIBO_multi_pair('ACE05_events_three_level_dev_with_sent_id.json',event_type_dict,entity_type_dict,role_type_dict,tokenizer,tokenizer_max_len)
 from torch.utils.data import TensorDataset, random_split
 
 # Combine the training inputs into a TensorDataset.
-dataset = TensorDataset(input_ids, attention_masks,role_type_ids,entity_type_ids,event_type_ids, labels)
-testset = TensorDataset(input_ids_test, attention_masks_test,role_type_ids_test,entity_type_ids_test,event_type_ids_test, labels_test)
+dataset = TensorDataset(input_ids, attention_masks,role_type_ids,entity_type_ids, labels)
+testset = TensorDataset(input_ids_test, attention_masks_test,role_type_ids_test,entity_type_ids_test, labels_test)
  
 # Create a 90-10 train-validation split.
 
@@ -168,7 +171,7 @@ validation_dataloader = DataLoader(
 pretrain_config = BertConfig.get_config_dict(pretrained_model_name)[0]
 # pretrain_config = BertConfig.get_config_dict('bert-large-cased-whole-word-masking')[0]
 pretrain_config['entity_type_size'] = len(entity_type_dict)
-pretrain_config['event_type_size'] = len(event_type_dict)
+# pretrain_config['event_type_size'] = len(event_type_dict)
 pretrain_config['role_type_size'] = len(role_type_dict)
 pretrain_config['class_size'] = len(event_type_dict)
 pretrain_config['chunk_size_feed_forward'] = 0
@@ -184,7 +187,7 @@ configuration.update(pretrain_config)
 
 # print(configuration)
 # quit()
-pretrained_model_from_ACE = './model_save_ACE05_doc_time_order_pretrain_with_event_type_embedding_bert_base'
+pretrained_model_from_ACE = './model_save_ACE05_Haoyang_4tuple_pretrain_with_trigger_role_embed_bert_base_9_8'
 # pretrained_model_from_ACE = './model_save_ACE05_doc_time_order_pretrain_batch16'
 # model = BertForSequenceClassification.from_pretrained('bert-base-cased',config=configuration)
 # model = BertForSequenceClassification.from_pretrained(pretrained_model_from_ACE,config = configuration)
@@ -241,13 +244,13 @@ def format_time(elapsed):
 
 
 
-def trim_batch(input_ids, pad_token_id, role_type_ids, entity_type_ids, event_type_ids, labels, attention_mask=None):
+def trim_batch(input_ids, pad_token_id, role_type_ids, entity_type_ids,  labels, attention_mask=None):
     """Remove columns that are populated exclusively by pad_token_id"""
     keep_column_mask = input_ids.ne(pad_token_id).any(dim=0)
     if attention_mask is None:
-        return (input_ids[:, keep_column_mask], None,  role_type_ids[:, keep_column_mask], entity_type_ids[:, keep_column_mask],event_type_ids[:, keep_column_mask], labels)
+        return (input_ids[:, keep_column_mask], None,  role_type_ids[:, keep_column_mask], entity_type_ids[:, keep_column_mask], labels)
     else:
-        return (input_ids[:, keep_column_mask], attention_mask[:, keep_column_mask],  role_type_ids[:, keep_column_mask], entity_type_ids[:, keep_column_mask], event_type_ids[:, keep_column_mask], labels)
+        return (input_ids[:, keep_column_mask], attention_mask[:, keep_column_mask],  role_type_ids[:, keep_column_mask], entity_type_ids[:, keep_column_mask], labels)
 
 
 
@@ -338,7 +341,7 @@ for epoch_i in range(0, epochs):
         if step % 20 == 0:
             print('before trim')
             print('input size before:',len(batch[0][0]))
-        batch = trim_batch(batch[0],tokenizer.pad_token_id,batch[2],batch[3],batch[4],batch[5],batch[1])
+        batch = trim_batch(batch[0],tokenizer.pad_token_id,batch[2],batch[3],batch[4],batch[1])
         if step % 20 == 0:
             print('after trim')
             print('input size after:',len(batch[0][0]))
@@ -369,9 +372,9 @@ for epoch_i in range(0, epochs):
         b_input_mask = batch[1].to(device)
         b_role_type_ids = batch[2].to(device)
         b_entity_type_ids = batch[3].to(device)
-        b_event_type_ids = batch[4].to(device)
+        # b_event_type_ids = batch[4].to(device)
 
-        b_labels = batch[5].to(device)
+        b_labels = batch[4].to(device)
         # print(b_input_ids)
 
         # Always clear any previously calculated gradients before performing a
@@ -389,7 +392,7 @@ for epoch_i in range(0, epochs):
         # print(model)
         # print(torch.cuda.memory_summary(2))
 
-        outputs = model(b_input_ids, attention_mask=b_input_mask,role_type_ids=b_role_type_ids,entity_type_ids=b_entity_type_ids,event_type_ids=b_event_type_ids, labels=b_labels)
+        outputs = model(b_input_ids, attention_mask=b_input_mask,role_type_ids=b_role_type_ids,entity_type_ids=b_entity_type_ids, labels=b_labels)
         loss = outputs[0] 
 
 
@@ -447,13 +450,14 @@ for epoch_i in range(0, epochs):
     # Tracking variables 
     total_eval_accuracy = 0
     total_evel_acc_at_3 = 0
+    total_evel_acc_at_5 = 0
     total_eval_loss = 0
     nb_eval_steps = 0
 
     # Evaluate data for one epoch
     for batch in validation_dataloader:
         
-        batch = trim_batch(batch[0],tokenizer.pad_token_id,batch[2],batch[3],batch[4],batch[5],batch[1])
+        batch = trim_batch(batch[0],tokenizer.pad_token_id,batch[2],batch[3],batch[4],batch[1])
 
         # Unpack this training batch from our dataloader. 
         #
@@ -469,8 +473,8 @@ for epoch_i in range(0, epochs):
         b_input_mask = batch[1].to(device)
         b_role_type_ids = batch[2].to(device)
         b_entity_type_ids = batch[3].to(device)
-        b_event_type_ids = batch[4].to(device)
-        b_labels = batch[5].to(device)
+        # b_event_type_ids = batch[4].to(device)
+        b_labels = batch[4].to(device)
         
         
         # Tell pytorch not to bother with constructing the compute graph during
@@ -484,7 +488,7 @@ for epoch_i in range(0, epochs):
             # https://huggingface.co/transformers/v2.2.0/model_doc/bert.html#transformers.BertForSequenceClassification
             # Get the "logits" output by the model. The "logits" are the output
             # values prior to applying an activation function like the softmax.
-            outputs = model(b_input_ids, attention_mask=b_input_mask,role_type_ids=b_role_type_ids,entity_type_ids=b_entity_type_ids, event_type_ids = b_event_type_ids, labels=b_labels)
+            outputs = model(b_input_ids, attention_mask=b_input_mask,role_type_ids=b_role_type_ids,entity_type_ids=b_entity_type_ids, labels=b_labels)
             # outputs = model(b_input_ids, attention_mask=b_input_mask, labels=b_labels)
             loss = outputs[0] 
             logits = outputs[1]
@@ -507,13 +511,16 @@ for epoch_i in range(0, epochs):
 
         total_eval_accuracy += flat_accuracy(logits, label_ids)
         total_evel_acc_at_3 += flat_accuracy_top_k(logits,label_ids,3)
+        total_evel_acc_at_5 += flat_accuracy_top_k(logits,label_ids,5)
 
     # Report the final accuracy for this validation run.
 
     avg_val_accuracy = total_eval_accuracy / len(validation_dataloader)
     avg_val_acc_at_3 = total_evel_acc_at_3 / len(validation_dataloader)
+    avg_val_acc_at_5 = total_evel_acc_at_5 / len(validation_dataloader)
     print("  Accuracy: {0:.2f}".format(avg_val_accuracy))
     print("  Accuracy@3: {0:.2f}".format(avg_val_acc_at_3))
+    print("  Accuracy@5: {0:.2f}".format(avg_val_acc_at_5))
 
     # Calculate the average loss over all of the batches.
     avg_val_loss = total_eval_loss / len(validation_dataloader)
@@ -532,6 +539,7 @@ for epoch_i in range(0, epochs):
             'Valid. Loss': avg_val_loss,
             'Valid. Acc.': avg_val_accuracy,
             'Valid. Acc.@3': avg_val_acc_at_3,
+            'Valid. Acc.@5': avg_val_acc_at_5,
             'Training Time': training_time,
             'Validation Time': validation_time
         }
@@ -550,7 +558,7 @@ import os
 
 # Saving best-practices: if you use defaults names for the model, you can reload it using from_pretrained()
 
-output_dir = './model_save_bert_case_finetune_with_right_event_embed_TEMP'
+output_dir = './model_save_TEMP'
 
 # Create output directory if needed
 if not os.path.exists(output_dir):

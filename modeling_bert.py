@@ -184,7 +184,6 @@ class BertEmbeddings(nn.Module):
         # add entity type and role type embedding 
         self.entity_type_embeddings = nn.Embedding(config.entity_type_size,config.hidden_size)
         self.role_type_embeddings = nn.Embedding(config.role_type_size,config.hidden_size)
-        self.event_type_embeddings = nn.Embedding(config.event_type_size,config.hidden_size)
         # self.LayerNorm is not snake-cased to stick with TensorFlow model variable name and be able to load
         # any TensorFlow checkpoint file
         self.LayerNorm = BertLayerNorm(config.hidden_size, eps=config.layer_norm_eps)
@@ -193,7 +192,7 @@ class BertEmbeddings(nn.Module):
         # position_ids (1, len position emb) is contiguous in memory and exported when serialized
         self.register_buffer("position_ids", torch.arange(config.max_position_embeddings).expand((1, -1)))
 
-    def forward(self, input_ids=None, token_type_ids=None, position_ids=None, inputs_embeds=None, role_type_ids=None, entity_type_ids=None, event_type_ids=None):
+    def forward(self, input_ids=None, token_type_ids=None, position_ids=None, inputs_embeds=None, role_type_ids=None, entity_type_ids=None):
         if input_ids is not None:
             input_shape = input_ids.size()
         else:
@@ -217,17 +216,13 @@ class BertEmbeddings(nn.Module):
         if entity_type_ids is None:
             entity_type_ids = torch.zeros(input_shape, dtype=torch.long, device=self.position_ids.device)
 
-        if event_type_ids is None:
-            event_type_ids = torch.zeros(input_shape, dtype=torch.long, device=self.position_ids.device)
-
         position_embeddings = self.position_embeddings(position_ids)
         token_type_embeddings = self.token_type_embeddings(token_type_ids)
         
         role_type_embeddings = self.role_type_embeddings(role_type_ids)
         entity_type_embeddings = self.entity_type_embeddings(entity_type_ids)
-        event_type_embeddings = self.event_type_embeddings(event_type_ids)
 
-        embeddings = inputs_embeds + position_embeddings + token_type_embeddings + role_type_embeddings + entity_type_embeddings + event_type_embeddings
+        embeddings = inputs_embeds + position_embeddings + token_type_embeddings + role_type_embeddings + entity_type_embeddings
         embeddings = self.LayerNorm(embeddings)
         embeddings = self.dropout(embeddings)
         return embeddings
@@ -820,7 +815,6 @@ class BertModel(BertPreTrainedModel):
         return_dict=None,
         role_type_ids=None,
         entity_type_ids=None,
-        event_type_ids=None,
     ):
         r"""
         encoder_hidden_states  (:obj:`torch.FloatTensor` of shape :obj:`(batch_size, sequence_length, hidden_size)`, `optional`, defaults to :obj:`None`):
@@ -878,7 +872,7 @@ class BertModel(BertPreTrainedModel):
 
         embedding_output = self.embeddings(
             input_ids=input_ids, position_ids=position_ids, token_type_ids=token_type_ids, inputs_embeds=inputs_embeds,role_type_ids=role_type_ids,
-        entity_type_ids=entity_type_ids,event_type_ids=event_type_ids
+        entity_type_ids=entity_type_ids
         )
         encoder_outputs = self.encoder(
             embedding_output,
@@ -1358,7 +1352,6 @@ class BertForSequenceClassification(BertPreTrainedModel):
         return_dict=None,
         role_type_ids=None,
         entity_type_ids=None,
-        event_type_ids=None,
     ):
         r"""
         labels (:obj:`torch.LongTensor` of shape :obj:`(batch_size,)`, `optional`, defaults to :obj:`None`):
@@ -1381,7 +1374,6 @@ class BertForSequenceClassification(BertPreTrainedModel):
             return_dict=return_dict,
             role_type_ids=role_type_ids,
             entity_type_ids=entity_type_ids,
-            event_type_ids=event_type_ids
         )
 
         pooled_output = outputs[1]
